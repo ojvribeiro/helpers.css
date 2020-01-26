@@ -1,0 +1,11 @@
+{
+  "name": "helpers.css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ojvribeiro/helpers.css.git",
+  "author": "Victor Ribeiro <devjvribeiro@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}

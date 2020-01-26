@@ -1,0 +1,186 @@
+{
+  "containers": {
+    "container-smaller": true,
+    "container-small": true,
+    "container-medium": true,
+    "container-large": true,
+    "container-larger": true
+  },
+  "text": {
+    "text-alignments": {
+      "text-left": true,
+      "text-right": true,
+      "text-center": true,
+      "text-justify": true
+    },
+    "text-size": {
+      "text-smaller": true,
+      "text-small": true,
+      "text-medium": true,
+      "text-large": true,
+      "text-larger": true
+    },
+    "text-spacing": {
+      "text-spacing-1": true,
+      "text-spacing-2": true,
+      "text-spacing-3": true,
+      "text-spacing-4": true
+    },
+    "text-transform": {
+      "lowercase": true,
+      "uppercase": true,
+      "capitalize": true
+    },
+    "text-weight": {
+      "text-lighter": true,
+      "text-light": true,
+      "text-strong": true,
+      "text-stronger": true
+    }
+  },
+
+  "actions": {
+    "scroll": {
+      "scroll-x": true,
+      "scroll-y": true,
+      "scroll-x-auto": true,
+      "scroll-y-auto": true,
+      "scroll-auto": true,
+      "scroll-all": true
+    }
+  },
+
+  "visibility": {
+    "display": {
+      "display-block": true,
+      "display-inline": true,
+      "display-inline-block": true,
+      "display-flex": true,
+      "display-inline-flex": true,
+      "display-grid": true,
+      "display-none": true
+    }
+  },
+
+  "padding": {
+    "padding-general": {
+      "padding-8": true,
+      "padding-16": true,
+      "padding-24": true,
+      "padding-56": true
+    },
+    "padding-x": {
+      "padding-x-8": true,
+      "padding-x-16": true,
+      "padding-x-24": true,
+      "padding-x-56": true
+    },
+    "padding-y": {
+      "padding-y-8": true,
+      "padding-y-16": true,
+      "padding-y-24": true,
+      "padding-y-56": true
+    },
+    "padding-left": {
+      "padding-left-8": true,
+      "padding-left-16": true,
+      "padding-left-24": true,
+      "padding-left-56": true
+    },
+    "padding-right": {
+      "padding-right-8": true,
+      "padding-right-16": true,
+      "padding-right-24": true,
+      "padding-right-56": true
+    },
+    "padding-top": {
+      "padding-top-8": true,
+      "padding-top-16": true,
+      "padding-top-24": true,
+      "padding-top-56": true
+    },
+    "padding-bottom": {
+      "padding-bottom-8": true,
+      "padding-bottom-16": true,
+      "padding-bottom-24": true,
+      "padding-bottom-56": true
+    }
+  },
+  "margin": {
+    "margin-general": {
+      "margin-8": true,
+      "margin-16": true,
+      "margin-24": true,
+      "margin-56": true
+    },
+    "margin-x": {
+      "margin-x-8": true,
+      "margin-x-16": true,
+      "margin-x-24": true,
+      "margin-x-56": true
+    },
+    "margin-y": {
+      "margin-y-8": true,
+      "margin-y-16": true,
+      "margin-y-24": true,
+      "margin-y-56": true
+    },
+    "margin-left": {
+      "margin-left-8": true,
+      "margin-left-16": true,
+      "margin-left-24": true,
+      "margin-left-56": true
+    },
+    "margin-right": {
+      "margin-right-8": true,
+      "margin-right-16": true,
+      "margin-right-24": true,
+      "margin-right-56": true
+    },
+    "margin-top": {
+      "margin-top-8": true,
+      "margin-top-16": true,
+      "margin-top-24": true,
+      "margin-top-56": true
+    },
+    "margin-bottom": {
+      "margin-bottom-8": true,
+      "margin-bottom-16": true,
+      "margin-bottom-24": true,
+      "margin-bottom-56": true
+    }
+  },
+
+  "no-styles": {
+    "actions": {
+      "no-scroll": true,
+      "no-scroll-x": true,
+      "no-scroll-y": true,
+      "no-select": true,
+      "no-click": true
+    },
+    "visibility": {
+      "no-display": true,
+      "no-opacity": true,
+      "no-flex": true
+    },
+    "padding": {
+      "no-padding": true,
+      "no-padding-x": true,
+      "no-padding-y": true,
+      "no-padding-left": true,
+      "no-padding-right": true,
+      "no-padding-top": true,
+      "no-padding-bottom": true
+    },
+    "margin": {
+      "no-margin": true,
+      "no-margin-x": true,
+      "no-margin-y": true,
+      "no-margin-left": true,
+      "no-margin-right": true,
+      "no-margin-top": true,
+      "no-margin-bottom": true
+    }
+  }
+}
