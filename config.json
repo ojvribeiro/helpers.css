@@ -85,12 +85,11 @@
     "style": {
       "rounded-corners": {
         "circle": true,
+        "ellipsis": true,
+        "border-radius-1": true,
         "border-radius-2": true,
-        "border-radius-4": true,
-        "border-radius-8": true,
-        "border-radius-16": true,
-        "border-radius-24": true,
-        "border-radius-half": true
+        "border-radius-3": true,
+        "border-radius-4": true
       },
 
       "shadows": {
@@ -184,7 +183,7 @@
       "overlaping": {
         "overlap-top": {
           "overlap-top-smaller": true,
-          "overlap-top-smalle": true,
+          "overlap-top-small": true,
           "overlap-top-medium": true,
           "overlap-top-large": true,
           "overlap-top-larger": true
@@ -192,7 +191,7 @@
 
         "overlap-bottom": {
           "overlap-bottom-smaller": true,
-          "overlap-bottom-smalle": true,
+          "overlap-bottom-small": true,
           "overlap-bottom-medium": true,
           "overlap-bottom-large": true,
           "overlap-bottom-larger": true
@@ -216,6 +215,12 @@
         "frost-glass-1": true,
         "frost-glass-2": true,
         "frost-glass-3": true
+      },
+
+      "blur": {
+        "blur-1": true,
+        "blur-2": true,
+        "blur-3": true
       }
     },
 
