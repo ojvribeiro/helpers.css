@@ -21,7 +21,7 @@
       "cursor-resize-x": true,
       "cursor-resize-y": true,
       "cursor-resize-dleft": true,
-      "cursor-cell-resize-dright": true,
+      "cursor-resize-dright": true,
       "cursor-progress": true,
       "cursor-wait": true,
       "cursor-zoom-in": true,
@@ -91,6 +91,13 @@
         "border-radius-16": true,
         "border-radius-24": true,
         "border-radius-half": true
+      },
+
+      "shadows": {
+        "shadow-0": true,
+        "shadow-1": true,
+        "shadow-2": true,
+        "shadow-3": true
       }
     },
 
