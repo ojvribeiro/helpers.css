@@ -1,0 +1,100 @@
+// _containers.scss
+@mixin centered {
+  margin: 0 auto;
+}
+
+@mixin default-mobile {
+  width: 95%;
+  @include centered();
+}
+
+@mixin default-tablet {
+  width: 90%;
+  @include centered();
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .container-smaller {
+    @include default-mobile();
+  }
+  .container-small {
+    @include default-mobile();
+  }
+  .container-medium {
+    @include default-mobile();
+  }
+  .container-large {
+    @include default-mobile();
+  }
+  .container-larger {
+    @include default-mobile();
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container-smaller {
+    @include default-tablet();
+  }
+  .container-small {
+    @include default-tablet();
+  }
+  .container-medium {
+    @include default-tablet();
+  }
+  .container-large {
+    @include default-tablet();
+  }
+  .container-larger {
+    @include default-tablet();
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1365px) {
+  .container-smaller {
+    width: 420px;
+    @include centered();
+  }
+  .container-small {
+    width: 660px;
+    @include centered();
+  }
+  .container-medium {
+    width: 760px;
+    @include centered();
+  }
+  .container-large {
+    max-width: 90%;
+    width: 993px;
+    @include centered();
+  }
+  .container-larger {
+    max-width: 90%;
+    width: 1280px;
+    @include centered();
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .container-smaller {
+    width: 420px;
+    @include centered();
+  }
+  .container-small {
+    width: 660px;
+    @include centered();
+  }
+  .container-medium {
+    width: 866px;
+    @include centered();
+  }
+  .container-large {
+    max-width: 90%;
+    width: 1280px;
+    @include centered();
+  }
+  .container-larger {
+    max-width: 90%;
+    width: 1300px;
+    @include centered();
+  }
+}

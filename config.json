@@ -1,28 +1,28 @@
 {
   "mouse-actions": {
     "scroll": {
-      "scroll-x": true,
-      "scroll-y": true,
-      "scroll-x-auto": true,
-      "scroll-y-auto": true,
+      "scroll-all": true,
       "scroll-auto": true,
-      "scroll-all": true
+      "scroll-x-auto": true,
+      "scroll-x": true,
+      "scroll-y-auto": true,
+      "scroll-y": true
     },
 
     "cursor": {
-      "cursor-default": true,
-      "cursor-pointer": true,
-      "cursor-text": true,
-      "cursor-drag": true,
       "cursor-cell": true,
+      "cursor-default": true,
       "cursor-grab": true,
       "cursor-grabbing": true,
+      "cursor-move": true,
       "cursor-not-allowed": true,
+      "cursor-pointer": true,
+      "cursor-progress": true,
+      "cursor-resize-diagonal-1": true,
+      "cursor-resize-diagonal-2": true,
       "cursor-resize-x": true,
       "cursor-resize-y": true,
-      "cursor-resize-dleft": true,
-      "cursor-resize-dright": true,
-      "cursor-progress": true,
+      "cursor-text": true,
       "cursor-wait": true,
       "cursor-zoom-in": true,
       "cursor-zoom-out": true
