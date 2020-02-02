@@ -1,5 +1,15 @@
 @charset "UTF-8";
+
+// @containers
+/**
+ * Containers
+*/
+@import './components/containers/containers';
+
 // @mouse-actions/cursor
+/**
+ * Cursor
+*/
 @import './components/mouse-actions/cursor/cell';
 @import './components/mouse-actions/cursor/default';
 @import './components/mouse-actions/cursor/grab';
@@ -16,12 +26,69 @@
 @import './components/mouse-actions/cursor/wait';
 @import './components/mouse-actions/cursor/zoom-in';
 @import './components/mouse-actions/cursor/zoom-out';
-// @mouse-actions/cursor
+
+
+// @mouse-actions/scroll
+/**
+ * Scroll
+*/
 @import './components/mouse-actions/scroll/scroll-all';
 @import './components/mouse-actions/scroll/scroll-auto';
 @import './components/mouse-actions/scroll/scroll-x-auto';
 @import './components/mouse-actions/scroll/scroll-x';
 @import './components/mouse-actions/scroll/scroll-y-auto';
 @import './components/mouse-actions/scroll/scroll-y';
-// @containers
-@import './components/containers/containers';
+
+// @text/text-align
+/**
+ * Text align
+*/
+@import './components/text/text-align/text-center';
+@import './components/text/text-align/text-justify';
+@import './components/text/text-align/text-left';
+@import './components/text/text-align/text-right';
+
+// @text/text-size
+/**
+ * Text size
+*/
+@import './components/text/text-size/text-large';
+@import './components/text/text-size/text-larger';
+@import './components/text/text-size/text-medium';
+@import './components/text/text-size/text-small';
+@import './components/text/text-size/text-smaller';
+
+// @text/text-spacing
+/**
+ * Text spacing
+*/
+@import './components/text/text-spacing/text-spacing-large';
+@import './components/text/text-spacing/text-spacing-larger';
+@import './components/text/text-spacing/text-spacing-medium';
+@import './components/text/text-spacing/text-spacing-small';
+@import './components/text/text-spacing/text-spacing-smaller';
+
+// @text/text-style/
+/**
+ * Text style
+*/
+@import './components/text/text-style/text-italic';
+@import './components/text/text-style/text-underline';
+@import './components/text/text-style/text-strike';
+
+// @text/text-style/text-weight
+/**
+ * Text weight
+*/
+@import './components/text/text-style/text-weight/text-light';
+@import './components/text/text-style/text-weight/text-lighter';
+@import './components/text/text-style/text-weight/text-strong';
+@import './components/text/text-style/text-weight/text-stronger';
+
+// @text/text-transform
+/**
+ * Text transform
+*/
+@import './components/text/text-transform/text-capitalize';
+@import './components/text/text-transform/text-lowercase';
+@import './components/text/text-transform/text-uppercase';

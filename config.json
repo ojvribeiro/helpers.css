@@ -1,14 +1,13 @@
 {
+  "containers": {
+    "container-smaller": true,
+    "container-small": true,
+    "container-medium": true,
+    "container-large": true,
+    "container-larger": true
+  },
+  
   "mouse-actions": {
-    "scroll": {
-      "scroll-all": true,
-      "scroll-auto": true,
-      "scroll-x-auto": true,
-      "scroll-x": true,
-      "scroll-y-auto": true,
-      "scroll-y": true
-    },
-
     "cursor": {
       "cursor-cell": true,
       "cursor-default": true,
@@ -26,16 +25,19 @@
       "cursor-wait": true,
       "cursor-zoom-in": true,
       "cursor-zoom-out": true
+    },
+    
+    "scroll": {
+      "scroll-all": true,
+      "scroll-auto": true,
+      "scroll-x-auto": true,
+      "scroll-x": true,
+      "scroll-y-auto": true,
+      "scroll-y": true
     }
   },
 
-  "containers": {
-    "container-smaller": true,
-    "container-small": true,
-    "container-medium": true,
-    "container-large": true,
-    "container-larger": true
-  },
+  
 
   "text": {
     "text-align": {
@@ -55,18 +57,12 @@
 
     "text-spacing": {
       "text-spacing-smaller": true,
-      "text-spacing-smalle": true,
+      "text-spacing-small": true,
       "text-spacing-medium": true,
       "text-spacing-large": true,
       "text-spacing-larger": true
     },
-
-    "text-transform": {
-      "text-lowercase": true,
-      "text-uppercase": true,
-      "text-capitalize": true
-    },
-
+    
     "text-style": {
       "text-weight": {
         "text-lighter": true,
@@ -78,6 +74,12 @@
       "text-italic": true,
       "text-underline": true,
       "text-strike": true
+    },
+
+    "text-transform": {
+      "text-lowercase": true,
+      "text-uppercase": true,
+      "text-capitalize": true
     }
   },
 

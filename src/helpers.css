@@ -1,95 +1,6 @@
-.cursor-cell {
-  cursor: cell;
-}
-
-.cursor-default {
-  cursor: default;
-}
-
-.cursor-grab {
-  cursor: grab;
-}
-
-.cursor-grabbing {
-  cursor: grabbing;
-}
-
-.cursor-move {
-  cursor: move;
-}
-
-.cursor-not-allowed {
-  cursor: not-allowed;
-}
-
-.cursor-pointer {
-  cursor: pointer;
-}
-
-.cursor-progress {
-  cursor: progress;
-}
-
-.cursor-resize-diagonal-1 {
-  cursor: nw-resize;
-}
-
-.cursor-resize-diagonal-2 {
-  cursor: ne-resize;
-}
-
-.cursor-resize-x {
-  cursor: e-resize;
-}
-
-.cursor-resize-y {
-  cursor: n-resize;
-}
-
-.cursor-text {
-  cursor: text;
-}
-
-.cursor-wait {
-  cursor: wait;
-}
-
-.cursor-zoom-in {
-  cursor: zoom-in;
-}
-
-.cursor-zoom-out {
-  cursor: zoom-out;
-}
-
-.scroll-all {
-  overflow: scroll;
-}
-
-.scroll-auto {
-  overflow: auto;
-}
-
-.scroll-x-auto {
-  overflow: hidden;
-  overflow-x: auto;
-}
-
-.scroll-x {
-  overflow: hidden;
-  overflow-x: scroll;
-}
-
-.scroll-y-auto {
-  overflow: hidden;
-  overflow-y: auto;
-}
-
-.scroll-y {
-  overflow: hidden;
-  overflow-y: scroll;
-}
-
+/**
+ * Containers
+*/
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .container-smaller {
     width: 95%;
@@ -197,6 +108,217 @@
     width: 1300px;
     margin: 0 auto;
   }
+}
+/**
+ * Cursor
+*/
+.cursor-cell {
+  cursor: cell;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.cursor-grab {
+  cursor: grab;
+}
+
+.cursor-grabbing {
+  cursor: grabbing;
+}
+
+.cursor-move {
+  cursor: move;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-progress {
+  cursor: progress;
+}
+
+.cursor-resize-diagonal-1 {
+  cursor: nw-resize;
+}
+
+.cursor-resize-diagonal-2 {
+  cursor: ne-resize;
+}
+
+.cursor-resize-x {
+  cursor: e-resize;
+}
+
+.cursor-resize-y {
+  cursor: n-resize;
+}
+
+.cursor-text {
+  cursor: text;
+}
+
+.cursor-wait {
+  cursor: wait;
+}
+
+.cursor-zoom-in {
+  cursor: zoom-in;
+}
+
+.cursor-zoom-out {
+  cursor: zoom-out;
+}
+
+/**
+ * Scroll
+*/
+.scroll-all {
+  overflow: scroll;
+}
+
+.scroll-auto {
+  overflow: auto;
+}
+
+.scroll-x-auto {
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.scroll-x {
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.scroll-y-auto {
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.scroll-y {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+/**
+ * Text align
+*/
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/**
+ * Text size
+*/
+.text-large {
+  font-size: large;
+}
+
+.text-larger {
+  font-size: larger;
+}
+
+.text-medium {
+  font-size: medium;
+}
+
+.text-small {
+  font-size: small;
+}
+
+.text-smaller {
+  font-size: smaller;
+}
+
+/**
+ * Text spacing
+*/
+.text-spacing-large {
+  letter-spacing: 7px;
+}
+
+.text-spacing-larger {
+  letter-spacing: 9px;
+}
+
+.text-spacing-medium {
+  letter-spacing: 5px;
+}
+
+.text-spacing-small {
+  letter-spacing: 3px;
+}
+
+.text-spacing-smaller {
+  letter-spacing: 1px;
+}
+
+/**
+ * Text style
+*/
+.text-italic {
+  font-style: italic;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-strike {
+  text-decoration: line-through;
+}
+
+/**
+ * Text weight
+*/
+.text-light {
+  font-weight: 400;
+}
+
+.text-lighter {
+  font-weight: lighter;
+}
+
+.text-strong {
+  font-weight: bold;
+}
+
+.text-stronger {
+  font-weight: bolder;
+}
+
+/**
+ * Text transform
+*/
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=helpers.css.map */

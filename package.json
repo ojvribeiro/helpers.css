@@ -7,5 +7,8 @@
   "license": "MIT",
   "dependencies": {
     "materialize-css": "^1.0.0-rc.2"
+  },
+  "scripts": {
+    "helpers": "cd src/sass && sass helpers.scss ../helpers.css"
   }
 }
