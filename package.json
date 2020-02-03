@@ -5,9 +5,7 @@
   "repository": "https://github.com/ojvribeiro/helpers.css.git",
   "author": "Victor Ribeiro <devjvribeiro@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "materialize-css": "^1.0.0-rc.2"
-  },
+  "dependencies": {},
   "scripts": {
     "helpers": "cd src/sass && sass helpers.scss ../helpers.css"
   }
