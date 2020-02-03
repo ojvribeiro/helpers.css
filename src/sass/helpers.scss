@@ -52,29 +52,29 @@
 /**
  * Text size
 */
+@import './components/text/text-size/text-smaller';
+@import './components/text/text-size/text-small';
+@import './components/text/text-size/text-medium';
 @import './components/text/text-size/text-large';
 @import './components/text/text-size/text-larger';
-@import './components/text/text-size/text-medium';
-@import './components/text/text-size/text-small';
-@import './components/text/text-size/text-smaller';
 
 // @text/text-spacing
 /**
  * Text spacing
 */
+@import './components/text/text-spacing/text-spacing-smaller';
+@import './components/text/text-spacing/text-spacing-small';
+@import './components/text/text-spacing/text-spacing-medium';
 @import './components/text/text-spacing/text-spacing-large';
 @import './components/text/text-spacing/text-spacing-larger';
-@import './components/text/text-spacing/text-spacing-medium';
-@import './components/text/text-spacing/text-spacing-small';
-@import './components/text/text-spacing/text-spacing-smaller';
 
 // @text/text-style/
 /**
  * Text style
 */
 @import './components/text/text-style/text-italic';
-@import './components/text/text-style/text-underline';
 @import './components/text/text-style/text-strike';
+@import './components/text/text-style/text-underline';
 
 // @text/text-style/text-weight
 /**
@@ -92,3 +92,13 @@
 @import './components/text/text-transform/text-capitalize';
 @import './components/text/text-transform/text-lowercase';
 @import './components/text/text-transform/text-uppercase';
+
+// @elements/style/paddings/padding-all
+/**
+ * Padding general
+*/
+@import './components/elements/style/paddings/padding-all/padding-smaller';
+@import './components/elements/style/paddings/padding-all/padding-small';
+@import './components/elements/style/paddings/padding-all/padding-medium';
+@import './components/elements/style/paddings/padding-all/padding-large';
+@import './components/elements/style/paddings/padding-all/padding-larger';

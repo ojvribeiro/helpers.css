@@ -229,6 +229,18 @@
 /**
  * Text size
 */
+.text-smaller {
+  font-size: smaller;
+}
+
+.text-small {
+  font-size: small;
+}
+
+.text-medium {
+  font-size: medium;
+}
+
 .text-large {
   font-size: large;
 }
@@ -237,39 +249,27 @@
   font-size: larger;
 }
 
-.text-medium {
-  font-size: medium;
-}
-
-.text-small {
-  font-size: small;
-}
-
-.text-smaller {
-  font-size: smaller;
-}
-
 /**
  * Text spacing
 */
-.text-spacing-large {
-  letter-spacing: 7px;
-}
-
-.text-spacing-larger {
-  letter-spacing: 9px;
-}
-
-.text-spacing-medium {
-  letter-spacing: 5px;
+.text-spacing-smaller {
+  letter-spacing: 1px;
 }
 
 .text-spacing-small {
   letter-spacing: 3px;
 }
 
-.text-spacing-smaller {
-  letter-spacing: 1px;
+.text-spacing-medium {
+  letter-spacing: 5px;
+}
+
+.text-spacing-large {
+  letter-spacing: 7px;
+}
+
+.text-spacing-larger {
+  letter-spacing: 9px;
 }
 
 /**
@@ -279,12 +279,12 @@
   font-style: italic;
 }
 
-.text-underline {
-  text-decoration: underline;
-}
-
 .text-strike {
   text-decoration: line-through;
+}
+
+.text-underline {
+  text-decoration: underline;
 }
 
 /**
@@ -319,6 +319,29 @@
 
 .text-uppercase {
   text-transform: uppercase;
+}
+
+/**
+ * Padding general
+*/
+.padding-smaller {
+  padding: 8px;
+}
+
+.padding-small {
+  padding: 16px;
+}
+
+.padding-medium {
+  padding: 24px;
+}
+
+.padding-large {
+  padding: 56px;
+}
+
+.padding-larger {
+  padding: 72px;
 }
 
 /*# sourceMappingURL=helpers.css.map */

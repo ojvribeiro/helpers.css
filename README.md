@@ -17,7 +17,7 @@
 ---
 
 <p align="center">
-  Few lines describing your project.
+  A small library to format your page elements with CSS classes.
 </p>
 
 ## 📝 Table of Contents
@@ -52,10 +52,10 @@ Give examples
 
 A step by step series of examples that tell you how to get a development env running.
 
-Say what the step will be
+Include the Helpers.css file in the ```head``` section of your HTML:
 
-```
-Give the example
+```HTML
+<link rel="stylesheet" href="path/to/helpers.min.css">
 ```
 
 And repeat
@@ -105,7 +105,7 @@ Add additional notes about how to deploy this on a live system.
 
 - [@ojvribeiro](https://github.com/ojvribeiro)
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/ojvribeiro/helpers.css/contributors) who participated in this project.
 
 ## 🎉 Acknowledgements <a name="acknowledgement"></a>
 

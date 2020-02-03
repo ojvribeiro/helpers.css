@@ -64,16 +64,15 @@
     },
     
     "text-style": {
+      "text-italic": true,
+      "text-strike": true,
+      "text-underline": true,
       "text-weight": {
         "text-lighter": true,
         "text-light": true,
         "text-strong": true,
         "text-stronger": true
-      },
-
-      "text-italic": true,
-      "text-underline": true,
-      "text-strike": true
+      }
     },
 
     "text-transform": {
@@ -85,6 +84,64 @@
 
   "elements": {
     "style": {
+      "paddings": {
+        "padding-all": {
+          "padding-smaller": true,
+          "padding-small": true,
+          "padding-medium": true,
+          "padding-large": true,
+          "padding-larger": true
+        },
+
+        "padding-x": {
+          "padding-x-smaller": true,
+          "padding-x-small": true,
+          "padding-x-medium": true,
+          "padding-x-large": true,
+          "padding-x-larger": true
+        },
+
+        "padding-y": {
+          "padding-y-smaller": true,
+          "padding-y-small": true,
+          "padding-y-medium": true,
+          "padding-y-large": true,
+          "padding-y-larger": true
+        },
+
+        "padding-left": {
+          "padding-left-smaller": true,
+          "padding-left-small": true,
+          "padding-left-medium": true,
+          "padding-left-large": true,
+          "padding-left-larger": true
+        },
+
+        "padding-right": {
+          "padding-right-smaller": true,
+          "padding-right-small": true,
+          "padding-right-medium": true,
+          "padding-right-large": true,
+          "padding-right-larger": true
+        },
+
+        "padding-top": {
+          "padding-top-smaller": true,
+          "padding-top-small": true,
+          "padding-top-medium": true,
+          "padding-top-large": true,
+          "padding-top-larger": true
+        },
+
+        "padding-bottom": {
+          "padding-bottom-smaller": true,
+          "padding-bottom-small": true,
+          "padding-bottom-medium": true,
+          "padding-bottom-large": true,
+          "padding-bottom-larger": true
+        }
+      },
+      
       "rounded-corners": {
         "circle": true,
         "ellipsis": true,
@@ -182,7 +239,7 @@
         }
       },
 
-      "overlaping": {
+      "overlapping": {
         "overlap-top": {
           "overlap-top-smaller": true,
           "overlap-top-small": true,
@@ -223,64 +280,6 @@
         "blur-1": true,
         "blur-2": true,
         "blur-3": true
-      }
-    },
-
-    "paddings": {
-      "padding-general": {
-        "padding-smaller": true,
-        "padding-small": true,
-        "padding-medium": true,
-        "padding-large": true,
-        "padding-larger": true
-      },
-
-      "padding-x": {
-        "padding-x-smaller": true,
-        "padding-x-small": true,
-        "padding-x-medium": true,
-        "padding-x-large": true,
-        "padding-x-larger": true
-      },
-
-      "padding-y": {
-        "padding-y-smaller": true,
-        "padding-y-small": true,
-        "padding-y-medium": true,
-        "padding-y-large": true,
-        "padding-y-larger": true
-      },
-
-      "padding-left": {
-        "padding-left-smaller": true,
-        "padding-left-small": true,
-        "padding-left-medium": true,
-        "padding-left-large": true,
-        "padding-left-larger": true
-      },
-
-      "padding-right": {
-        "padding-right-smaller": true,
-        "padding-right-small": true,
-        "padding-right-medium": true,
-        "padding-right-large": true,
-        "padding-right-larger": true
-      },
-
-      "padding-top": {
-        "padding-top-smaller": true,
-        "padding-top-small": true,
-        "padding-top-medium": true,
-        "padding-top-large": true,
-        "padding-top-larger": true
-      },
-
-      "padding-bottom": {
-        "padding-bottom-smaller": true,
-        "padding-bottom-small": true,
-        "padding-bottom-medium": true,
-        "padding-bottom-large": true,
-        "padding-bottom-larger": true
       }
     },
 
