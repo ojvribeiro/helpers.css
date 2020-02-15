@@ -9,6 +9,6 @@
     "materialize-css": "^1.0.0-rc.2"
   },
   "scripts": {
-    "helpers": "cd src/sass && sass helpers.scss ../helpers.css"
+    "helpers": "cd src/sass && sass --watch helpers.scss ../helpers.css"
   }
 }
