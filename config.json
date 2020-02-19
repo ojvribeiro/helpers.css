@@ -143,19 +143,21 @@
       },
       
       "rounded-corners": {
-        "circle": true,
         "ellipsis": true,
-        "border-radius-1": true,
-        "border-radius-2": true,
-        "border-radius-3": true,
-        "border-radius-4": true
+        "border-radius-smaller": true,
+        "border-radius-small": true,
+        "border-radius-medium": true,
+        "border-radius-large": true,
+        "border-radius-larger": true
       },
 
       "shadows": {
         "shadow-0": true,
         "shadow-1": true,
         "shadow-2": true,
-        "shadow-3": true
+        "shadow-3": true,
+        "shadow-4": true,
+        "shadow-5": true
       }
     },
 

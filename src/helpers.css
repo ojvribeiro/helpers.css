@@ -322,7 +322,7 @@
 }
 
 /**
- * Padding general
+* Padding general
 */
 .padding-smaller {
   padding: 8px;
@@ -342,6 +342,62 @@
 
 .padding-larger {
   padding: 72px;
+}
+
+/**
+ * Padding horizontal
+*/
+.padding-x-smaller {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.padding-x-small {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.padding-x-medium {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.padding-x-large {
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+.padding-x-larger {
+  padding-left: 72px;
+  padding-right: 72px;
+}
+
+/**
+ * Padding vertical
+*/
+.padding-y-smaller {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.padding-y-small {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.padding-y-medium {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.padding-y-large {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.padding-y-larger {
+  padding-top: 72px;
+  padding-bottom: 72px;
 }
 
 /**
@@ -437,59 +493,57 @@
 }
 
 /**
- * Padding horizontal
+ * Rounded corners
 */
-.padding-x-smaller {
-  padding-left: 8px;
-  padding-right: 8px;
+.ellipsis {
+  border-radius: 50%;
 }
 
-.padding-x-small {
-  padding-left: 16px;
-  padding-right: 16px;
+.border-radius-smaller {
+  border-radius: 2px;
 }
 
-.padding-x-medium {
-  padding-left: 24px;
-  padding-right: 24px;
+.border-radius-small {
+  border-radius: 4px;
 }
 
-.padding-x-large {
-  padding-left: 56px;
-  padding-right: 56px;
+.border-radius-medium {
+  border-radius: 8px;
 }
 
-.padding-x-larger {
-  padding-left: 72px;
-  padding-right: 72px;
+.border-radius-large {
+  border-radius: 16px;
+}
+
+.border-radius-larger {
+  border-radius: 32px;
 }
 
 /**
- * Padding vertical
+ * Shadows
 */
-.padding-y-smaller {
-  padding-top: 8px;
-  padding-bottom: 8px;
+.shadow-0 {
+  box-shadow: none !important;
 }
 
-.padding-y-small {
-  padding-top: 16px;
-  padding-bottom: 16px;
+.shadow-1 {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
-.padding-y-medium {
-  padding-top: 24px;
-  padding-bottom: 24px;
+.shadow-2 {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
-.padding-y-large {
-  padding-top: 56px;
-  padding-bottom: 56px;
+.shadow-3 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-.padding-y-larger {
-  padding-top: 72px;
-  padding-bottom: 72px;
+.shadow-4 {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.shadow-5 {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 /*# sourceMappingURL=helpers.css.map */
