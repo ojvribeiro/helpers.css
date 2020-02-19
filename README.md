@@ -40,8 +40,8 @@ Soon.
 
 ## Built Using <a name="built_using"></a>
 
-- [Yarn](https://www.mongodb.com/)
-- [Sass](https://expressjs.com/)
+- [Yarn](https://yarnpkg.com/)
+- [Sass](https://sass-lang.com/)
 
 ## Author <a name="author"></a>
 
