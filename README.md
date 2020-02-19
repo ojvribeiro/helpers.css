@@ -3,14 +3,14 @@
  <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Helpers.css"></a>
 </p>
 
-Helpers.css
+#Helpers.css
 ---
 
 <p align="center">
   A small library to format and style your page elements with CSS classes.
 </p>
 
-## 📝 Table of Contents
+## Table of Contents
 
 - [About](#about)
 - [Getting Started](#getting_started)
@@ -18,11 +18,11 @@ Helpers.css
 - [Built Using](#built_using)
 - [Author](#author)
 
-## 🧐 About <a name="about"></a>
+## About <a name="about"></a>
 
 Write about 1-2 paragraphs describing the purpose of your project.
 
-## 🏁 Getting Started <a name="getting_started"></a>
+## Getting Started <a name="getting_started"></a>
 
 ### Installing
 
@@ -34,16 +34,15 @@ Include the Helpers.css file in the ```head``` section of your HTML:
 
 ... and that's it.
 
-## 🎈 Usage <a name="usage"></a>
+## Usage <a name="usage"></a>
 
 Soon.
 
-## ⛏️ Built Using <a name="built_using"></a>
+## Built Using <a name="built_using"></a>
 
-- [Yarn](https://www.mongodb.com/) - Database
-- [Sass](https://expressjs.com/) - Server Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Yarn](https://www.mongodb.com/)
+- [Sass](https://expressjs.com/)
 
-## ✍️ Author <a name="author"></a>
+## Author <a name="author"></a>
 
 - [@ojvribeiro](https://github.com/ojvribeiro)
