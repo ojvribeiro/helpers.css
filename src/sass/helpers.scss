@@ -103,33 +103,7 @@
 @import './components/elements/style/paddings/padding-all/padding-large';
 @import './components/elements/style/paddings/padding-all/padding-larger';
 
-/**
- * Padding horizontal
-*/
-@import './components/elements/style/paddings/padding-x/padding-x-smaller';
-@import './components/elements/style/paddings/padding-x/padding-x-small';
-@import './components/elements/style/paddings/padding-x/padding-x-medium';
-@import './components/elements/style/paddings/padding-x/padding-x-large';
-@import './components/elements/style/paddings/padding-x/padding-x-larger';
-
-/**
- * Padding vertical
-*/
-@import './components/elements/style/paddings/padding-y/padding-y-smaller';
-@import './components/elements/style/paddings/padding-y/padding-y-small';
-@import './components/elements/style/paddings/padding-y/padding-y-medium';
-@import './components/elements/style/paddings/padding-y/padding-y-large';
-@import './components/elements/style/paddings/padding-y/padding-y-larger';
-
-/**
- * Padding top
-*/
-@import './components/elements/style/paddings/padding-top/padding-top-smaller';
-@import './components/elements/style/paddings/padding-top/padding-top-small';
-@import './components/elements/style/paddings/padding-top/padding-top-medium';
-@import './components/elements/style/paddings/padding-top/padding-top-large';
-@import './components/elements/style/paddings/padding-top/padding-top-larger';
-
+// @elements/style/paddings/padding-bottom
 /**
  * Padding bottom
 */
@@ -139,8 +113,9 @@
 @import './components/elements/style/paddings/padding-bottom/padding-bottom-large';
 @import './components/elements/style/paddings/padding-bottom/padding-bottom-larger';
 
+// @elements/style/paddings/padding-left
 /**
- * Padding left
+* Padding left
 */
 @import './components/elements/style/paddings/padding-left/padding-left-smaller';
 @import './components/elements/style/paddings/padding-left/padding-left-small';
@@ -148,8 +123,9 @@
 @import './components/elements/style/paddings/padding-left/padding-left-large';
 @import './components/elements/style/paddings/padding-left/padding-left-larger';
 
+// @elements/style/paddings/padding-right
 /**
- * Padding right
+* Padding right
 */
 @import './components/elements/style/paddings/padding-right/padding-right-smaller';
 @import './components/elements/style/paddings/padding-right/padding-right-small';
@@ -157,6 +133,37 @@
 @import './components/elements/style/paddings/padding-right/padding-right-large';
 @import './components/elements/style/paddings/padding-right/padding-right-larger';
 
+// @elements/style/paddings/padding-top
+/**
+* Padding top
+*/
+@import './components/elements/style/paddings/padding-top/padding-top-smaller';
+@import './components/elements/style/paddings/padding-top/padding-top-small';
+@import './components/elements/style/paddings/padding-top/padding-top-medium';
+@import './components/elements/style/paddings/padding-top/padding-top-large';
+@import './components/elements/style/paddings/padding-top/padding-top-larger';
+
+// @elements/style/paddings/padding-x
+/**
+ * Padding horizontal
+*/
+@import './components/elements/style/paddings/padding-x/padding-x-smaller';
+@import './components/elements/style/paddings/padding-x/padding-x-small';
+@import './components/elements/style/paddings/padding-x/padding-x-medium';
+@import './components/elements/style/paddings/padding-x/padding-x-large';
+@import './components/elements/style/paddings/padding-x/padding-x-larger';
+
+// @elements/style/paddings/padding-y
+/**
+ * Padding vertical
+*/
+@import './components/elements/style/paddings/padding-y/padding-y-smaller';
+@import './components/elements/style/paddings/padding-y/padding-y-small';
+@import './components/elements/style/paddings/padding-y/padding-y-medium';
+@import './components/elements/style/paddings/padding-y/padding-y-large';
+@import './components/elements/style/paddings/padding-y/padding-y-larger';
+
+// @elements/style/rounded-corners
 /**
  * Rounded corners
 */
@@ -167,7 +174,7 @@
 @import './components/elements/style/rounded-corners/border-radius-large';
 @import './components/elements/style/rounded-corners/border-radius-larger';
 
-
+// @elements/style/shadows
 /**
  * Shadows
 */
@@ -177,5 +184,115 @@
 @import './components/elements/style/shadows/shadow-3';
 @import './components/elements/style/shadows/shadow-4';
 @import './components/elements/style/shadows/shadow-5';
+
+// @elements/positioning/behavior
+/**
+ * Behavior
+*/
+@import './components/elements/positioning/behavior/position-absolute';
+@import './components/elements/positioning/behavior/position-fixed';
+@import './components/elements/positioning/behavior/position-relative';
+@import './components/elements/positioning/behavior/position-sticky';
+
+
+// @elements/positioning/position
+/**
+ * Position
+*/
+@import './components/elements/positioning/position/bottom-left';
+@import './components/elements/positioning/position/bottom-middle';
+@import './components/elements/positioning/position/bottom-right';
+@import './components/elements/positioning/position/center';
+@import './components/elements/positioning/position/top-left';
+@import './components/elements/positioning/position/top-middle';
+@import './components/elements/positioning/position/top-right';
+
+// @elements/positioning/float
+/**
+ * Floats
+*/
+@import './components/elements/positioning/float/float-left';
+@import './components/elements/positioning/float/float-right';
+
+// @elements/positioning/margins/margin-all
+/**
+ * Margin general
+*/
+@import './components/elements/positioning/margins/margin-all/margin-smaller';
+@import './components/elements/positioning/margins/margin-all/margin-small';
+@import './components/elements/positioning/margins/margin-all/margin-medium';
+@import './components/elements/positioning/margins/margin-all/margin-large';
+@import './components/elements/positioning/margins/margin-all/margin-larger';
+
+// @elements/positioning/margins/margin-bottom
+/**
+ * Margin bottom
+*/
+@import './components/elements/positioning/margins/margin-bottom/margin-bottom-smaller';
+@import './components/elements/positioning/margins/margin-bottom/margin-bottom-small';
+@import './components/elements/positioning/margins/margin-bottom/margin-bottom-medium';
+@import './components/elements/positioning/margins/margin-bottom/margin-bottom-large';
+@import './components/elements/positioning/margins/margin-bottom/margin-bottom-larger';
+
+// @elements/positioning/margins/margin-left
+/**
+ * Margin left
+*/
+@import './components/elements/positioning/margins/margin-left/margin-left-smaller';
+@import './components/elements/positioning/margins/margin-left/margin-left-small';
+@import './components/elements/positioning/margins/margin-left/margin-left-medium';
+@import './components/elements/positioning/margins/margin-left/margin-left-large';
+@import './components/elements/positioning/margins/margin-left/margin-left-larger';
+
+// @elements/positioning/margins/margin-right
+/**
+ * Margin right
+*/
+@import './components/elements/positioning/margins/margin-right/margin-right-smaller';
+@import './components/elements/positioning/margins/margin-right/margin-right-small';
+@import './components/elements/positioning/margins/margin-right/margin-right-medium';
+@import './components/elements/positioning/margins/margin-right/margin-right-large';
+@import './components/elements/positioning/margins/margin-right/margin-right-larger';
+
+// @elements/positioning/margins/margin-top
+/**
+ * Margin top
+*/
+@import './components/elements/positioning/margins/margin-top/margin-top-smaller';
+@import './components/elements/positioning/margins/margin-top/margin-top-small';
+@import './components/elements/positioning/margins/margin-top/margin-top-medium';
+@import './components/elements/positioning/margins/margin-top/margin-top-large';
+@import './components/elements/positioning/margins/margin-top/margin-top-larger';
+
+// @elements/positioning/margins/margin-x
+/**
+ * Margin horizontal
+*/
+@import './components/elements/positioning/margins/margin-x/margin-x-smaller';
+@import './components/elements/positioning/margins/margin-x/margin-x-small';
+@import './components/elements/positioning/margins/margin-x/margin-x-medium';
+@import './components/elements/positioning/margins/margin-x/margin-x-large';
+@import './components/elements/positioning/margins/margin-x/margin-x-larger';
+
+// @elements/positioning/margins/margin-y
+/**
+ * Margin vertical
+*/
+@import './components/elements/positioning/margins/margin-y/margin-y-smaller';
+@import './components/elements/positioning/margins/margin-y/margin-y-small';
+@import './components/elements/positioning/margins/margin-y/margin-y-medium';
+@import './components/elements/positioning/margins/margin-y/margin-y-large';
+@import './components/elements/positioning/margins/margin-y/margin-y-larger';
+
+// @elements/positioning/overlapping/overlap-top
+/**
+ * Margin vertical
+*/
+@import './components/elements/positioning/overlapping/overlap-top/overlap-top-smaller';
+@import './components/elements/positioning/overlapping/overlap-top/overlap-top-small';
+@import './components/elements/positioning/overlapping/overlap-top/overlap-top-medium';
+@import './components/elements/positioning/overlapping/overlap-top/overlap-top-large';
+@import './components/elements/positioning/overlapping/overlap-top/overlap-top-larger';
+
 
 

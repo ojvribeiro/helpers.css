@@ -170,12 +170,13 @@
       },
 
       "position": {
-        "top": true,
-        "middle": true,
-        "bottom": true,
-        "left": true,
-        "right": true,
-        "center": true
+        "top-left": true,
+        "top-middle": true,
+        "top-right": true,
+        "center": true,
+        "bottom-left": true,
+        "bottom-middle": true,
+        "bottom-right": true
       },
 
       "float": {
@@ -184,12 +185,44 @@
       },
 
       "margins": {
-        "margin-general": {
+        "margin-all": {
           "margin-smaller": true,
           "margin-small": true,
           "margin-medium": true,
           "margin-large": true,
           "margin-larger": true
+        },
+
+        "margin-bottom": {
+          "margin-bottom-smaller": true,
+          "margin-bottom-small": true,
+          "margin-bottom-medium": true,
+          "margin-bottom-large": true,
+          "margin-bottom-larger": true
+        },
+        
+        "margin-left": {
+          "margin-left-smaller": true,
+          "margin-left-small": true,
+          "margin-left-medium": true,
+          "margin-left-large": true,
+          "margin-left-larger": true
+        },
+        
+        "margin-right": {
+          "margin-right-smaller": true,
+          "margin-right-small": true,
+          "margin-right-medium": true,
+          "margin-right-large": true,
+          "margin-right-larger": true
+        },
+        
+        "margin-top": {
+          "margin-top-smaller": true,
+          "margin-top-small": true,
+          "margin-top-medium": true,
+          "margin-top-large": true,
+          "margin-top-larger": true
         },
 
         "margin-x": {
@@ -206,38 +239,6 @@
           "margin-y-medium": true,
           "margin-y-large": true,
           "margin-y-larger": true
-        },
-
-        "margin-left": {
-          "margin-left-smaller": true,
-          "margin-left-small": true,
-          "margin-left-medium": true,
-          "margin-left-large": true,
-          "margin-left-larger": true
-        },
-
-        "margin-right": {
-          "margin-right-smaller": true,
-          "margin-right-small": true,
-          "margin-right-medium": true,
-          "margin-right-large": true,
-          "margin-right-larger": true
-        },
-
-        "margin-top": {
-          "margin-top-smaller": true,
-          "margin-top-small": true,
-          "margin-top-medium": true,
-          "margin-top-large": true,
-          "margin-top-larger": true
-        },
-
-        "margin-bottom": {
-          "margin-bottom-smaller": true,
-          "margin-bottom-small": true,
-          "margin-bottom-medium": true,
-          "margin-bottom-large": true,
-          "margin-bottom-larger": true
         }
       },
 
