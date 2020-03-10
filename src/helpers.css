@@ -796,7 +796,7 @@
 }
 
 /**
- * Margin vertical
+ * Overlap top (adds a negative margin-top)
 */
 .overlap-top-smaller {
   margin-top: -8px;
@@ -816,6 +816,143 @@
 
 .overlap-top-larger {
   margin-top: -72px;
+}
+
+/**
+ * Overlap bottom (adds a negative margin-bottom)
+ * IMPORTANT: the parent element needs to have a position-relative class
+*/
+.overlap-bottom-smaller {
+  position: relative;
+  bottom: 0;
+  margin-bottom: -8px;
+}
+
+.overlap-bottom-small {
+  position: relative;
+  bottom: 0;
+  margin-bottom: -16px;
+}
+
+.overlap-bottom-medium {
+  position: relative;
+  bottom: 0;
+  margin-bottom: -24px;
+}
+
+.overlap-bottom-large {
+  position: relative;
+  bottom: 0;
+  margin-bottom: -56px;
+}
+
+.overlap-bottom-larger {
+  position: relative;
+  bottom: 0;
+  margin-bottom: -72px;
+}
+
+/**
+ * Blur
+*/
+.blur-1 {
+  filter: blur(4px);
+}
+
+.blur-2 {
+  filter: blur(16px);
+}
+
+.blur-3 {
+  filter: blur(24px);
+}
+
+/**
+ * Blur
+*/
+.blur-1 {
+  filter: blur(4px);
+}
+
+.blur-2 {
+  filter: blur(16px);
+}
+
+.blur-3 {
+  filter: blur(24px);
+}
+
+/**
+ * Display
+*/
+.display-block {
+  display: block !important;
+}
+
+.display-flex {
+  display: flex !important;
+}
+
+.display-grid {
+  display: grid !important;
+}
+
+.display-inline-block {
+  display: inline-block !important;
+}
+
+.display-inline-flex {
+  display: inline-flex !important;
+}
+
+.display-inline {
+  display: inline !important;
+}
+
+.display-none {
+  display: none !important;
+}
+
+.display-unset {
+  display: unset !important;
+}
+
+/**
+ * Frost glass
+*/
+.frost-glass-1 {
+  backdrop-filter: blur(4px);
+}
+
+.frost-glass-2 {
+  backdrop-filter: blur(16px);
+}
+
+.frost-glass-3 {
+  backdrop-filter: blur(24px);
+}
+
+/**
+ * Transition radial
+*/
+.transition-radial-1 {
+  background-image: url(./block-transitions/transition-radial/transition-radial-1.svg);
+  background-size: 100% auto;
+}
+
+.transition-radial-2 {
+  background-image: url(./block-transitions/transition-radial/transition-radial-2.svg);
+  background-size: 100% auto;
+}
+
+.transition-radial-3 {
+  background-image: url(./block-transitions/transition-radial/transition-radial-3.svg);
+  background-size: 100% auto;
+}
+
+.transition-radial-4 {
+  background-image: url(./block-transitions/transition-radial/transition-radial-4.svg);
+  background-size: 100% auto;
 }
 
 /*# sourceMappingURL=helpers.css.map */

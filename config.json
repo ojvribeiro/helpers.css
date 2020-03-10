@@ -262,13 +262,19 @@
     },
 
     "visibility": {
+      "blur": {
+        "blur-1": true,
+        "blur-2": true,
+        "blur-3": true
+      },
+
       "display": {
         "display-block": true,
-        "display-inline": true,
-        "display-inline-block": true,
         "display-flex": true,
-        "display-inline-flex": true,
         "display-grid": true,
+        "display-inline-block": true,
+        "display-inline-flex": true,
+        "display-inline": true,
         "display-none": true,
         "display-unset": true
       },
@@ -277,22 +283,46 @@
         "frost-glass-1": true,
         "frost-glass-2": true,
         "frost-glass-3": true
-      },
-
-      "blur": {
-        "blur-1": true,
-        "blur-2": true,
-        "blur-3": true
       }
     },
 
     "block-transitions": {
-      "transition-radial": true,
-      "transition-sharp": true
+      "transition-radial": {
+        "transition-radial-1": true,
+        "transition-radial-2": true,
+        "transition-radial-3": true,
+        "transition-radial-4": true
+      },
+      "transition-sharp": {
+        "transition-sharp-1": true,
+        "transition-sharp-2": true,
+        "transition-sharp-3": true,
+        "transition-sharp-4": true
+      },
+      "transition-wave": {
+        "transition-wave-1": true,
+        "transition-wave-2": true,
+        "transition-wave-3": true,
+        "transition-wave-4": true
+      }
     }
   },
 
   "no-styles": {
+    "float": {
+      "no-float": true
+    },
+    
+    "margins": {
+      "no-margin": true,
+      "no-margin-x": true,
+      "no-margin-y": true,
+      "no-margin-left": true,
+      "no-margin-right": true,
+      "no-margin-top": true,
+      "no-margin-bottom": true
+    },
+
     "mouse-actions": {
       "no-scroll": true,
       "no-scroll-x": true,
@@ -300,38 +330,20 @@
       "no-select": true,
       "no-click": true
     },
-
-    "position": {
-      "float": {
-        "no-float": true
-      },
-
-      "margins": {
-        "no-margin": true,
-        "no-margin-x": true,
-        "no-margin-y": true,
-        "no-margin-left": true,
-        "no-margin-right": true,
-        "no-margin-top": true,
-        "no-margin-bottom": true
-      }
+    
+    "paddings": {
+      "no-padding": true,
+      "no-padding-x": true,
+      "no-padding-y": true,
+      "no-padding-left": true,
+      "no-padding-right": true,
+      "no-padding-top": true,
+      "no-padding-bottom": true
     },
-
+    
     "visibility": {
       "no-display": true,
       "no-opacity": true
-    },
-
-    "size": {
-      "paddings": {
-        "no-padding": true,
-        "no-padding-x": true,
-        "no-padding-y": true,
-        "no-padding-left": true,
-        "no-padding-right": true,
-        "no-padding-top": true,
-        "no-padding-bottom": true
-      }
     }
   }
 }

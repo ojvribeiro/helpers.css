@@ -286,7 +286,7 @@
 
 // @elements/positioning/overlapping/overlap-top
 /**
- * Margin vertical
+ * Overlap top (adds a negative margin-top)
 */
 @import './components/elements/positioning/overlapping/overlap-top/overlap-top-smaller';
 @import './components/elements/positioning/overlapping/overlap-top/overlap-top-small';
@@ -294,5 +294,60 @@
 @import './components/elements/positioning/overlapping/overlap-top/overlap-top-large';
 @import './components/elements/positioning/overlapping/overlap-top/overlap-top-larger';
 
+// @elements/positioning/overlapping/overlap-bottom
+/**
+ * Overlap bottom (adds a negative margin-bottom)
+ * IMPORTANT: the parent element needs to have a position-relative class
+*/
+@import './components/elements/positioning/overlapping/overlap-bottom/overlap-bottom-smaller';
+@import './components/elements/positioning/overlapping/overlap-bottom/overlap-bottom-small';
+@import './components/elements/positioning/overlapping/overlap-bottom/overlap-bottom-medium';
+@import './components/elements/positioning/overlapping/overlap-bottom/overlap-bottom-large';
+@import './components/elements/positioning/overlapping/overlap-bottom/overlap-bottom-larger';
 
+// @elements/visibility/blur
+/**
+ * Blur
+*/
+@import './components/elements/visibility/blur/blur-1';
+@import './components/elements/visibility/blur/blur-2';
+@import './components/elements/visibility/blur/blur-3';
+
+// @elements/visibility/blur
+/**
+ * Blur
+*/
+@import './components/elements/visibility/blur/blur-1';
+@import './components/elements/visibility/blur/blur-2';
+@import './components/elements/visibility/blur/blur-3';
+
+// @elements/visibility/display
+/**
+ * Display
+*/
+@import './components/elements/visibility/display/display-block';
+@import './components/elements/visibility/display/display-flex';
+@import './components/elements/visibility/display/display-grid';
+@import './components/elements/visibility/display/display-inline-block';
+@import './components/elements/visibility/display/display-inline-flex';
+@import './components/elements/visibility/display/display-inline';
+@import './components/elements/visibility/display/display-none';
+@import './components/elements/visibility/display/display-unset';
+
+// @elements/visibility/frost-glass
+/**
+ * Frost glass
+*/
+@import './components/elements/visibility/frost-glass/frost-glass-1';
+@import './components/elements/visibility/frost-glass/frost-glass-2';
+@import './components/elements/visibility/frost-glass/frost-glass-3';
+
+// @elements/block-transitions/transition-radial
+/**
+ * Transition radial
+*/
+@import './components/elements/block-transitions/transition-radial/transition-radial-1';
+@import './components/elements/block-transitions/transition-radial/transition-radial-2';
+@import './components/elements/block-transitions/transition-radial/transition-radial-3';
+@import './components/elements/block-transitions/transition-radial/transition-radial-4';
 

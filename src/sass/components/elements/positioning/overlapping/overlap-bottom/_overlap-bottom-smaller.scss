@@ -1,4 +1,6 @@
 // _overlap-bottom-smaller.scss
 .overlap-bottom-smaller {
-  margin-bottom: 8px;
+  position: relative;
+  bottom: 0;
+  margin-bottom: -8px;
 }
