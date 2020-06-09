@@ -6,84 +6,16 @@
     "container-large": true,
     "container-larger": true
   },
-  
-  "mouse-actions": {
-    "cursor": {
-      "cursor-cell": true,
-      "cursor-default": true,
-      "cursor-grab": true,
-      "cursor-grabbing": true,
-      "cursor-move": true,
-      "cursor-not-allowed": true,
-      "cursor-pointer": true,
-      "cursor-progress": true,
-      "cursor-resize-diagonal-1": true,
-      "cursor-resize-diagonal-2": true,
-      "cursor-resize-x": true,
-      "cursor-resize-y": true,
-      "cursor-text": true,
-      "cursor-wait": true,
-      "cursor-zoom-in": true,
-      "cursor-zoom-out": true
-    },
-    
-    "scroll": {
-      "scroll-all": true,
-      "scroll-auto": true,
-      "scroll-x-auto": true,
-      "scroll-x": true,
-      "scroll-y-auto": true,
-      "scroll-y": true
-    }
-  },
-
-  
-
-  "text": {
-    "text-align": {
-      "text-left": true,
-      "text-right": true,
-      "text-center": true,
-      "text-justify": true
-    },
-
-    "text-size": {
-      "text-smaller": true,
-      "text-small": true,
-      "text-medium": true,
-      "text-large": true,
-      "text-larger": true
-    },
-
-    "text-spacing": {
-      "text-spacing-smaller": true,
-      "text-spacing-small": true,
-      "text-spacing-medium": true,
-      "text-spacing-large": true,
-      "text-spacing-larger": true
-    },
-    
-    "text-style": {
-      "text-italic": true,
-      "text-strike": true,
-      "text-underline": true,
-      "text-weight": {
-        "text-lighter": true,
-        "text-light": true,
-        "text-strong": true,
-        "text-stronger": true
-      }
-    },
-
-    "text-transform": {
-      "text-lowercase": true,
-      "text-uppercase": true,
-      "text-capitalize": true
-    }
-  },
 
   "elements": {
     "style": {
+      "size": {
+        "full-width": true,
+        "full-height": true,
+        "half-width": true,
+        "half-height": true
+      },
+
       "paddings": {
         "padding-all": {
           "padding-smaller": true,
@@ -141,7 +73,7 @@
           "padding-bottom-larger": true
         }
       },
-      
+
       "rounded-corners": {
         "ellipsis": true,
         "border-radius-smaller": true,
@@ -200,7 +132,7 @@
           "margin-bottom-large": true,
           "margin-bottom-larger": true
         },
-        
+
         "margin-left": {
           "margin-left-smaller": true,
           "margin-left-small": true,
@@ -208,7 +140,7 @@
           "margin-left-large": true,
           "margin-left-larger": true
         },
-        
+
         "margin-right": {
           "margin-right-smaller": true,
           "margin-right-small": true,
@@ -216,7 +148,7 @@
           "margin-right-large": true,
           "margin-right-larger": true
         },
-        
+
         "margin-top": {
           "margin-top-smaller": true,
           "margin-top-small": true,
@@ -312,15 +244,15 @@
     "float": {
       "no-float": true
     },
-    
+
     "margins": {
-      "no-margin": true,
-      "no-margin-x": true,
-      "no-margin-y": true,
+      "no-margin-bottom": true,
       "no-margin-left": true,
       "no-margin-right": true,
       "no-margin-top": true,
-      "no-margin-bottom": true
+      "no-margin-x": true,
+      "no-margin-y": true,
+      "no-margin": true
     },
 
     "mouse-actions": {
@@ -330,7 +262,7 @@
       "no-select": true,
       "no-click": true
     },
-    
+
     "paddings": {
       "no-padding": true,
       "no-padding-x": true,
@@ -340,10 +272,86 @@
       "no-padding-top": true,
       "no-padding-bottom": true
     },
-    
+
     "visibility": {
       "no-display": true,
       "no-opacity": true
     }
+  },
+
+  "mouse-actions": {
+    "cursor": {
+      "cursor-cell": true,
+      "cursor-default": true,
+      "cursor-grab": true,
+      "cursor-grabbing": true,
+      "cursor-move": true,
+      "cursor-not-allowed": true,
+      "cursor-pointer": true,
+      "cursor-progress": true,
+      "cursor-resize-diagonal-1": true,
+      "cursor-resize-diagonal-2": true,
+      "cursor-resize-x": true,
+      "cursor-resize-y": true,
+      "cursor-text": true,
+      "cursor-wait": true,
+      "cursor-zoom-in": true,
+      "cursor-zoom-out": true
+    },
+
+    "scroll": {
+      "scroll-all": true,
+      "scroll-auto": true,
+      "scroll-x-auto": true,
+      "scroll-x": true,
+      "scroll-y-auto": true,
+      "scroll-y": true
+    }
+  },
+
+
+
+  "text": {
+    "text-align": {
+      "text-left": true,
+      "text-right": true,
+      "text-center": true,
+      "text-justify": true
+    },
+
+    "text-size": {
+      "text-smaller": true,
+      "text-small": true,
+      "text-medium": true,
+      "text-large": true,
+      "text-larger": true
+    },
+
+    "text-spacing": {
+      "text-spacing-smaller": true,
+      "text-spacing-small": true,
+      "text-spacing-medium": true,
+      "text-spacing-large": true,
+      "text-spacing-larger": true
+    },
+
+    "text-style": {
+      "text-italic": true,
+      "text-strike": true,
+      "text-underline": true,
+      "text-weight": {
+        "text-lighter": true,
+        "text-light": true,
+        "text-strong": true,
+        "text-stronger": true
+      }
+    },
+
+    "text-transform": {
+      "text-lowercase": true,
+      "text-uppercase": true,
+      "text-capitalize": true
+    }
   }
+
 }

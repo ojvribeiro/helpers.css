@@ -93,6 +93,15 @@
 @import './components/text/text-transform/text-lowercase';
 @import './components/text/text-transform/text-uppercase';
 
+// @elements/style/size
+/**
+* Preset sizes
+*/
+@import './components/elements/style/size/full-width';
+@import './components/elements/style/size/full-height';
+@import './components/elements/style/size/half-width';
+@import './components/elements/style/size/half-height';
+
 // @elements/style/paddings/padding-all
 /**
 * Padding general
@@ -351,3 +360,49 @@
 @import './components/elements/block-transitions/transition-radial/transition-radial-3';
 @import './components/elements/block-transitions/transition-radial/transition-radial-4';
 
+// @no-styles/float
+/**
+ * No Float
+*/
+@import './components/no-styles/float/no-float';
+
+// @no-styles/margins
+/**
+ * No Margins
+*/
+@import './components/no-styles/margins/no-margin-bottom';
+@import './components/no-styles/margins/no-margin-left';
+@import './components/no-styles/margins/no-margin-right';
+@import './components/no-styles/margins/no-margin-top';
+@import './components/no-styles/margins/no-margin-x';
+@import './components/no-styles/margins/no-margin-y';
+@import './components/no-styles/margins/no-margin';
+
+// @no-styles/mouse-actions
+/**
+ * No Mouse Actions
+*/
+@import './components/no-styles/mouse-actions/no-click';
+@import './components/no-styles/mouse-actions/no-scroll-x';
+@import './components/no-styles/mouse-actions/no-scroll-y';
+@import './components/no-styles/mouse-actions/no-scroll';
+@import './components/no-styles/mouse-actions/no-select';
+
+// @no-styles/paddings
+/**
+ * No Paddings
+*/
+@import './components/no-styles/paddings/no-padding-bottom';
+@import './components/no-styles/paddings/no-padding-left';
+@import './components/no-styles/paddings/no-padding-right';
+@import './components/no-styles/paddings/no-padding-top';
+@import './components/no-styles/paddings/no-padding-x';
+@import './components/no-styles/paddings/no-padding-y';
+@import './components/no-styles/paddings/no-padding';
+
+// @no-styles/visibility
+/**
+ * No Visibility
+*/
+@import './components/no-styles/visibility/no-display';
+@import './components/no-styles/visibility/no-opacity';
