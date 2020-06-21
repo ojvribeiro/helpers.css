@@ -324,14 +324,6 @@
 @import './components/elements/visibility/blur/blur-2';
 @import './components/elements/visibility/blur/blur-3';
 
-// @elements/visibility/blur
-/**
- * Blur
-*/
-@import './components/elements/visibility/blur/blur-1';
-@import './components/elements/visibility/blur/blur-2';
-@import './components/elements/visibility/blur/blur-3';
-
 // @elements/visibility/display
 /**
  * Display
@@ -396,6 +388,7 @@
 // @no-styles/visibility
 /**
  * No Visibility
+ * no-display has the same effect as display-none
 */
 @import './components/no-styles/visibility/no-display';
 @import './components/no-styles/visibility/no-opacity';
