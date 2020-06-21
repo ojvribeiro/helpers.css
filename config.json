@@ -216,27 +216,6 @@
         "frost-glass-2": true,
         "frost-glass-3": true
       }
-    },
-
-    "block-transitions": {
-      "transition-radial": {
-        "transition-radial-1": true,
-        "transition-radial-2": true,
-        "transition-radial-3": true,
-        "transition-radial-4": true
-      },
-      "transition-sharp": {
-        "transition-sharp-1": true,
-        "transition-sharp-2": true,
-        "transition-sharp-3": true,
-        "transition-sharp-4": true
-      },
-      "transition-wave": {
-        "transition-wave-1": true,
-        "transition-wave-2": true,
-        "transition-wave-3": true,
-        "transition-wave-4": true
-      }
     }
   },
 
