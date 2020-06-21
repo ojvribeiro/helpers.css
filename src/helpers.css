@@ -962,29 +962,6 @@
 }
 
 /**
- * Transition radial
-*/
-.transition-radial-1 {
-  background-image: url(./block-transitions/transition-radial/transition-radial-1.svg);
-  background-size: 100% auto;
-}
-
-.transition-radial-2 {
-  background-image: url(./block-transitions/transition-radial/transition-radial-2.svg);
-  background-size: 100% auto;
-}
-
-.transition-radial-3 {
-  background-image: url(./block-transitions/transition-radial/transition-radial-3.svg);
-  background-size: 100% auto;
-}
-
-.transition-radial-4 {
-  background-image: url(./block-transitions/transition-radial/transition-radial-4.svg);
-  background-size: 100% auto;
-}
-
-/**
  * No Float
 */
 .no-float {
