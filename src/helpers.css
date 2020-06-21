@@ -345,6 +345,11 @@
   height: 50%;
 }
 
+.fullscreen {
+  height: 100vh !important;
+  width: 100vw !important;
+}
+
 /**
 * Padding general
 */

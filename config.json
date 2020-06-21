@@ -13,7 +13,8 @@
         "full-width": true,
         "full-height": true,
         "half-width": true,
-        "half-height": true
+        "half-height": true,
+        "fullscreen": true
       },
 
       "paddings": {
