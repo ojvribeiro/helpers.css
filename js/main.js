@@ -53,7 +53,7 @@ function loadPage (file) {
   progressBar().show();
   
   $.ajax({
-    type: 'POST',
+    //type: 'POST',
     url: path + file + extension,
     success: (data) => {
       const pageContent = document.getElementsByTagName('main')[0];
