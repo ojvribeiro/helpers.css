@@ -7,6 +7,6 @@
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "helpers": "cd src/sass && sass helpers.scss ../helpers.css"
+    "helpers": "cd src/sass && sass --watch helpers.scss ../helpers.css"
   }
 }
