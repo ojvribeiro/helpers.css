@@ -11,37 +11,36 @@ $('.scrollspy').scrollSpy({
   scrollOffset: 20
 });
 
-if (location.hash !== '') {
-  routie({
-    '/get-started/': () => {
-      loadPage('get-started');
-      
-      goToTop();
-  
-      // console.log('get-started');
-    },
-  
-    '/text/': () => {
-      loadPage('text');
-  
-      goToTop();
-      
-  
-      // console.log('text');
-    },
-  
-    '/elements/': () => {
-      loadPage('elements');
-      
-      goToTop();
-      
-      
-  
-      // console.log('elements');
-    }
-  });
-}
-else {
+routie({
+  '/get-started/': () => {
+    loadPage('get-started');
+    
+    goToTop();
+
+    // console.log('get-started');
+  },
+
+  '/text/': () => {
+    loadPage('text');
+
+    goToTop();
+    
+
+    // console.log('text');
+  },
+
+  '/elements/': () => {
+    loadPage('elements');
+    
+    goToTop();
+    
+    
+
+    // console.log('elements');
+  }
+});
+
+if (location.hash === '') {
   routie('/get-started/');
 }
 
