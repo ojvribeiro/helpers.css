@@ -9,9 +9,9 @@
   <title>Helpers.css</title>
 
 
-  <link rel="stylesheet" href="./src/helpers.css">
   <link rel="stylesheet" href="./css/main.css">
 
+  <link rel="stylesheet" href="./src/helpers.min.css">
   <link rel="stylesheet" href="./fonts/font-awesome/css/all.min.css">
   <link rel="stylesheet" href="./libs/prism/prism.min.css">
   <link rel="stylesheet" href="./libs/materialize/css/materialize.min.css">
@@ -64,16 +64,17 @@
 
       <li>
         <div class="collapsible-header waves-effect" onclick="routie('/elements/')">
-          <i class="material-icons">toc</i>
+          <i class="material-icons">widgets</i>
           Elements
         </div>
 
         <div class="collapsible-body no-padding">
           <div class="collection">
-            <a href="#!" class="collection-item">Alvin</a>
-            <a href="#!" class="collection-item active">Alvin</a>
-            <a href="#!" class="collection-item">Alvin</a>
-            <a href="#!" class="collection-item">Alvin</a>
+            <a href="#sizes" class="collection-item text-capitalize">sizes</a>
+            <a href="#paddings" class="collection-item text-capitalize">paddings</a>
+            <a href="#rounded-corners" class="collection-item text-capitalize">rounded corners</a>
+            <a href="#shadows" class="collection-item text-capitalize">shadows</a>
+            <a href="#positioning" class="collection-item text-capitalize">positioning</a>
           </div>
         </div>
       </li>
@@ -90,22 +91,27 @@
 
       <br>
 
-      <a href="#" class="btn white blue-text waves-effect shadow-0">
+      <p class="white-text">A small library to format and style page elements with CSS classes.</p>
+
+      <a href="https://raw.githubusercontent.com/ojvribeiro/helpers.css/master/src/helpers.css"
+        class="btn white blue-text waves-effect shadow-0" target="_blank">
         <i class="material-icons left margin-right-small">file_download</i>
         Download</a>
 
-      <a href="" class="btn black white-text waves-effect waves-light shadow-0">
+      <a href="https://github.com/ojvribeiro/helpers.css/" target="_blank"
+        class="btn black white-text waves-effect waves-light shadow-0">
         <i class="fab fa-github margin-right-medium left"></i>
         GitHub
       </a>
 
       <p class="white-text">
-        A project by <a href="#" class="white-text text-underline">Victor Ribeiro</a>.
+        A project by <a href="https://klaver.me/victor" class="white-text text-underline" target="_blank">Victor
+          Ribeiro</a>.
       </p>
     </div>
   </div>
 
-  <a href="#!"
+  <a href="https://raw.githubusercontent.com/ojvribeiro/helpers.css/master/src/helpers.css" target="_blank"
     class="position-fixed bottom-right margin-medium shadow-2 tooltipped btn-floating btn-large waves-effect waves-light blue"
     data-tooltip="Download Helpers.css" data-position="left">
     <i class="material-icons">file_download</i>
@@ -176,18 +182,30 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          <h5 class="white-text">Helpers.css</h5>
+          <p class="grey-text text-lighten-4">A small library to format and style page elements with CSS classes.</p>
         </div>
 
         <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
+          <h5 class="white-text">Author Links</h5>
 
           <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://klaver.me/victor" target="_blank">Portfolio</a>
+            </li>
+
+            <li>
+              <a class="grey-text text-lighten-3" href="https://github.com/ojvibeiro" target="_blank">GitHub</a>
+            </li>
+
+            <li>
+              <a class="grey-text text-lighten-3" href="https://linkedin.com/in/ojvibeiro" target="_blank">LinkedIn</a>
+            </li>
+
+            <li>
+              <a class="grey-text text-lighten-3" href="https://twitter.com/ojvibeiro" target="_blank">Twitter</a>
+            </li>
+
           </ul>
         </div>
       </div>
