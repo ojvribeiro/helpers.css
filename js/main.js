@@ -1,9 +1,5 @@
 let prevHash = undefined, scrollToTop;
 
-const sidebar  = document.querySelector('.sidebar');
-const relative = document.querySelector('.content');
-
-
 $('.collapsible').collapsible();
 $('.tooltipped').tooltip();
 
@@ -12,30 +8,10 @@ $('.scrollspy').scrollSpy({
 });
 
 routie({
-  '/get-started/': () => {
-    loadPage('get-started');
+  '/:page': (page) => {
+    loadPage(page);
     
     goToTop();
-
-    // console.log('get-started');
-  },
-
-  '/text/': () => {
-    loadPage('text');
-
-    goToTop();
-    
-
-    // console.log('text');
-  },
-
-  '/elements/': () => {
-    loadPage('elements');
-    
-    goToTop();
-    
-    
-
     // console.log('elements');
   }
 });
@@ -63,6 +39,8 @@ function loadPage (file) {
         
         // console.log(prevHash, currHash, file);
         if (currHash !== prevHash || prevHash === undefined) {
+          const collectionItem = document.querySelectorAll('.collection-item');
+
           updateInnerHTML('main', 'update', data);
           Prism.highlightAll();
           add(pageContent, 'showPage');
@@ -71,27 +49,27 @@ function loadPage (file) {
           progressBar().hide();
 
 
-          $('.collection-item').removeClass('active');
+          collectionItem.forEach(function (el) {
+            el.classList.remove('active');
+          });
     
-          setTimeout(function() { 
-            switch (file) {
-              case 'get-started':
-                $('.collapsible').collapsible('open', 0);
-              break;
-              case 'text':
-                $('.collapsible').collapsible('open', 1);
-              break;
-              case 'elements':
-                $('.collapsible').collapsible('open', 2);
-              break;
-              default:
+          setTimeout(function() {
+
+            if (file) {
+              let item = document.querySelectorAll('.sidebar ul li');
+              
+              for (let i in item) {
+                // console.log(file, item[i].id, item);
+                if (item[i].id === file) {
+                  $('.collapsible').collapsible('open', i);
+                  break;
+                }
+              }
             }
 
             $('.scrollspy').scrollSpy({
               scrollOffset: 100
             });
-            
-            sidebar.style.height = '';
           }, 400);
         }
         prevHash = location.hash;
@@ -112,13 +90,16 @@ function updateInnerHTML (element, insertType = undefined, content) {
   
   if (elementOnDOM.length > 0) {
     // console.log('elementOnDOM: ', elementOnDOM);
+    const showItem = document.querySelectorAll('.showItem');
     
     switch (insertType) {
       case 'append':
         elementOnDOM.append(content)
         .find('.showItem')
         .one('animationend',function () {
-          $('.showItem').removeClass('showItem');
+          showItem.forEach(function (el) {
+            el.classList.remove('showItem');
+          });
         });
 
       break;
@@ -126,7 +107,9 @@ function updateInnerHTML (element, insertType = undefined, content) {
         elementOnDOM.prepend(content)
         .find('.showItem')
         .one('animationend',function () {
-          $('.showItem').removeClass('showItem');
+          showItem.forEach(function (el) {
+            el.classList.remove('showItem');
+          });
         });
         break;
         default: // update
