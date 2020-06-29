@@ -4,25 +4,34 @@
     <div class="material-icons margin-right-small no-select">chevron_right</div>
     Text alignment
   </h2>
+    
+  <p>You can use these classes to easily align the texts of you page. The alignment depends on the element the text is within.</p>
 
+  
   <section>
     <h3 class="section-title text-middle position-sticky padding-y-medium no-margin-bottom">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-left
     </h3>
+    
+    <p>Aligns text to the left.</p>
 
     <pre class="language-markup"><code>&lt;p class="text-left"&gt;Left aligned&lt;/p&gt;</code></pre>
 
     <div class="sample-text">
       <p class="text-left">Left aligned</p>
     </div>
+
+    <p>The default value to <code>text-align</code> is already <code>left</code>, so you should only use it to force the left alignment.</p>
   </section>
 
   <section>
-    <h3 class="section-title text-middle position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-right
     </h3>
+    
+    <p>Aligns text to the right.</p>
 
     <pre class="language-markup"><code>&lt;p class="text-right"&gt;Right aligned&lt;/p&gt;</code></pre>
 
@@ -36,6 +45,8 @@
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-center
     </h3>
+    
+    <p>Aligns text to the center (horizontally).</p>
 
     <pre class="language-markup"><code>&lt;p class="text-center"&gt;Center aligned&lt;/p&gt;</code></pre>
 
@@ -49,6 +60,8 @@
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-middle
     </h3>
+    
+    <p>Aligns text to the middle (vertically) of the parent element. I added some artificial <code>height</code> of <code>200px</code> for better visualization.</p>
 
     <pre
       class="language-markup"><code>&lt;div class="text-middle" style="height: 200px;"&gt;Middle aligned&lt;/div&gt;</code></pre>
@@ -56,6 +69,17 @@
     <div class="sample-text">
       <div class="text-middle" style="height: 200px;">Middle aligned</div>
     </div>
+
+    <p>You can also use it combined with <code>text-center</code> to centralize the text inside a parent.</p>
+
+    <pre
+      class="language-markup"><code>&lt;div class="text-middle text-center" style="height: 200px;"&gt;Middle aligned&lt;/div&gt;</code></pre>
+
+    <div class="sample-text">
+      <div class="text-middle text-center" style="height: 200px;">Middle aligned</div>
+    </div>
+
+    <p>Feel free to combine it with <code>text-left</code> or <code>text-right</code> too.</p>
   </section>
 
   <section>
@@ -63,6 +87,8 @@
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-justify
     </h3>
+    
+    <p>Makes the text justified.</p>
 
     <pre
       class="language-markup"><code>&lt;p class="text-justify"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique urna eu ante scelerisque, quis varius purus tempus. Morbi finibus scelerisque feugiat. Proin quis laoreet lacus. Pellentesque sed commodo massa. Proin purus ante, pharetra accumsan justo eu, dapibus gravida dolor. Donec rutrum turpis ut egestas faucibus. Sed elit libero, sagittis eu quam vel, auctor vulputate lorem. Aenean egestas ante vitae orci ultrices, sit amet convallis nisl facilisis. Cras mattis, erat vel varius hendrerit, enim mi rutrum nisi, nec condimentum mauris magna vel eros. Quisque fringilla massa ultrices, tincidunt augue eget, luctus felis.&lt;/p&gt;</code></pre>
