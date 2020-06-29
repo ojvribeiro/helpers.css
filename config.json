@@ -1,337 +1,337 @@
 {
-  "containers": {
-    "container-smaller": true,
-    "container-small": true,
-    "container-medium": true,
-    "container-large": true,
-    "container-larger": true
-  },
+  "containers": [
+    "container-smaller",
+    "container-small",
+    "container-medium",
+    "container-large",
+    "container-larger"
+  ],
 
   "elements": {
     "style": {
-      "size": {
-        "full-width": true,
-        "full-height": true,
-        "half-width": true,
-        "half-height": true,
-        "fullscreen": true
-      },
+      "size": [
+        "full-width",
+        "full-height",
+        "half-width",
+        "half-height",
+        "fullscreen"
+      ],
 
       "paddings": {
-        "padding-all": {
-          "padding-smaller": true,
-          "padding-small": true,
-          "padding-medium": true,
-          "padding-large": true,
-          "padding-larger": true
-        },
+        "padding-all": [
+          "padding-smaller",
+          "padding-small",
+          "padding-medium",
+          "padding-large",
+          "padding-larger"
+        ],
 
-        "padding-x": {
-          "padding-x-smaller": true,
-          "padding-x-small": true,
-          "padding-x-medium": true,
-          "padding-x-large": true,
-          "padding-x-larger": true
-        },
+        "padding-x": [
+          "padding-x-smaller",
+          "padding-x-small",
+          "padding-x-medium",
+          "padding-x-large",
+          "padding-x-larger"
+        ],
 
-        "padding-y": {
-          "padding-y-smaller": true,
-          "padding-y-small": true,
-          "padding-y-medium": true,
-          "padding-y-large": true,
-          "padding-y-larger": true
-        },
+        "padding-y": [
+          "padding-y-smaller",
+          "padding-y-small",
+          "padding-y-medium",
+          "padding-y-large",
+          "padding-y-larger"
+        ],
 
-        "padding-left": {
-          "padding-left-smaller": true,
-          "padding-left-small": true,
-          "padding-left-medium": true,
-          "padding-left-large": true,
-          "padding-left-larger": true
-        },
+        "padding-left": [
+          "padding-left-smaller",
+          "padding-left-small",
+          "padding-left-medium",
+          "padding-left-large",
+          "padding-left-larger"
+        ],
 
-        "padding-right": {
-          "padding-right-smaller": true,
-          "padding-right-small": true,
-          "padding-right-medium": true,
-          "padding-right-large": true,
-          "padding-right-larger": true
-        },
+        "padding-right": [
+          "padding-right-smaller",
+          "padding-right-small",
+          "padding-right-medium",
+          "padding-right-large",
+          "padding-right-larger"
+        ],
 
-        "padding-top": {
-          "padding-top-smaller": true,
-          "padding-top-small": true,
-          "padding-top-medium": true,
-          "padding-top-large": true,
-          "padding-top-larger": true
-        },
+        "padding-top": [
+          "padding-top-smaller",
+          "padding-top-small",
+          "padding-top-medium",
+          "padding-top-large",
+          "padding-top-larger"
+        ],
 
-        "padding-bottom": {
-          "padding-bottom-smaller": true,
-          "padding-bottom-small": true,
-          "padding-bottom-medium": true,
-          "padding-bottom-large": true,
-          "padding-bottom-larger": true
-        }
+        "padding-bottom": [
+          "padding-bottom-smaller",
+          "padding-bottom-small",
+          "padding-bottom-medium",
+          "padding-bottom-large",
+          "padding-bottom-larger"
+        ]
       },
 
-      "rounded-corners": {
-        "ellipsis": true,
-        "border-radius-smaller": true,
-        "border-radius-small": true,
-        "border-radius-medium": true,
-        "border-radius-large": true,
-        "border-radius-larger": true
-      },
+      "rounded-corners": [
+        "ellipsis",
+        "border-radius-smaller",
+        "border-radius-small",
+        "border-radius-medium",
+        "border-radius-large",
+        "border-radius-larger"
+      ],
 
-      "shadows": {
-        "shadow-0": true,
-        "shadow-1": true,
-        "shadow-2": true,
-        "shadow-3": true,
-        "shadow-4": true,
-        "shadow-5": true
-      }
+      "shadows": [
+        "shadow-0",
+        "shadow-1",
+        "shadow-2",
+        "shadow-3",
+        "shadow-4",
+        "shadow-5"
+      ]
     },
 
     "positioning": {
-      "behavior": {
-        "position-absolute": true,
-        "position-relative": true,
-        "position-fixed": true,
-        "position-sticky": true
-      },
+      "behavior": [
+        "position-absolute",
+        "position-relative",
+        "position-fixed",
+        "position-sticky"
+      ],
 
-      "position": {
-        "top-left": true,
-        "top-middle": true,
-        "top-right": true,
-        "center": true,
-        "bottom-left": true,
-        "bottom-middle": true,
-        "bottom-right": true
-      },
+      "position": [
+        "top-left",
+        "top-middle",
+        "top-right",
+        "center",
+        "bottom-left",
+        "bottom-middle",
+        "bottom-right"
+      ],
 
-      "float": {
-        "float-left": true,
-        "float-right": true
-      },
+      "float": [
+        "float-left",
+        "float-right"
+      ],
 
       "margins": {
-        "margin-all": {
-          "margin-smaller": true,
-          "margin-small": true,
-          "margin-medium": true,
-          "margin-large": true,
-          "margin-larger": true
-        },
+        "margin-all": [
+          "margin-smaller",
+          "margin-small",
+          "margin-medium",
+          "margin-large",
+          "margin-larger"
+        ],
 
-        "margin-bottom": {
-          "margin-bottom-smaller": true,
-          "margin-bottom-small": true,
-          "margin-bottom-medium": true,
-          "margin-bottom-large": true,
-          "margin-bottom-larger": true
-        },
+        "margin-bottom": [
+          "margin-bottom-smaller",
+          "margin-bottom-small",
+          "margin-bottom-medium",
+          "margin-bottom-large",
+          "margin-bottom-larger"
+        ],
 
-        "margin-left": {
-          "margin-left-smaller": true,
-          "margin-left-small": true,
-          "margin-left-medium": true,
-          "margin-left-large": true,
-          "margin-left-larger": true
-        },
+        "margin-left": [
+          "margin-left-smaller",
+          "margin-left-small",
+          "margin-left-medium",
+          "margin-left-large",
+          "margin-left-larger"
+        ],
 
-        "margin-right": {
-          "margin-right-smaller": true,
-          "margin-right-small": true,
-          "margin-right-medium": true,
-          "margin-right-large": true,
-          "margin-right-larger": true
-        },
+        "margin-right": [
+          "margin-right-smaller",
+          "margin-right-small",
+          "margin-right-medium",
+          "margin-right-large",
+          "margin-right-larger"
+        ],
 
-        "margin-top": {
-          "margin-top-smaller": true,
-          "margin-top-small": true,
-          "margin-top-medium": true,
-          "margin-top-large": true,
-          "margin-top-larger": true
-        },
+        "margin-top": [
+          "margin-top-smaller",
+          "margin-top-small",
+          "margin-top-medium",
+          "margin-top-large",
+          "margin-top-larger"
+        ],
 
-        "margin-x": {
-          "margin-x-smaller": true,
-          "margin-x-small": true,
-          "margin-x-medium": true,
-          "margin-x-large": true,
-          "margin-x-larger": true
-        },
+        "margin-x": [
+          "margin-x-smaller",
+          "margin-x-small",
+          "margin-x-medium",
+          "margin-x-large",
+          "margin-x-larger"
+        ],
 
-        "margin-y": {
-          "margin-y-smaller": true,
-          "margin-y-small": true,
-          "margin-y-medium": true,
-          "margin-y-large": true,
-          "margin-y-larger": true
-        }
+        "margin-y": [
+          "margin-y-smaller",
+          "margin-y-small",
+          "margin-y-medium",
+          "margin-y-large",
+          "margin-y-larger"
+        ]
       },
 
       "overlapping": {
-        "overlap-top": {
-          "overlap-top-smaller": true,
-          "overlap-top-small": true,
-          "overlap-top-medium": true,
-          "overlap-top-large": true,
-          "overlap-top-larger": true
-        },
+        "overlap-top": [
+          "overlap-top-smaller",
+          "overlap-top-small",
+          "overlap-top-medium",
+          "overlap-top-large",
+          "overlap-top-larger"
+        ],
 
-        "overlap-bottom": {
-          "overlap-bottom-smaller": true,
-          "overlap-bottom-small": true,
-          "overlap-bottom-medium": true,
-          "overlap-bottom-large": true,
-          "overlap-bottom-larger": true
-        }
+        "overlap-bottom": [
+          "overlap-bottom-smaller",
+          "overlap-bottom-small",
+          "overlap-bottom-medium",
+          "overlap-bottom-large",
+          "overlap-bottom-larger"
+        ]
       }
     },
 
     "visibility": {
-      "blur": {
-        "blur-1": true,
-        "blur-2": true,
-        "blur-3": true
-      },
+      "blur": [
+        "blur-1",
+        "blur-2",
+        "blur-3"
+      ],
 
-      "display": {
-        "display-block": true,
-        "display-flex": true,
-        "display-grid": true,
-        "display-inline-block": true,
-        "display-inline-flex": true,
-        "display-inline": true,
-        "display-none": true,
-        "display-unset": true
-      },
+      "display": [
+        "display-block",
+        "display-flex",
+        "display-grid",
+        "display-inline-block",
+        "display-inline-flex",
+        "display-inline",
+        "display-none",
+        "display-unset"
+      ],
 
-      "frost-glass": {
-        "frost-glass-1": true,
-        "frost-glass-2": true,
-        "frost-glass-3": true
-      }
+      "frost-glass": [
+        "frost-glass-1",
+        "frost-glass-2",
+        "frost-glass-3"
+      ]
     }
   },
 
   "no-styles": {
-    "float": {
-      "no-float": true
-    },
+    "float": [
+      "no-float"
+    ],
 
-    "margins": {
-      "no-margin-bottom": true,
-      "no-margin-left": true,
-      "no-margin-right": true,
-      "no-margin-top": true,
-      "no-margin-x": true,
-      "no-margin-y": true,
-      "no-margin": true
-    },
+    "margins": [
+      "no-margin-bottom",
+      "no-margin-left",
+      "no-margin-right",
+      "no-margin-top",
+      "no-margin-x",
+      "no-margin-y",
+      "no-margin"
+    ],
 
-    "mouse-actions": {
-      "no-scroll": true,
-      "no-scroll-x": true,
-      "no-scroll-y": true,
-      "no-select": true,
-      "no-click": true
-    },
+    "mouse-actions": [
+      "no-scroll",
+      "no-scroll-x",
+      "no-scroll-y",
+      "no-select",
+      "no-click"
+    ],
 
-    "paddings": {
-      "no-padding": true,
-      "no-padding-x": true,
-      "no-padding-y": true,
-      "no-padding-left": true,
-      "no-padding-right": true,
-      "no-padding-top": true,
-      "no-padding-bottom": true
-    },
+    "paddings": [
+      "no-padding",
+      "no-padding-x",
+      "no-padding-y",
+      "no-padding-left",
+      "no-padding-right",
+      "no-padding-top",
+      "no-padding-bottom"
+    ],
 
-    "visibility": {
-      "no-display": true,
-      "no-opacity": true
-    }
+    "visibility": [
+      "no-display",
+      "no-opacity"
+    ]
   },
 
   "mouse-actions": {
-    "cursor": {
-      "cursor-cell": true,
-      "cursor-default": true,
-      "cursor-grab": true,
-      "cursor-grabbing": true,
-      "cursor-move": true,
-      "cursor-not-allowed": true,
-      "cursor-pointer": true,
-      "cursor-progress": true,
-      "cursor-resize-diagonal-1": true,
-      "cursor-resize-diagonal-2": true,
-      "cursor-resize-x": true,
-      "cursor-resize-y": true,
-      "cursor-text": true,
-      "cursor-wait": true,
-      "cursor-zoom-in": true,
-      "cursor-zoom-out": true
-    },
+    "cursor": [
+      "cursor-cell",
+      "cursor-default",
+      "cursor-grab",
+      "cursor-grabbing",
+      "cursor-move",
+      "cursor-not-allowed",
+      "cursor-pointer",
+      "cursor-progress",
+      "cursor-resize-diagonal-1",
+      "cursor-resize-diagonal-2",
+      "cursor-resize-x",
+      "cursor-resize-y",
+      "cursor-text",
+      "cursor-wait",
+      "cursor-zoom-in",
+      "cursor-zoom-out"
+    ],
 
-    "scroll": {
-      "scroll-all": true,
-      "scroll-auto": true,
-      "scroll-x-auto": true,
-      "scroll-x": true,
-      "scroll-y-auto": true,
-      "scroll-y": true
-    }
+    "scroll": [
+      "scroll-all",
+      "scroll-auto",
+      "scroll-x-auto",
+      "scroll-x",
+      "scroll-y-auto",
+      "scroll-y"
+    ]
   },
 
 
 
   "text": {
-    "text-align": {
-      "text-left": true,
-      "text-right": true,
-      "text-center": true,
-      "text-justify": true
-    },
+    "text-align": [
+      "text-left",
+      "text-right",
+      "text-center",
+      "text-justify"
+    ],
 
-    "text-size": {
-      "text-smaller": true,
-      "text-small": true,
-      "text-medium": true,
-      "text-large": true,
-      "text-larger": true
-    },
+    "text-size": [
+      "text-smaller",
+      "text-small",
+      "text-medium",
+      "text-large",
+      "text-larger"
+    ],
 
-    "text-spacing": {
-      "text-spacing-smaller": true,
-      "text-spacing-small": true,
-      "text-spacing-medium": true,
-      "text-spacing-large": true,
-      "text-spacing-larger": true
-    },
+    "text-spacing": [
+      "text-spacing-smaller",
+      "text-spacing-small",
+      "text-spacing-medium",
+      "text-spacing-large",
+      "text-spacing-larger"
+    ],
+    
+    "text-weight": [
+      "text-lighter",
+      "text-light",
+      "text-strong",
+      "text-stronger"
+    ],
 
-    "text-style": {
-      "text-italic": true,
-      "text-strike": true,
-      "text-underline": true,
-      "text-weight": {
-        "text-lighter": true,
-        "text-light": true,
-        "text-strong": true,
-        "text-stronger": true
-      }
-    },
+    "text-style": [
+      "text-italic",
+      "text-strike",
+      "text-underline"
+    ],
 
-    "text-transform": {
-      "text-lowercase": true,
-      "text-uppercase": true,
-      "text-capitalize": true
-    }
+    "text-transform": [
+      "text-lowercase",
+      "text-uppercase",
+      "text-capitalize"
+    ]
   }
-
 }
