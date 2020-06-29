@@ -230,6 +230,10 @@ button:focus {
   bottom: 40px;
 }
 
+.btn-floating {
+  z-index: 1000;
+}
+
 /* CARDS */
 .card {
   border-radius: 8px;
