@@ -25,6 +25,19 @@ code {
   border-radius: 2px;
 }
 
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@font-face {
+  font-family: LilyScriptOne;
+  src: url(../fonts/LilyScriptOne/LilyScriptOne-Regular.ttf);
+}
+
+.header-logo {
+  font-family: LilyScriptOne;
+}
+
 .sidebar {
   top: 50px;
 }
