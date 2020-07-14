@@ -76,6 +76,10 @@ code {
   right: -24px;
 }
 
+.section-title .material-icons {
+  pointer-events: none;
+}
+
 .sample-text {
   padding: 10px;
   background-color: aliceblue;
