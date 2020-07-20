@@ -1,15 +1,15 @@
 // _containers.scss
 @mixin centered {
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 @mixin default-mobile {
-  width: calc(100% - 32px);
+  width: calc(100% - 32px) !important;
   @include centered();
 }
 
 @mixin default-tablet {
-  width: calc(100% - 48px);
+  width: calc(100% - 48px) !important;
   @include centered();
 }
 
@@ -35,56 +35,56 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1365px) {
   .container-smaller {
-    max-width: calc(100% - 32px);
-    width: 420px;
+    max-width: calc(100% - 32px) !important;
+    width: 420px !important;
     @include centered();
   }
   .container-small {
-    max-width: calc(100% - 32px);
-    width: 660px;
+    max-width: calc(100% - 32px) !important;
+    width: 660px !important;
     @include centered();
   }
   .container-medium {
-    max-width: calc(100% - 32px);
-    width: 760px;
+    max-width: calc(100% - 32px) !important;
+    width: 760px !important;
     @include centered();
   }
   .container-large {
-    max-width: calc(100% - 32px);
-    width: 993px;
+    max-width: calc(100% - 32px) !important;
+    width: 993px !important;
     @include centered();
   }
   .container-larger {
-    max-width: calc(100% - 32px);
-    width: 1280px;
+    max-width: calc(100% - 32px) !important;
+    width: 1280px !important;
     @include centered();
   }
 }
 
 @media only screen and (min-width: 1366px) {
   .container-smaller {
-    max-width: calc(100% - 32px);
-    width: 420px;
+    max-width: calc(100% - 32px) !important;
+    width: 420px !important;
     @include centered();
   }
   .container-small {
-    max-width: calc(100% - 32px);
-    width: 660px;
+    max-width: calc(100% - 32px) !important;
+    width: 660px !important;
     @include centered();
   }
   .container-medium {
-    max-width: calc(100% - 32px);
-    width: 866px;
+    max-width: calc(100% - 32px) !important;
+    width: 866px !important;
     @include centered();
   }
   .container-large {
-    max-width: calc(100% - 32px);
-    width: 1280px;
+    max-width: calc(100% - 32px) !important;
+    width: 1280px !important;
     @include centered();
   }
   .container-larger {
-    max-width: calc(100% - 32px);
-    width: 1300px;
+    max-width: calc(100% - 32px) !important;
+    width: 1300px !important;
     @include centered();
   }
 }
