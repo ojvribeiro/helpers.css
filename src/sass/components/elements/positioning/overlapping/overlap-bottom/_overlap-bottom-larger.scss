@@ -1,6 +1,6 @@
 // _overlap-bottom-larger.scss
 .overlap-bottom-larger {
   position: relative;
-  bottom: 0;
-  margin-bottom: -72px;
+  bottom: 0 !important;
+  margin-bottom: -72px !important;
 }

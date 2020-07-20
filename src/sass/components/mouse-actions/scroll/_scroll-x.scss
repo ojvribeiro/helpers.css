@@ -1,5 +1,5 @@
 // _scroll-x.scss
 .scroll-x {
-  overflow: hidden;
-  overflow-x: scroll;
+  overflow: hidden !important;
+  overflow-x: scroll !important;
 }

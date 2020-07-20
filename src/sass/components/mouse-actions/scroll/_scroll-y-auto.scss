@@ -1,5 +1,5 @@
 // _scroll-y-auto.scss
 .scroll-y-auto {
-  overflow: hidden;
-  overflow-y: auto;
+  overflow: hidden !important;
+  overflow-y: auto !important;
 }
