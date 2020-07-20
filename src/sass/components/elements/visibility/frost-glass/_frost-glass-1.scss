@@ -1,4 +1,12 @@
 // _frost-glass-1.scss
 .frost-glass-1 {
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px) !important;
+}
+
+.frost-glass-1.dark {
+  background-color: rgba(0,0,0,0.2) !important;
+}
+
+.frost-glass-1.light {
+  background-color: rgba(255,255,255,0.2) !important;
 }
