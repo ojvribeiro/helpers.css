@@ -195,12 +195,6 @@
     },
 
     "visibility": {
-      "blur": [
-        "blur-1",
-        "blur-2",
-        "blur-3"
-      ],
-
       "display": [
         "display-block",
         "display-flex",
@@ -210,6 +204,14 @@
         "display-inline",
         "display-none",
         "display-unset"
+      ]
+    },
+
+    "effects": {
+      "blur": [
+        "blur-1",
+        "blur-2",
+        "blur-3"
       ],
 
       "frost-glass": [
@@ -314,7 +316,7 @@
       "text-spacing-large",
       "text-spacing-larger"
     ],
-    
+
     "text-weight": [
       "text-lighter",
       "text-light",
