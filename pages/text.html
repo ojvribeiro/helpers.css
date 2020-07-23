@@ -116,11 +116,26 @@
     Text size
   </h2>
 
+  <p>
+    Text sizes are well defined, so you have consistance across your site/app. Because we use <code>em</code> instead of
+    <code>px</code>, texts are fluid for every screen resolution.
+  </p>
+
   <section>
     <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-smaller
     </h3>
+
+    <p>
+      The <code>text-smaller</code> class has a size of <code>.7em</code>. It is really tiny, so you should use it only
+      in specific cases.
+    </p>
+
+    <p>
+      You should <span class="text-stronger">not</span> abuse of this size or the user experience will be seriously
+      affected.
+    </p>
 
     <pre class="language-html"><code>&lt;p class="text-smaller"&gt;Sample text&lt;/p&gt;</code></pre>
 
@@ -135,6 +150,11 @@
       text-small
     </h3>
 
+    <p>
+      The <code>text-small</code> class has a size of <code>.9em</code>. You can use it for small buttons or footer
+      notes, for example.
+    </p>
+
     <pre class="language-html"><code>&lt;p class="text-small"&gt;Sample text&lt;/p&gt;</code></pre>
 
     <div class="sample-text">
@@ -147,6 +167,11 @@
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-medium
     </h3>
+
+    <p>
+      The <code>text-medium</code> class has a size of <code>1em</code>. This is the default size for using in an
+      article/blog post.
+    </p>
 
     <pre class="language-html"><code>&lt;p class="text-medium"&gt;Sample text&lt;/p&gt;</code></pre>
 
@@ -161,10 +186,15 @@
       text-large
     </h3>
 
-    <pre class="language-html"><code>&lt;p class="text-large"&gt;Sample text&lt;/p&gt;</code></pre>
+    <p>
+      The <code>text-large</code> class has a size of <code>2em</code>. It has the equivalent size of a <code>h2</code>
+      tag, but you should use it within the <code>h2</code> to keep semantics.
+    </p>
+
+    <pre class="language-html"><code>&lt;h2 class="text-large"&gt;Sample text&lt;/h2&gt;</code></pre>
 
     <div class="sample-text">
-      <p class="text-large">Sample text</p>
+      <h2 class="text-large">Sample text</h2>
     </div>
   </section>
 
@@ -174,10 +204,16 @@
       text-larger
     </h3>
 
-    <pre class="language-html"><code>&lt;p class="text-larger"&gt;Sample text&lt;/p&gt;</code></pre>
+    <p>
+      The <code>text-larger</code> class has a size of <code>3em</code>. It has the equivalent size of a
+      <code>h1</code> tag, but, just like <code>text-large</code>, you should use it within the <code>h1</code> to keep
+      semantics.
+    </p>
+
+    <pre class="language-html"><code>&lt;h1 class="text-larger"&gt;Sample text&lt;/h1&gt;</code></pre>
 
     <div class="sample-text">
-      <p class="text-larger">Sample text</p>
+      <h1 class="text-larger">Sample text</h1>
     </div>
   </section>
 </div>
