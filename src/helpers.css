@@ -7,7 +7,8 @@
 .container-medium,
 .container-large,
 .container-larger {
-    width: calc(100% - 32px) !important;
+    width: 660px;
+    max-width: calc(100% - 48px) !important;
     margin: 0 auto !important;
   }
 }
@@ -17,37 +18,38 @@
 .container-medium,
 .container-large,
 .container-larger {
-    width: calc(100% - 48px) !important;
+    width: 660px;
+    max-width: calc(100% - 48px) !important;
     margin: 0 auto !important;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1365px) {
   .container-smaller {
-    max-width: calc(100% - 32px) !important;
+    max-width: calc(100% - 48px) !important;
     width: 420px !important;
     margin: 0 auto !important;
   }
 
   .container-small {
-    max-width: calc(100% - 32px) !important;
+    max-width: calc(100% - 48px) !important;
     width: 660px !important;
     margin: 0 auto !important;
   }
 
   .container-medium {
-    max-width: calc(100% - 32px) !important;
+    max-width: calc(100% - 48px) !important;
     width: 760px !important;
     margin: 0 auto !important;
   }
 
   .container-large {
-    max-width: calc(100% - 32px) !important;
+    max-width: calc(100% - 48px) !important;
     width: 993px !important;
     margin: 0 auto !important;
   }
 
   .container-larger {
-    max-width: calc(100% - 32px) !important;
+    max-width: calc(100% - 48px) !important;
     width: 1280px !important;
     margin: 0 auto !important;
   }
@@ -60,25 +62,25 @@
   }
 
   .container-small {
-    max-width: calc(100% - 32px) !important;
+    max-width: calc(100% - 48px) !important;
     width: 660px !important;
     margin: 0 auto !important;
   }
 
   .container-medium {
-    max-width: calc(100% - 32px) !important;
+    max-width: calc(100% - 48px) !important;
     width: 866px !important;
     margin: 0 auto !important;
   }
 
   .container-large {
-    max-width: calc(100% - 32px) !important;
+    max-width: calc(100% - 48px) !important;
     width: 1280px !important;
     margin: 0 auto !important;
   }
 
   .container-larger {
-    max-width: calc(100% - 32px) !important;
+    max-width: calc(100% - 48px) !important;
     width: 1300px !important;
     margin: 0 auto !important;
   }
