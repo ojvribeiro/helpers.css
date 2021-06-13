@@ -14,7 +14,14 @@
   <link rel="stylesheet" href="./fonts/LilyScriptOne/LilyScriptOne-Regular.ttf">
 
 
-  <link rel="stylesheet" href="../src/helpers.min.css?v=6438f09">
+  <link rel="stylesheet" href="../src/helpers.css">
+
+  <link defer rel="stylesheet" href="./fonts/font-awesome/css/all.min.css">
+  <link defer rel="stylesheet" href="./libs/materialize/css/materialize.min.css">
+  <link rel="stylesheet" href="./libs/prism/prism.min.css">
+
+  <link rel="stylesheet" href="./css/main.css">
+  <link defer rel="stylesheet" href="./css/custom/materialize/materialize.custom.min.css">
 
   <link rel="stylesheet" href="./libs/materialize/css/material-icons.min.css" />
 
@@ -23,19 +30,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
   <link rel="manifest" href="./img/favicon/site.webmanifest">
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171029727-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-171029727-1');
-  </script>
 
 </head>
 
@@ -55,8 +49,8 @@
 
     <ul class="collapsible">
       <li class="active">
-        <div class="collapsible-header waves-effect" onclick="routie('/get-started/')">
-          <i class="material-icons">flag</i>
+        <div class="collapsible-header padding-small waves-effect valign-wrapper" onclick="routie('/get-started/')">
+          <i class="material-icons text-medium margin-right-small">flag</i>
           Get started
         </div>
         <div class="collapsible-body no-padding"></div>
@@ -64,8 +58,8 @@
 
 
       <li id="containers">
-        <div class="collapsible-header waves-effect" onclick="routie('/containers/')">
-          <i class="material-icons">view_week</i>
+        <div class="collapsible-header padding-small waves-effect valign-wrapper" onclick="routie('/containers/')">
+          <i class="material-icons text-medium margin-right-small">view_week</i>
           Containers
         </div>
 
@@ -74,99 +68,99 @@
 
 
       <li id="text">
-        <div class="collapsible-header waves-effect" onclick="routie('/text/')">
-          <i class="material-icons">format_color_text</i>
+        <div class="collapsible-header padding-small waves-effect valign-wrapper" onclick="routie('/text/')">
+          <i class="material-icons text-medium margin-right-small">format_color_text</i>
           Text
         </div>
 
         <div class="collapsible-body no-padding">
           <div class="collection">
-            <a href="#text-alignment" class="collection-item text-capitalize">alignment</a>
-            <a href="#text-size" class="collection-item text-capitalize">size</a>
-            <a href="#text-spacing" class="collection-item text-capitalize">spacing</a>
-            <a href="#text-weight" class="collection-item text-capitalize">weight</a>
-            <a href="#text-style" class="collection-item text-capitalize">style</a>
-            <a href="#text-transform" class="collection-item text-capitalize">transform</a>
+            <a href="#text-alignment" class="collection-item text-capitalize padding-small">alignment</a>
+            <a href="#text-size" class="collection-item text-capitalize padding-small">size</a>
+            <a href="#text-spacing" class="collection-item text-capitalize padding-small">spacing</a>
+            <a href="#text-weight" class="collection-item text-capitalize padding-small">weight</a>
+            <a href="#text-style" class="collection-item text-capitalize padding-small">style</a>
+            <a href="#text-transform" class="collection-item text-capitalize padding-small">transform</a>
           </div>
         </div>
       </li>
 
       <li id="elements">
-        <div class="collapsible-header waves-effect" onclick="routie('/elements/')">
-          <i class="material-icons">widgets</i>
+        <div class="collapsible-header padding-small waves-effect valign-wrapper" onclick="routie('/elements/')">
+          <i class="material-icons text-medium margin-right-small">widgets</i>
           Elements
         </div>
 
         <div class="collapsible-body no-padding">
           <div class="collection">
-            <a href="#sizes" class="collection-item text-capitalize">sizes</a>
-            <a href="#paddings" class="collection-item text-capitalize">paddings</a>
-            <a href="#rounded-corners" class="collection-item text-capitalize">rounded corners</a>
-            <a href="#shadows" class="collection-item text-capitalize">shadows</a>
-            <a href="#behavior" class="collection-item text-capitalize">behavior</a>
-            <a href="#position" class="collection-item text-capitalize">position</a>
-            <a href="#float" class="collection-item text-capitalize">float</a>
-            <a href="#margins" class="collection-item text-capitalize">margins</a>
-            <a href="#overlapping" class="collection-item text-capitalize">overlapping</a>
+            <a href="#sizes" class="collection-item text-capitalize padding-small">sizes</a>
+            <a href="#paddings" class="collection-item text-capitalize padding-small">paddings</a>
+            <a href="#rounded-corners" class="collection-item text-capitalize padding-small">rounded corners</a>
+            <a href="#shadows" class="collection-item text-capitalize padding-small">shadows</a>
+            <a href="#behavior" class="collection-item text-capitalize padding-small">behavior</a>
+            <a href="#position" class="collection-item text-capitalize padding-small">position</a>
+            <a href="#float" class="collection-item text-capitalize padding-small">float</a>
+            <a href="#margins" class="collection-item text-capitalize padding-small">margins</a>
+            <a href="#overlapping" class="collection-item text-capitalize padding-small">overlapping</a>
           </div>
         </div>
       </li>
 
       <li id="visibility">
-        <div class="collapsible-header waves-effect" onclick="routie('/visibility/')">
-          <i class="material-icons">visibility</i>
+        <div class="collapsible-header padding-small waves-effect valign-wrapper" onclick="routie('/visibility/')">
+          <i class="material-icons text-medium margin-right-small">visibility</i>
           Visibility
         </div>
 
         <div class="collapsible-body no-padding">
           <div class="collection">
-            <a href="#display" class="collection-item text-capitalize">display</a>
+            <a href="#display" class="collection-item text-capitalize padding-small">display</a>
           </div>
         </div>
       </li>
 
       <li id="effects">
-        <div class="collapsible-header waves-effect" onclick="routie('/effects/')">
-          <i class="material-icons">tonality</i>
+        <div class="collapsible-header padding-small waves-effect valign-wrapper" onclick="routie('/effects/')">
+          <i class="material-icons text-medium margin-right-small">tonality</i>
           Effects
         </div>
 
         <div class="collapsible-body no-padding">
           <div class="collection">
-            <a href="#blur" class="collection-item text-capitalize">blur</a>
-            <a href="#frost-glass" class="collection-item text-capitalize">frost glass</a>
+            <a href="#blur" class="collection-item text-capitalize padding-small">blur</a>
+            <a href="#frost-glass" class="collection-item text-capitalize padding-small">frost glass</a>
           </div>
         </div>
       </li>
 
       <li id="no-styles">
-        <div class="collapsible-header waves-effect" onclick="routie('/no-styles/')">
-          <i class="material-icons">do_not_disturb</i>
+        <div class="collapsible-header padding-small waves-effect valign-wrapper" onclick="routie('/no-styles/')">
+          <i class="material-icons text-medium margin-right-small">do_not_disturb</i>
           No!
         </div>
 
         <div class="collapsible-body no-padding">
           <div class="collection">
-            <a href="#no-float" class="collection-item text-capitalize">no float</a>
-            <a href="#no-margin" class="collection-item text-capitalize">no margin</a>
-            <a href="#no-mouse-actions" class="collection-item text-capitalize">no mouse actions</a>
-            <a href="#no-padding" class="collection-item text-capitalize">no padding</a>
-            <a href="#no-visibility" class="collection-item text-capitalize">no visibility</a>
+            <a href="#no-float" class="collection-item text-capitalize padding-small">no float</a>
+            <a href="#no-margin" class="collection-item text-capitalize padding-small">no margin</a>
+            <a href="#no-mouse-actions" class="collection-item text-capitalize padding-small">no mouse actions</a>
+            <a href="#no-padding" class="collection-item text-capitalize padding-small">no padding</a>
+            <a href="#no-visibility" class="collection-item text-capitalize padding-small">no visibility</a>
           </div>
         </div>
       </li>
 
 
       <li id="mouse-actions">
-        <div class="collapsible-header waves-effect" onclick="routie('/mouse-actions/')">
-          <i class="material-icons">mouse</i>
+        <div class="collapsible-header padding-small waves-effect valign-wrapper" onclick="routie('/mouse-actions/')">
+          <i class="material-icons text-medium margin-right-small">mouse</i>
           Mouse actions
         </div>
 
         <div class="collapsible-body no-padding">
           <div class="collection">
-            <a href="#cursor" class="collection-item text-capitalize">cursor</a>
-            <a href="#scroll" class="collection-item text-capitalize">scroll</a>
+            <a href="#cursor" class="collection-item text-capitalize padding-small">cursor</a>
+            <a href="#scroll" class="collection-item text-capitalize padding-small">scroll</a>
           </div>
         </div>
       </li>
@@ -186,7 +180,7 @@
 
     <div class="center full-width">
       <h1 class="header-logo white-text text-stronger no-select margin-bottom-large">
-        <span>Helpers</span><span class="text-smaller">.css</span>
+        <span>Helpers</span><span class="text-large">.css</span>
       </h1>
 
       <p class="white-text padding-x-large margin-y-large">A small library to format and style page elements with CSS
@@ -217,7 +211,7 @@
   </a>
 
   <div class="row display-flex main-content">
-    <div class="col s1 m1 l1 xl1 hide-on-med-and-down"></div>
+    <div class="col l2 hide-on-med-and-down"></div>
 
     <div class="col s1 m3 l3 xl3 hide-on-med-and-down">
       <aside class="sidebar position-sticky">
@@ -225,11 +219,11 @@
       </aside>
     </div>
 
-    <div class="col s12 l7 xl7 overlap-top-large content">
+    <div class="col s12 l7 xl6 overlap-top-large content">
       <main></main>
     </div>
 
-    <div class="col s1 m1 l1 xl1 hide-on-med-and-down"></div>
+    <div class="col l3 hide-on-med-and-down"></div>
 
   </div>
 
@@ -276,18 +270,11 @@
 
 
 
-  <link defer rel="stylesheet" href="./fonts/font-awesome/css/all.min.css">
-  <link defer rel="stylesheet" href="./libs/materialize/css/materialize.min.css">
-  <link rel="stylesheet" href="./libs/prism/prism.min.css">
-
-  <link rel="stylesheet" href="./css/main.css?v=6438f09">
-  <link defer rel="stylesheet" href="./css/custom/materialize/materialize.custom.min.css?v=6438f09">
-
   <script src="./libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="./libs/materialize/js/materialize.min.js"></script>
   <script src="./libs/prism/prism.js"></script>
   <script src="./libs/routie/routie.min.js"></script>
-  <script src="./js/main.js?v=ee74846"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

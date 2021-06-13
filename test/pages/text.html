@@ -1,7 +1,6 @@
 <div id="text-alignment" class="card padding-medium scrollspy">
 
-  <h2 class="text-lighter display-flex">
-    <div class="material-icons margin-right-small no-select">chevron_right</div>
+  <h2 class="display-flex text-stronger margin-bottom-large">
     Text alignment
   </h2>
 
@@ -10,7 +9,7 @@
 
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-left
     </h3>
@@ -28,7 +27,7 @@
   </section>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-right
     </h3>
@@ -43,7 +42,7 @@
   </section>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-center
     </h3>
@@ -58,7 +57,7 @@
   </section>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-middle
     </h3>
@@ -86,7 +85,7 @@
   </section>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-justify
     </h3>
@@ -111,25 +110,38 @@
 
 
 <div id="text-size" class="card padding-medium scrollspy">
-  <h2 class="text-lighter display-flex">
-    <div class="material-icons margin-right-small no-select">chevron_right</div>
+  <h2 class="display-flex text-stronger margin-bottom-large">
     Text size
   </h2>
 
   <p>
-    Text sizes are well defined, so you have consistance across your site/app. Because we use <code>em</code> instead of
-    <code>px</code>, texts are fluid for every screen resolution.
+    Text sizes in Helpers.css follows well-defined standards, keeping consistency across your project.
   </p>
 
+  <p>
+    There are six text sizes you can use:
+
+    <ul>
+      <li class="text-largest">Largest</li>
+      <li class="text-larger">Larger</li>
+      <li class="text-large">Large</li>
+      <li class="text-medium">Medium</li>
+      <li class="text-small">Small</li>
+      <li class="text-smaller">Smaller</li>
+    </ul>
+  </p>
+
+
+  <!-- text-smaller -->
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-smaller
     </h3>
 
     <p>
-      The <code>text-smaller</code> class has a size of <code>.7em</code>. It is really tiny, so you should use it only
-      in specific cases.
+      The <code>text-smaller</code> class has a text size equivalent to <code>10px</code>. It is really tiny, so you should use it only
+      in very specific cases.
     </p>
 
     <p>
@@ -144,15 +156,16 @@
     </div>
   </section>
 
+
+  <!-- text-small -->
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-small
     </h3>
 
     <p>
-      The <code>text-small</code> class has a size of <code>.9em</code>. You can use it for small buttons or footer
-      notes, for example.
+      The <code>text-small</code> class has a text size equivalent to <code>16px</code> and it's the default text size if none is defined.
     </p>
 
     <pre class="language-html"><code>&lt;p class="text-small"&gt;Sample text&lt;/p&gt;</code></pre>
@@ -162,15 +175,16 @@
     </div>
   </section>
 
+
+  <!-- text-medium -->
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-medium
     </h3>
 
     <p>
-      The <code>text-medium</code> class has a size of <code>1em</code>. This is the default size for using in an
-      article/blog post.
+      The <code>text-medium</code> class has a text size equivalent to <code>21px</code>. It is recommended that you use this class in paragraphs and subtitles.
     </p>
 
     <pre class="language-html"><code>&lt;p class="text-medium"&gt;Sample text&lt;/p&gt;</code></pre>
@@ -180,40 +194,63 @@
     </div>
   </section>
 
+
+  <!-- text-large -->
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-large
     </h3>
 
     <p>
-      The <code>text-large</code> class has a size of <code>2em</code>. It has the equivalent size of a <code>h2</code>
-      tag, but you should use it within the <code>h2</code> to keep semantics.
+      The <code>text-large</code> class has a text size equivalent to <code>32px</code>. You should use it within
+      the <code>h3</code> tag when necessary to keep semantics.
     </p>
 
-    <pre class="language-html"><code>&lt;h2 class="text-large"&gt;Sample text&lt;/h2&gt;</code></pre>
+    <pre class="language-html"><code>&lt;h3 class="text-large"&gt;Sample text&lt;/h3&gt;</code></pre>
 
     <div class="sample-text">
-      <h2 class="text-large">Sample text</h2>
+      <h3 class="text-large">Sample text</h3>
     </div>
   </section>
 
+
+  <!-- text-larger -->
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-larger
     </h3>
 
     <p>
-      The <code>text-larger</code> class has a size of <code>3em</code>. It has the equivalent size of a
-      <code>h1</code> tag, but, just like <code>text-large</code>, you should use it within the <code>h1</code> to keep
-      semantics.
+      The <code>text-larger</code> class has a size of <code>42px</code>. You should use it within
+      the <code>h2</code> tag when necessary to keep semantics.
     </p>
 
-    <pre class="language-html"><code>&lt;h1 class="text-larger"&gt;Sample text&lt;/h1&gt;</code></pre>
+    <pre class="language-html"><code>&lt;h2 class="text-larger"&gt;Sample text&lt;/h2&gt;</code></pre>
 
     <div class="sample-text">
-      <h1 class="text-larger">Sample text</h1>
+      <h2 class="text-larger">Sample text</h2>
+    </div>
+  </section>
+
+
+  <!-- text-largest -->
+  <section>
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
+      <div class="material-icons margin-right-small no-select">chevron_right</div>
+      text-largest
+    </h3>
+
+    <p>
+      The <code>text-largest</code> class has a size of <code>56px</code>. You should use it within
+      the <code>h1</code> tag when necessary to keep semantics.
+    </p>
+
+    <pre class="language-html"><code>&lt;h1 class="text-largest"&gt;Sample text&lt;/h1&gt;</code></pre>
+
+    <div class="sample-text">
+      <h1 class="text-largest">Sample text</h1>
     </div>
   </section>
 </div>
@@ -223,13 +260,12 @@
 
 
 <div id="text-spacing" class="card padding-medium scrollspy">
-  <h2 class="text-lighter display-flex">
-    <div class="material-icons margin-right-small no-select">chevron_right</div>
+  <h2 class="display-flex text-stronger margin-bottom-large">
     Text spacing
   </h2>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-spacing-smaller
     </h3>
@@ -242,7 +278,7 @@
   </section>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-spacing-small
     </h3>
@@ -255,7 +291,7 @@
   </section>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-spacing-medium
     </h3>
@@ -268,7 +304,7 @@
   </section>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-spacing-large
     </h3>
@@ -281,7 +317,7 @@
   </section>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-spacing-larger
     </h3>
@@ -299,13 +335,12 @@
 
 
 <div id="text-weight" class="card padding-medium scrollspy">
-  <h2 class="text-lighter display-flex">
-    <div class="material-icons margin-right-small no-select">chevron_right</div>
+  <h2 class="display-flex text-stronger margin-bottom-large">
     Text weight
   </h2>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-lighter
     </h3>
@@ -318,7 +353,7 @@
   </section>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-light
     </h3>
@@ -331,7 +366,7 @@
   </section>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-strong
     </h3>
@@ -344,7 +379,7 @@
   </section>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-stronger
     </h3>
@@ -361,13 +396,12 @@
 
 
 <div id="text-style" class="card padding-medium scrollspy">
-  <h2 class="text-lighter display-flex">
-    <div class="material-icons margin-right-small no-select">chevron_right</div>
+  <h2 class="display-flex text-stronger margin-bottom-large">
     Text style
   </h2>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-italic
     </h3>
@@ -380,7 +414,7 @@
   </section>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-strike
     </h3>
@@ -393,7 +427,7 @@
   </section>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-underline
     </h3>
@@ -410,13 +444,12 @@
 
 
 <div id="text-transform" class="card padding-medium scrollspy">
-  <h2 class="text-lighter display-flex">
-    <div class="material-icons margin-right-small no-select">chevron_right</div>
+  <h2 class="display-flex text-stronger margin-bottom-large">
     Text transform
   </h2>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-capitalize
     </h3>
@@ -429,7 +462,7 @@
   </section>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-lowercase
     </h3>
@@ -442,7 +475,7 @@
   </section>
 
   <section>
-    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom">
+    <h3 class="section-title display-flex position-sticky padding-y-medium no-margin-bottom text-middle text-stronger">
       <div class="material-icons margin-right-small no-select">chevron_right</div>
       text-uppercase
     </h3>
