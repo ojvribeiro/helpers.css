@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+html {
+  font-size: 62.5% !important;
+}
+
+html, body {
+  font-size: 1.6rem;
+}
+
 // @containers
 /**
  * Containers
@@ -53,11 +61,7 @@
 /**
  * Text size
 */
-@import './components/text/text-size/text-smaller';
-@import './components/text/text-size/text-small';
-@import './components/text/text-size/text-medium';
-@import './components/text/text-size/text-large';
-@import './components/text/text-size/text-larger';
+@import './components/text/text-size/text-size';
 
 // @text/text-spacing
 /**
