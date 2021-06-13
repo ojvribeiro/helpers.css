@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2196F3" />
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Helpers.css</title>
+
+
+
+  <link rel="stylesheet" href="./fonts/LilyScriptOne/LilyScriptOne-Regular.ttf">
+
+
+  <link rel="stylesheet" href="../src/helpers.min.css?v=6438f09">
+
+  <link rel="stylesheet" href="./libs/materialize/css/material-icons.min.css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./img/favicon/site.webmanifest">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171029727-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-171029727-1');
+  </script>
+
+</head>
+
+<body>
+  <div class="helpers-progress">
+    <div class="helpers-progress--bar" style="width: 15%;"></div>
+  </div>
+
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background"></div>
+
+      </div>
+    </li>
+
+
+    <ul class="collapsible">
+      <li class="active">
+        <div class="collapsible-header waves-effect" onclick="routie('/get-started/')">
+          <i class="material-icons">flag</i>
+          Get started
+        </div>
+        <div class="collapsible-body no-padding"></div>
+      </li>
+
+
+      <li id="containers">
+        <div class="collapsible-header waves-effect" onclick="routie('/containers/')">
+          <i class="material-icons">view_week</i>
+          Containers
+        </div>
+
+        <div class="collapsible-body no-padding"></div>
+      </li>
+
+
+      <li id="text">
+        <div class="collapsible-header waves-effect" onclick="routie('/text/')">
+          <i class="material-icons">format_color_text</i>
+          Text
+        </div>
+
+        <div class="collapsible-body no-padding">
+          <div class="collection">
+            <a href="#text-alignment" class="collection-item text-capitalize">alignment</a>
+            <a href="#text-size" class="collection-item text-capitalize">size</a>
+            <a href="#text-spacing" class="collection-item text-capitalize">spacing</a>
+            <a href="#text-weight" class="collection-item text-capitalize">weight</a>
+            <a href="#text-style" class="collection-item text-capitalize">style</a>
+            <a href="#text-transform" class="collection-item text-capitalize">transform</a>
+          </div>
+        </div>
+      </li>
+
+      <li id="elements">
+        <div class="collapsible-header waves-effect" onclick="routie('/elements/')">
+          <i class="material-icons">widgets</i>
+          Elements
+        </div>
+
+        <div class="collapsible-body no-padding">
+          <div class="collection">
+            <a href="#sizes" class="collection-item text-capitalize">sizes</a>
+            <a href="#paddings" class="collection-item text-capitalize">paddings</a>
+            <a href="#rounded-corners" class="collection-item text-capitalize">rounded corners</a>
+            <a href="#shadows" class="collection-item text-capitalize">shadows</a>
+            <a href="#behavior" class="collection-item text-capitalize">behavior</a>
+            <a href="#position" class="collection-item text-capitalize">position</a>
+            <a href="#float" class="collection-item text-capitalize">float</a>
+            <a href="#margins" class="collection-item text-capitalize">margins</a>
+            <a href="#overlapping" class="collection-item text-capitalize">overlapping</a>
+          </div>
+        </div>
+      </li>
+
+      <li id="visibility">
+        <div class="collapsible-header waves-effect" onclick="routie('/visibility/')">
+          <i class="material-icons">visibility</i>
+          Visibility
+        </div>
+
+        <div class="collapsible-body no-padding">
+          <div class="collection">
+            <a href="#display" class="collection-item text-capitalize">display</a>
+          </div>
+        </div>
+      </li>
+
+      <li id="effects">
+        <div class="collapsible-header waves-effect" onclick="routie('/effects/')">
+          <i class="material-icons">tonality</i>
+          Effects
+        </div>
+
+        <div class="collapsible-body no-padding">
+          <div class="collection">
+            <a href="#blur" class="collection-item text-capitalize">blur</a>
+            <a href="#frost-glass" class="collection-item text-capitalize">frost glass</a>
+          </div>
+        </div>
+      </li>
+
+      <li id="no-styles">
+        <div class="collapsible-header waves-effect" onclick="routie('/no-styles/')">
+          <i class="material-icons">do_not_disturb</i>
+          No!
+        </div>
+
+        <div class="collapsible-body no-padding">
+          <div class="collection">
+            <a href="#no-float" class="collection-item text-capitalize">no float</a>
+            <a href="#no-margin" class="collection-item text-capitalize">no margin</a>
+            <a href="#no-mouse-actions" class="collection-item text-capitalize">no mouse actions</a>
+            <a href="#no-padding" class="collection-item text-capitalize">no padding</a>
+            <a href="#no-visibility" class="collection-item text-capitalize">no visibility</a>
+          </div>
+        </div>
+      </li>
+
+
+      <li id="mouse-actions">
+        <div class="collapsible-header waves-effect" onclick="routie('/mouse-actions/')">
+          <i class="material-icons">mouse</i>
+          Mouse actions
+        </div>
+
+        <div class="collapsible-body no-padding">
+          <div class="collection">
+            <a href="#cursor" class="collection-item text-capitalize">cursor</a>
+            <a href="#scroll" class="collection-item text-capitalize">scroll</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </ul>
+
+  <div class="header-notice">
+    This documentation is still incomplete. In the meanwhile, you can check all features in the <a
+      href="https://github.com/ojvribeiro/helpers.css/blob/master/config.json" target="_blank"
+      rel="nofollow noreferrer">config.json file on GitHub</a>.
+  </div>
+
+  <div class="header-cover position-relative blue">
+    <div data-target="slide-out" class="sidenav-trigger hide-on-large-only">
+      <i class="material-icons">menu</i>
+    </div>
+
+    <div class="center full-width">
+      <h1 class="header-logo white-text text-stronger no-select margin-bottom-large">
+        <span>Helpers</span><span class="text-smaller">.css</span>
+      </h1>
+
+      <p class="white-text padding-x-large margin-y-large">A small library to format and style page elements with CSS
+        classes.</p>
+
+      <a href="https://raw.githubusercontent.com/ojvribeiro/helpers.css/master/src/helpers.css"
+        class="btn white blue-text waves-effect shadow-0" target="_blank">
+        <i class="material-icons left margin-right-small">file_download</i>
+        Download</a>
+
+      <a href="https://github.com/ojvribeiro/helpers.css/" target="_blank"
+        class="btn black white-text waves-effect waves-light shadow-0">
+        <i class="fab fa-github margin-right-medium left"></i>
+        GitHub
+      </a>
+
+      <p class="white-text">
+        A project by <a href="https://klaver.me/victor" class="white-text text-underline" target="_blank">Victor
+          Ribeiro</a>.
+      </p>
+    </div>
+  </div>
+
+  <a href="https://raw.githubusercontent.com/ojvribeiro/helpers.css/master/src/helpers.css" target="_blank"
+    class="position-fixed bottom-right margin-medium shadow-2 tooltipped btn-floating btn-large waves-effect waves-light blue"
+    data-tooltip="Download Helpers.css" data-position="left">
+    <i class="material-icons">file_download</i>
+  </a>
+
+  <div class="row display-flex main-content">
+    <div class="col s1 m1 l1 xl1 hide-on-med-and-down"></div>
+
+    <div class="col s1 m3 l3 xl3 hide-on-med-and-down">
+      <aside class="sidebar position-sticky">
+        <ul id="side-menu" class="collapsible"></ul><!-- Updated from nav menu -->
+      </aside>
+    </div>
+
+    <div class="col s12 l7 xl7 overlap-top-large content">
+      <main></main>
+    </div>
+
+    <div class="col s1 m1 l1 xl1 hide-on-med-and-down"></div>
+
+  </div>
+
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Helpers.css</h5>
+          <p class="grey-text text-lighten-4">A small library to format and style page elements with CSS classes.</p>
+        </div>
+
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Author Links</h5>
+
+          <ul>
+            <li>
+              <a class="grey-text text-lighten-3" href="https://klaver.me/victor" target="_blank">Portfolio</a>
+            </li>
+
+            <li>
+              <a class="grey-text text-lighten-3" href="https://github.com/ojvibeiro" target="_blank">GitHub</a>
+            </li>
+
+            <li>
+              <a class="grey-text text-lighten-3" href="https://linkedin.com/in/ojvibeiro" target="_blank">LinkedIn</a>
+            </li>
+
+            <li>
+              <a class="grey-text text-lighten-3" href="https://twitter.com/ojvibeiro" target="_blank">Twitter</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Helpers.css is an open-source project by <a class="grey-text text-lighten-3" href="https://klaver.me/victor"
+          target="_blank" rel="noreferrer nofollow">Victor Ribeiro</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <link defer rel="stylesheet" href="./fonts/font-awesome/css/all.min.css">
+  <link defer rel="stylesheet" href="./libs/materialize/css/materialize.min.css">
+  <link rel="stylesheet" href="./libs/prism/prism.min.css">
+
+  <link rel="stylesheet" href="./css/main.css?v=6438f09">
+  <link defer rel="stylesheet" href="./css/custom/materialize/materialize.custom.min.css?v=6438f09">
+
+  <script src="./libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./libs/materialize/js/materialize.min.js"></script>
+  <script src="./libs/prism/prism.js"></script>
+  <script src="./libs/routie/routie.min.js"></script>
+  <script src="./js/main.js?v=ee74846"></script>
+</body>
+
+</html>
