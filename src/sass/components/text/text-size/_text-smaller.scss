@@ -1,4 +1,38 @@
 // _text-smaller.scss
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
 .text-smaller {
-  font-size: 1.2rem !important;
+	font-size: 1rem !important;
+	transition: .2s ease-in-out;
+}
+
+h6,
+p {
+	font-size: 1rem;
+	transition: .2s ease-in-out;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+	.text-smaller {
+		font-size: 1.2rem !important;
+	}
+
+	h6,
+	p {
+		font-size: 1.2rem;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	.text-smaller {
+		font-size: 1.4rem !important;
+	}
+
+	h6,
+	p {
+		font-size: 1.4rem;
+	}
 }

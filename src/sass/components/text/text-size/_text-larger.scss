@@ -1,8 +1,35 @@
 // _text-larger.scss
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
 .text-larger {
-  font-size: 4.2rem !important;
+  font-size: 2.8rem !important;
+	transition: .2s ease-in-out;
 }
 
 h2 {
-  font-size: 4.2rem;
+  font-size: 2.8rem;
+	transition: .2s ease-in-out;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+	.text-larger {
+		font-size: 3.2rem !important;
+	}
+
+	h2 {
+		font-size: 3.2rem;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+	.text-larger {
+		font-size: 4.2rem !important;
+	}
+
+	h2 {
+		font-size: 4.2rem;
+	}
 }
