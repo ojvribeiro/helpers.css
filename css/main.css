@@ -1,3 +1,11 @@
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@font-face {
+	font-family: LilyScriptOne;
+	src: url(../fonts/LilyScriptOne/LilyScriptOne-Regular.ttf);
+}
+
 @font-face {
 	font-family: 'Inter';
 	src: url(../fonts/Inter/static/Inter-Regular.ttf);
@@ -32,13 +40,6 @@ code {
 }
 
 
-/*--------------------------------------------------------------
-# Typography
---------------------------------------------------------------*/
-@font-face {
-  font-family: LilyScriptOne;
-  src: url(../fonts/LilyScriptOne/LilyScriptOne-Regular.ttf);
-}
 
 
 .header-notice {
@@ -50,7 +51,7 @@ code {
 
 .header-logo {
   font-family: LilyScriptOne;
-  font-size: 4rem;
+  font-size: 7rem;
 }
 
 .sidebar {
