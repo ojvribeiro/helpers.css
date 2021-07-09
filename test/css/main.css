@@ -1,3 +1,17 @@
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@font-face {
+	font-family: LilyScriptOne;
+	src: url(../fonts/LilyScriptOne/LilyScriptOne-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url(../fonts/Inter/static/Inter-Regular.ttf);
+}
+
+
 html {
   overflow: scroll;
   overflow-x: hidden;
@@ -26,13 +40,6 @@ code {
 }
 
 
-/*--------------------------------------------------------------
-# Typography
---------------------------------------------------------------*/
-@font-face {
-  font-family: LilyScriptOne;
-  src: url(../fonts/LilyScriptOne/LilyScriptOne-Regular.ttf);
-}
 
 
 .header-notice {
