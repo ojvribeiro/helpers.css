@@ -1,35 +1,36 @@
-// _text-medium.scss
+// _text-largest.scss
 
 // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
-.text-medium {
-	font-size: 1.6rem !important;
+.text-largest {
+  font-size: 3.6rem !important;
 	transition: .2s ease-in-out;
 }
 
-h4 {
-	font-size: 1.6rem;
+h1 {
+  font-size: 3.6rem;
 	transition: .2s ease-in-out;
 }
+
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-	.text-medium {
-		font-size: 1.8rem !important;
+	.text-larger {
+		font-size: 4.2rem !important;
 	}
 
-	h4 {
-		font-size: 1.8rem;
+	h1 {
+		font-size: 4.2rem;
 	}
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-	.text-medium {
-		font-size: 2.1rem !important;
+	.text-larger {
+		font-size: 5.6rem !important;
 	}
 
-	h4 {
-		font-size: 2.1rem;
+	h1 {
+		font-size: 5.6rem;
 	}
 }

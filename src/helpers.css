@@ -1,3 +1,11 @@
+html {
+  font-size: 62.5% !important;
+}
+
+html, body {
+  font-size: 1.6rem;
+}
+
 /**
  * Containers
 */
@@ -211,25 +219,176 @@
  * Text size
 */
 .text-smaller {
-  font-size: 0.7em !important;
+  font-size: 1rem !important;
+  transition: 0.2s ease-in-out;
 }
 
+h6,
+p {
+  font-size: 1rem;
+  transition: 0.2s ease-in-out;
+}
+
+@media (min-width: 576px) {
+  .text-smaller {
+    font-size: 1.2rem !important;
+  }
+
+  h6,
+p {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 768px) {
+  .text-smaller {
+    font-size: 1.4rem !important;
+  }
+
+  h6,
+p {
+    font-size: 1.4rem;
+  }
+}
 .text-small {
-  font-size: 0.9em !important;
+  font-size: 1.4rem !important;
+  transition: 0.2s ease-in-out;
 }
 
+h5, p {
+  font-size: 1.4rem;
+  transition: 0.2s ease-in-out;
+}
+
+@media (min-width: 576px) {
+  .text-small {
+    font-size: 1.6rem !important;
+  }
+
+  h5, p {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 768px) {
+  .text-small {
+    font-size: 1.8rem !important;
+  }
+
+  h5, p {
+    font-size: 1.8rem;
+  }
+}
 .text-medium {
-  font-size: 1em !important;
+  font-size: 1.6rem !important;
+  transition: 0.2s ease-in-out;
 }
 
+h4 {
+  font-size: 1.6rem;
+  transition: 0.2s ease-in-out;
+}
+
+@media (min-width: 576px) {
+  .text-medium {
+    font-size: 1.8rem !important;
+  }
+
+  h4 {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 768px) {
+  .text-medium {
+    font-size: 2.1rem !important;
+  }
+
+  h4 {
+    font-size: 2.1rem;
+  }
+}
 .text-large {
-  font-size: 2em !important;
+  font-size: 2.1rem !important;
+  transition: 0.2s ease-in-out;
 }
 
+h3 {
+  font-size: 2.1rem;
+  transition: 0.2s ease-in-out;
+}
+
+@media (min-width: 576px) {
+  .text-large {
+    font-size: 2.5rem !important;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .text-large {
+    font-size: 3.2rem !important;
+  }
+
+  h3 {
+    font-size: 3.2rem;
+  }
+}
 .text-larger {
-  font-size: 3em !important;
+  font-size: 2.8rem !important;
+  transition: 0.2s ease-in-out;
 }
 
+h2 {
+  font-size: 2.8rem;
+  transition: 0.2s ease-in-out;
+}
+
+@media (min-width: 576px) {
+  .text-larger {
+    font-size: 3.2rem !important;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+  }
+}
+@media (min-width: 768px) {
+  .text-larger {
+    font-size: 4.2rem !important;
+  }
+
+  h2 {
+    font-size: 4.2rem;
+  }
+}
+.text-largest {
+  font-size: 3.6rem !important;
+  transition: 0.2s ease-in-out;
+}
+
+h1 {
+  font-size: 3.6rem;
+  transition: 0.2s ease-in-out;
+}
+
+@media (min-width: 576px) {
+  .text-larger {
+    font-size: 4.2rem !important;
+  }
+
+  h1 {
+    font-size: 4.2rem;
+  }
+}
+@media (min-width: 768px) {
+  .text-larger {
+    font-size: 5.6rem !important;
+  }
+
+  h1 {
+    font-size: 5.6rem;
+  }
+}
 /**
  * Text spacing
 */
