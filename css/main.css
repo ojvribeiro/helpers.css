@@ -1,3 +1,9 @@
+@font-face {
+	font-family: 'Inter';
+	src: url(../fonts/Inter/static/Inter-Regular.ttf);
+}
+
+
 html {
   overflow: scroll;
   overflow-x: hidden;
@@ -7,7 +13,7 @@ html {
 
 html, body {
   height: 100%;
-  font-family: Open sans, sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: #eff3f7;
 }
 
