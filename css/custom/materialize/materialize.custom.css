@@ -7,40 +7,9 @@
   --accent-color--hover: #42a8f9;
   --accent-color--focus: #238add;
   --accent-color--active: #238add;
-  --instagram-color: #e1306c;
-  --facebook-color: #3b5998;
   --font-color: #37474f;
   }
 
-/* HEADINGS */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
-}
-
-h1 {
-  font-size: 2.2rem;
-}
-
-h2 {
-  font-size: 1.9rem;
-  margin: 2.3733333333rem 0 1.424rem;
-}
-
-h3 {
-  font-size: 1.6rem;
-}
-
-h4 {
-  font-size: 1.4rem;
-}
-
-h5 {
-  font-size: 1.2rem;
-}
-
-h6 {
-  font-size: 1rem;
-}
 
 /* NAVBAR */
 nav {
