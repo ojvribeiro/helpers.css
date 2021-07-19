@@ -268,15 +268,6 @@ h5, p {
     font-size: 1.6rem;
   }
 }
-@media (min-width: 768px) {
-  .text-small {
-    font-size: 1.8rem !important;
-  }
-
-  h5, p {
-    font-size: 1.8rem;
-  }
-}
 .text-medium {
   font-size: 1.6rem !important;
   transition: 0.2s ease-in-out;
