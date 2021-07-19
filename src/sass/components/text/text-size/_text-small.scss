@@ -22,14 +22,3 @@ h5, p {
 		font-size: 1.6rem;
 	}
 }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-	.text-small {
-		font-size: 1.8rem !important;
-	}
-
-	h5, p {
-		font-size: 1.8rem;
-	}
-}
