@@ -502,6 +502,10 @@ h1 {
   padding: 72px !important;
 }
 
+.padding-largest {
+  padding: 160px !important;
+}
+
 /**
  * Padding bottom
 */
@@ -523,6 +527,10 @@ h1 {
 
 .padding-bottom-larger {
   padding-bottom: 72px !important;
+}
+
+.padding-bottom-largest {
+  padding-bottom: 160px !important;
 }
 
 /**
@@ -548,6 +556,10 @@ h1 {
   padding-left: 72px !important;
 }
 
+.padding-left-largest {
+  padding-left: 160px !important;
+}
+
 /**
 * Padding right
 */
@@ -571,6 +583,10 @@ h1 {
   padding-right: 72px !important;
 }
 
+.padding-right-largest {
+  padding-right: 160px !important;
+}
+
 /**
 * Padding top
 */
@@ -592,6 +608,10 @@ h1 {
 
 .padding-top-larger {
   padding-top: 72px !important;
+}
+
+.padding-top-largest {
+  padding-top: 160px !important;
 }
 
 /**
@@ -622,6 +642,11 @@ h1 {
   padding-right: 72px !important;
 }
 
+.padding-x-largest {
+  padding-left: 160px !important;
+  padding-right: 160px !important;
+}
+
 /**
  * Padding vertical
 */
@@ -648,6 +673,11 @@ h1 {
 .padding-y-larger {
   padding-top: 72px !important;
   padding-bottom: 72px !important;
+}
+
+.padding-y-largest {
+  padding-top: 160px !important;
+  padding-bottom: 160px !important;
 }
 
 /**
