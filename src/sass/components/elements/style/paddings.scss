@@ -1,0 +1,68 @@
+@use "sass:math";
+
+$unit: 'rem';
+
+$paddings: (
+  xxxs: 4, // xxx-small
+  xxs: 8, // xx-small
+  xs: 12, // x-small
+  sm: 16, // small
+  md: 24, // medium
+  lg: 32, // large
+  xl: 56, // x-large
+  xxl: 72, // xx-large
+  xxxl: 112, // xxx-large
+);  
+
+$sides: (
+  x: x, // horizontal
+  y: y, // vertical
+  s: left, // 's' stands for 'start'
+  e: right, // 'e' stands for 'end'
+  t: top,
+  b: bottom,
+);
+
+// General padding
+@each $size-name, $size-value in $paddings {
+  $value: 0;
+
+  @if $unit == 'rem' {
+    $value: #{math.div($size-value, 10)}rem;
+  }
+  @else if $unit == 'px' {
+    $value: #{$size-value}px;
+  }
+
+  .b\:p-#{$size-name} {
+    padding: $value !important;
+  }
+}
+
+// Sides paddings
+@each $side-name, $side-value in $sides {
+  @each $size-name, $size-value in $paddings {
+    $value: 0;
+
+    @if $unit == 'rem' {
+      $value: #{math.div($size-value, 10)}rem;
+    }
+    @else if $unit == 'px' {
+      $value: #{$size-value}px;
+    }
+
+    .b\:p#{$side-name}-#{$size-name} {
+      @if $side-name == x {
+        padding-left: $value !important;
+        padding-right: $value !important;
+      }
+      @else if $side-name == y {
+        padding-top: $value !important;
+        padding-bottom: $value !important;
+      }
+      @else {
+        padding-#{$side-value}: $value !important;
+      }
+    }
+  }
+}
