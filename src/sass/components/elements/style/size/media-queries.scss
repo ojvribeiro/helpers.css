@@ -14,9 +14,15 @@ $queries: (
   flex-direction: row;
 }
 
+
+@mixin media($query) {
+  @media screen and (min-width: #{$query}px) {
+    @content;
+  }
+}
 @each $query, $value in $queries {
-  @media screen and (min-width: #{$value}px) {
     @for $i from 1 to 13 {
+  @include media($value) {
       .b\:row {
         .b\:col-#{$query}-#{$i} {
           width: math.div(100%, 12) * $i;
