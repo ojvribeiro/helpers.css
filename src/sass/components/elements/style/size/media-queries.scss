@@ -20,6 +20,17 @@ $queries: (
     @content;
   }
 }
+
+
+@for $i from 1 through 12 {
+  .b\:row {
+    .b\:col-#{$i} {
+      width: math.div(100%, 12) * $i;
+    }
+  }
+}
+
+
 @each $query, $value in $queries {
     @for $i from 1 to 13 {
   @include media($value) {
