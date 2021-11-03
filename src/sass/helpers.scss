@@ -18,22 +18,7 @@ html, body {
 /**
  * Cursor
 */
-@import './components/mouse-actions/cursor/cell';
-@import './components/mouse-actions/cursor/default';
-@import './components/mouse-actions/cursor/grab';
-@import './components/mouse-actions/cursor/grabbing';
-@import './components/mouse-actions/cursor/move';
-@import './components/mouse-actions/cursor/not-allowed';
-@import './components/mouse-actions/cursor/pointer';
-@import './components/mouse-actions/cursor/progress';
-@import './components/mouse-actions/cursor/resize-diagonal-1';
-@import './components/mouse-actions/cursor/resize-diagonal-2';
-@import './components/mouse-actions/cursor/resize-x';
-@import './components/mouse-actions/cursor/resize-y';
-@import './components/mouse-actions/cursor/text';
-@import './components/mouse-actions/cursor/wait';
-@import './components/mouse-actions/cursor/zoom-in';
-@import './components/mouse-actions/cursor/zoom-out';
+@import './components/mouse-actions/cursor/cursor';
 
 
 // @mouse-actions/scroll

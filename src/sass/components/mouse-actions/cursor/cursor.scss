@@ -1,0 +1,51 @@
+$cursors: (
+  auto,
+  default,
+
+  alias,
+  all-scroll,
+  cell,
+  copy,
+  crosshair,
+  help,
+  move,
+  pointer,
+  progress,
+
+  grab,
+  grabbing,
+
+  col-resize, // y
+  n-resize, // north
+  e-resize, // east
+  s-resize, // south
+  w-resize, // west
+  ne-resize, // northeast
+  nw-resize, // northwest
+  se-resize, // southeast
+  sw-resize, // southwest
+  ew-resize, // east-west
+  ns-resize, // north-south
+  nesw-resize,
+  nwse-resize,
+  row-resize, // x
+
+  no-drop,
+  none,
+  not-allowed,
+
+  text,
+  vertical-text,
+
+  wait,
+
+  zoom-in,
+  zoom-out,
+);
+
+
+@each $style in $cursors {
+  .b\:cursor-#{$style} {
+    cursor: $style;
+  }
+}
