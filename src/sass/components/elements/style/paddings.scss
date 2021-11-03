@@ -73,3 +73,53 @@ $sides: (
     }
   }
 }
+
+
+
+// Paddings with breakpoints
+@each $query, $query-value in $queries {
+  @include media($query-value) {
+    $final-value: null;
+
+    // General padding
+    @each $size-name, $size-value in $paddings {
+      @if $unit == 'rem' {
+        $final-value: #{math.div($size-value, 10)}rem;
+      }
+      @else if $unit == 'px' {
+        $final-value: #{$size-value}px;
+      }
+
+      .b\:p-#{$query}-#{$size-name} {
+        padding: $final-value !important;
+      }
+    }
+
+
+    // Sides paddings
+    @each $side-name, $side-value in $sides {
+      @each $size-name, $size-value in $paddings {
+        @if $unit == 'rem' {
+          $final-value: #{math.div($size-value, 10)}rem;
+        }
+        @else if $unit == 'px' {
+          $final-value: #{$size-value}px;
+        }
+
+        .b\:p#{$side-name}-#{$query}-#{$size-name} {
+          @if $side-name == x {
+            padding-left: $final-value !important;
+            padding-right: $final-value !important;
+          }
+          @else if $side-name == y {
+            padding-top: $final-value !important;
+            padding-bottom: $final-value !important;
+          }
+          @else {
+            padding-#{$side-value}: $final-value !important;
+          }
+        }
+      }
+    }
+  }
+}
