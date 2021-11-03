@@ -25,6 +25,11 @@ $sides: (
   b: bottom,
 );
 
+
+/**
+ * Paddings
+ * */
+
 // General padding
 @each $size-name, $size-value in $paddings {
   $value: 0;
