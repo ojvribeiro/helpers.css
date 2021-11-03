@@ -74,3 +74,54 @@ $sides: (
     }
   }
 }
+
+
+
+
+// Margins with breakpoints
+@each $query, $query-value in $queries {
+  @include media($query-value) {
+    $final-value: null;
+
+    // General margin
+    @each $size-name, $size-value in $margins {
+      @if $unit == 'rem' {
+        $final-value: #{math.div($size-value, 10)}rem;
+      }
+      @else if $unit == 'px' {
+        $final-value: #{$size-value}px;
+      }
+
+      .b\:m-#{$query}-#{$size-name} {
+        margin: $final-value !important;
+      }
+    }
+
+
+    // Sides margins
+    @each $side-name, $side-value in $sides {
+      @each $size-name, $size-value in $margins {
+        @if $unit == 'rem' {
+          $final-value: #{math.div($size-value, 10)}rem;
+        }
+        @else if $unit == 'px' {
+          $final-value: #{$size-value}px;
+        }
+
+        .b\:m#{$side-name}-#{$query}-#{$size-name} {
+          @if $side-name == x {
+            margin-left: $final-value !important;
+            margin-right: $final-value !important;
+          }
+          @else if $side-name == y {
+            margin-top: $final-value !important;
+            margin-bottom: $final-value !important;
+          }
+          @else {
+            margin-#{$side-value}: $final-value !important;
+          }
+        }
+      }
+    }
+  }
+}
