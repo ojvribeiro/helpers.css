@@ -9,7 +9,6 @@ $queries: (
   xxxl: 1600,
 );
 
-
 @mixin media($query) {
   @media screen and (min-width: #{$query}px) {
     @content;
