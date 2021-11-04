@@ -11,6 +11,10 @@
     .b\:col-#{$i} {
       width: math.div(100%, 12) * $i;
     }
+
+    .b\:offset-#{$i} {
+      margin-left: math.div(100%, 12) * $i;
+    }
   }
 }
 
@@ -20,6 +24,10 @@
       .b\:row {
         .b\:col-#{$query}-#{$i} {
           width: math.div(100%, 12) * $i;
+        }
+
+        .b\:offset-#{$query}-#{$i} {
+          margin-left: math.div(100%, 12) * $i;
         }
       }
     }
