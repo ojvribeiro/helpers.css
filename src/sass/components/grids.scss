@@ -4,6 +4,7 @@
 .b\:row {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 @for $i from 1 through 12 {
