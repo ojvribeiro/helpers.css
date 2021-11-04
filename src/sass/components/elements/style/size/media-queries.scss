@@ -9,36 +9,9 @@ $queries: (
   xxxl: 1600,
 );
 
-.b\:row {
-  display: flex;
-  flex-direction: row;
-}
-
 
 @mixin media($query) {
   @media screen and (min-width: #{$query}px) {
     @content;
-  }
-}
-
-
-@for $i from 1 through 12 {
-  .b\:row {
-    .b\:col-#{$i} {
-      width: math.div(100%, 12) * $i;
-    }
-  }
-}
-
-
-@each $query, $value in $queries {
-  @include media($value) {
-    @for $i from 1 through 12 {
-      .b\:row {
-        .b\:col-#{$query}-#{$i} {
-          width: math.div(100%, 12) * $i;
-        }
-      }
-    }
   }
 }
