@@ -8,11 +8,12 @@ html, body {
   font-size: 1.6rem;
 }
 
-// @containers
+
 /**
  * Containers
 */
 @import './components/containers/containers';
+
 
 /**
  * Media queries
@@ -24,14 +25,13 @@ html, body {
 */
 @import './components/grids';
 
-// @mouse-actions/cursor
+
 /**
  * Cursor
 */
 @import './components/mouse-actions/cursor/cursor';
 
 
-// @mouse-actions/scroll
 /**
  * Scroll
 */
@@ -42,7 +42,7 @@ html, body {
 @import './components/mouse-actions/scroll/scroll-y-auto';
 @import './components/mouse-actions/scroll/scroll-y';
 
-// @text/text-align
+
 /**
  * Text align
 */
@@ -52,13 +52,13 @@ html, body {
 @import './components/text/text-align/text-middle';
 @import './components/text/text-align/text-right';
 
-// @text/text-size
+
 /**
- * Text size
+ * Font size
 */
 @import './components/text/font-size';
 
-// @text/text-spacing
+
 /**
  * Text spacing
 */
@@ -68,7 +68,7 @@ html, body {
 @import './components/text/text-spacing/text-spacing-large';
 @import './components/text/text-spacing/text-spacing-larger';
 
-// @text/text-style/
+
 /**
  * Text style
 */
@@ -76,7 +76,7 @@ html, body {
 @import './components/text/text-style/text-strike';
 @import './components/text/text-style/text-underline';
 
-// @text/text-style/text-weight
+
 /**
  * Text weight
 */
@@ -85,7 +85,7 @@ html, body {
 @import './components/text/text-style/text-weight/text-strong';
 @import './components/text/text-style/text-weight/text-stronger';
 
-// @text/text-transform
+
 /**
  * Text transform
 */
@@ -93,7 +93,7 @@ html, body {
 @import './components/text/text-transform/text-lowercase';
 @import './components/text/text-transform/text-uppercase';
 
-// @elements/style/size
+
 /**
 * Preset sizes
 */
@@ -109,7 +109,7 @@ html, body {
  */
 @import './components/elements/style/paddings';
 
-// @elements/style/rounded-corners
+
 /**
  * Rounded corners
 */
@@ -120,7 +120,7 @@ html, body {
 @import './components/elements/style/rounded-corners/border-radius-large';
 @import './components/elements/style/rounded-corners/border-radius-larger';
 
-// @elements/style/shadows
+
 /**
  * Shadows
 */
@@ -131,7 +131,7 @@ html, body {
 @import './components/elements/style/shadows/shadow-4';
 @import './components/elements/style/shadows/shadow-5';
 
-// @elements/positioning/behavior
+
 /**
  * Behavior
 */
@@ -141,7 +141,7 @@ html, body {
 @import './components/elements/positioning/behavior/position-sticky';
 
 
-// @elements/positioning/position
+
 /**
  * Position
 */
@@ -153,7 +153,7 @@ html, body {
 @import './components/elements/positioning/position/top-middle';
 @import './components/elements/positioning/position/top-right';
 
-// @elements/positioning/float
+
 /**
  * Floats
 */
@@ -166,7 +166,7 @@ html, body {
  */
 @import './components/elements/positioning/margins';
 
-// @elements/positioning/overlapping/overlap-top
+
 /**
  * Overlap top (adds a negative margin-top)
 */
@@ -176,7 +176,7 @@ html, body {
 @import './components/elements/positioning/overlapping/overlap-top/overlap-top-large';
 @import './components/elements/positioning/overlapping/overlap-top/overlap-top-larger';
 
-// @elements/positioning/overlapping/overlap-bottom
+
 /**
  * Overlap bottom (adds a negative margin-bottom)
  * IMPORTANT: the parent element needs to have a position-relative class
@@ -187,7 +187,7 @@ html, body {
 @import './components/elements/positioning/overlapping/overlap-bottom/overlap-bottom-large';
 @import './components/elements/positioning/overlapping/overlap-bottom/overlap-bottom-larger';
 
-// @elements/visibility/blur
+
 /**
  * Blur
 */
@@ -195,7 +195,7 @@ html, body {
 @import './components/elements/visibility/blur/blur-2';
 @import './components/elements/visibility/blur/blur-3';
 
-// @elements/visibility/display
+
 /**
  * Display
 */
@@ -208,7 +208,7 @@ html, body {
 @import './components/elements/visibility/display/display-none';
 @import './components/elements/visibility/display/display-unset';
 
-// @elements/visibility/frost-glass
+
 /**
  * Frost glass
 */
@@ -216,25 +216,13 @@ html, body {
 @import './components/elements/visibility/frost-glass/frost-glass-2';
 @import './components/elements/visibility/frost-glass/frost-glass-3';
 
-// @no-styles/float
+
 /**
  * No Float
 */
 @import './components/no-styles/float/no-float';
 
-// @no-styles/margins
-/**
- * No Margins
-*/
-@import './components/no-styles/margins/no-margin-bottom';
-@import './components/no-styles/margins/no-margin-left';
-@import './components/no-styles/margins/no-margin-right';
-@import './components/no-styles/margins/no-margin-top';
-@import './components/no-styles/margins/no-margin-x';
-@import './components/no-styles/margins/no-margin-y';
-@import './components/no-styles/margins/no-margin';
 
-// @no-styles/mouse-actions
 /**
  * No Mouse Actions
 */
@@ -244,19 +232,7 @@ html, body {
 @import './components/no-styles/mouse-actions/no-scroll';
 @import './components/no-styles/mouse-actions/no-select';
 
-// @no-styles/paddings
-/**
- * No Paddings
-*/
-@import './components/no-styles/paddings/no-padding-bottom';
-@import './components/no-styles/paddings/no-padding-left';
-@import './components/no-styles/paddings/no-padding-right';
-@import './components/no-styles/paddings/no-padding-top';
-@import './components/no-styles/paddings/no-padding-x';
-@import './components/no-styles/paddings/no-padding-y';
-@import './components/no-styles/paddings/no-padding';
 
-// @no-styles/visibility
 /**
  * No Visibility
  * no-display has the same effect as display-none
