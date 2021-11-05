@@ -1,19 +1,5 @@
 @use 'sass:math';
-
-$unit: 'rem';
-
-$paddings: (
-  none: 0,
-  xxxs: 4, // xxx-small
-  xxs: 8, // xx-small
-  xs: 12, // x-small
-  sm: 16, // small
-  md: 24, // medium
-  lg: 32, // large
-  xl: 56, // x-large
-  xxl: 72, // xx-large
-  xxxl: 112, // xxx-large
-);  
+@use 'sizes';
 
 $sides: (
   x: x, // horizontal
@@ -26,18 +12,9 @@ $sides: (
 
 
 // General padding
-@each $size-name, $size-value in $paddings {
-  $value: null;
-
-  @if $unit == 'rem' {
-    $value: #{math.div($size-value, 10)}rem;
-  }
-  @else if $unit == 'px' {
-    $value: #{$size-value}px;
-  }
-
+@each $size-name, $size-value in $sizes {
   .b\:p-#{$size-name} {
-    padding: $value !important;
+    padding: size($size-value) !important;
   }
 }
 
@@ -45,27 +22,18 @@ $sides: (
 
 // Sides paddings
 @each $side-name, $side-value in $sides {
-  @each $size-name, $size-value in $paddings {
-    $value: null;
-
-    @if $unit == 'rem' {
-      $value: #{math.div($size-value, 10)}rem;
-    }
-    @else if $unit == 'px' {
-      $value: #{$size-value}px;
-    }
-
+  @each $size-name, $size-value in $sizes {
     .b\:p#{$side-name}-#{$size-name} {
       @if $side-name == x {
-        padding-left: $value !important;
-        padding-right: $value !important;
+        padding-left: size($size-value) !important;
+        padding-right: size($size-value) !important;
       }
       @else if $side-name == y {
-        padding-top: $value !important;
-        padding-bottom: $value !important;
+        padding-top: size($size-value) !important;
+        padding-bottom: size($size-value) !important;
       }
       @else {
-        padding-#{$side-value}: $value !important;
+        padding-#{$side-value}: size($size-value) !important;
       }
     }
   }
@@ -79,41 +47,27 @@ $sides: (
     $final-value: null;
 
     // General padding
-    @each $size-name, $size-value in $paddings {
-      @if $unit == 'rem' {
-        $final-value: #{math.div($size-value, 10)}rem;
-      }
-      @else if $unit == 'px' {
-        $final-value: #{$size-value}px;
-      }
-
-      .b\:p-#{$query}-#{$size-name} {
-        padding: $final-value !important;
+    @each $size-name, $size-value in $sizes {
+      .b\:p-#{$bp}-#{$size-name} {
+        padding: size($size-value) !important;
       }
     }
 
 
     // Sides paddings
     @each $side-name, $side-value in $sides {
-      @each $size-name, $size-value in $paddings {
-        @if $unit == 'rem' {
-          $final-value: #{math.div($size-value, 10)}rem;
-        }
-        @else if $unit == 'px' {
-          $final-value: #{$size-value}px;
-        }
-
-        .b\:p#{$side-name}-#{$query}-#{$size-name} {
+      @each $size-name, $size-value in $sizes {
+        .b\:p#{$side-name}-#{$bp}-#{$size-name} {
           @if $side-name == x {
-            padding-left: $final-value !important;
-            padding-right: $final-value !important;
+            padding-left: size($size-value) !important;
+            padding-right: size($size-value) !important;
           }
           @else if $side-name == y {
-            padding-top: $final-value !important;
-            padding-bottom: $final-value !important;
+            padding-top: size($size-value) !important;
+            padding-bottom: size($size-value) !important;
           }
           @else {
-            padding-#{$side-value}: $final-value !important;
+            padding-#{$side-value}: size($size-value) !important;
           }
         }
       }

@@ -1,20 +1,5 @@
 @use 'sass:math';
 
-$unit: 'rem';
-
-$margins: (
-  none: 0,
-  xxxs: 4, // xxx-small
-  xxs: 8, // xx-small
-  xs: 12, // x-small
-  sm: 16, // small
-  md: 24, // medium
-  lg: 32, // large
-  xl: 56, // x-large
-  xxl: 72, // xx-large
-  xxxl: 112, // xxx-large
-);  
-
 $sides: (
   x: x, // horizontal
   y: y, // vertical
@@ -30,45 +15,27 @@ $sides: (
  * */
 
 // General margin
-@each $size-name, $size-value in $margins {
-  $value: 0;
-
-  @if $unit == 'rem' {
-    $value: #{math.div($size-value, 10)}rem;
-  }
-  @else if $unit == 'px' {
-    $value: #{$size-value}px;
-  }
-
+@each $size-name, $size-value in $sizes {
   .b\:m-#{$size-name} {
-    margin: $value !important;
+    margin: size($size-value) !important;
   }
 }
 
 
 // Sides margins
 @each $side-name, $side-value in $sides {
-  @each $size-name, $size-value in $margins {
-    $value: 0;
-
-    @if $unit == 'rem' {
-      $value: #{math.div($size-value, 10)}rem;
-    }
-    @else if $unit == 'px' {
-      $value: #{$size-value}px;
-    }
-
+  @each $size-name, $size-value in $sizes {
     .b\:m#{$side-name}-#{$size-name} {
       @if $side-name == x {
-        margin-left: $value !important;
-        margin-right: $value !important;
+        margin-left: size($size-value) !important;
+        margin-right: size($size-value) !important;
       }
       @else if $side-name == y {
-        margin-top: $value !important;
-        margin-bottom: $value !important;
+        margin-top: size($size-value) !important;
+        margin-bottom: size($size-value) !important;
       }
       @else {
-        margin-#{$side-value}: $value !important;
+        margin-#{$side-value}: size($size-value) !important;
       }
     }
   }
@@ -80,44 +47,28 @@ $sides: (
 // Margins with breakpoints
 @each $query, $query-value in $queries {
   @include media($query-value) {
-    $final-value: null;
-
     // General margin
-    @each $size-name, $size-value in $margins {
-      @if $unit == 'rem' {
-        $final-value: #{math.div($size-value, 10)}rem;
-      }
-      @else if $unit == 'px' {
-        $final-value: #{$size-value}px;
-      }
-
-      .b\:m-#{$query}-#{$size-name} {
-        margin: $final-value !important;
+    @each $size-name, $size-value in $sizes {
+      .b\:m-#{$bp}-#{$size-name} {
+        margin: size($size-value) !important;
       }
     }
 
 
     // Sides margins
     @each $side-name, $side-value in $sides {
-      @each $size-name, $size-value in $margins {
-        @if $unit == 'rem' {
-          $final-value: #{math.div($size-value, 10)}rem;
-        }
-        @else if $unit == 'px' {
-          $final-value: #{$size-value}px;
-        }
-
-        .b\:m#{$side-name}-#{$query}-#{$size-name} {
+      @each $size-name, $size-value in $sizes {
+        .b\:m#{$side-name}-#{$bp}-#{$size-name} {
           @if $side-name == x {
-            margin-left: $final-value !important;
-            margin-right: $final-value !important;
+            margin-left: size($size-value) !important;
+            margin-right: size($size-value) !important;
           }
           @else if $side-name == y {
-            margin-top: $final-value !important;
-            margin-bottom: $final-value !important;
+            margin-top: size($size-value) !important;
+            margin-bottom: size($size-value) !important;
           }
           @else {
-            margin-#{$side-value}: $final-value !important;
+            margin-#{$side-value}: size($size-value) !important;
           }
         }
       }
