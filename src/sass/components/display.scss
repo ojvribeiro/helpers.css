@@ -1,0 +1,19 @@
+$displays: block, flex, grid, inline-block, inline-flex, inline-grid, inline, none, unset;
+
+@each $item in $displays {
+  .b\:d-#{$item} {
+    display: #{$item} !important;
+  }
+}
+
+
+
+@each $query, $query-value in $queries {
+  @include media($query-value) {
+    @each $item in $displays {
+      .b\:d-#{$query}-#{$item} {
+        display: #{$item} !important;
+      }
+    }
+  }
+}

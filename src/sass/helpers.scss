@@ -199,14 +199,7 @@ html, body {
 /**
  * Display
 */
-@import './components/elements/visibility/display/display-block';
-@import './components/elements/visibility/display/display-flex';
-@import './components/elements/visibility/display/display-grid';
-@import './components/elements/visibility/display/display-inline-block';
-@import './components/elements/visibility/display/display-inline-flex';
-@import './components/elements/visibility/display/display-inline';
-@import './components/elements/visibility/display/display-none';
-@import './components/elements/visibility/display/display-unset';
+@import './components/display';
 
 
 /**
