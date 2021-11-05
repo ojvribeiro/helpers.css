@@ -5465,38 +5465,264 @@ html, body {
 /**
  * Display
 */
-.display-block {
+.b\:d-block {
   display: block !important;
 }
 
-.display-flex {
+.b\:d-flex {
   display: flex !important;
 }
 
-.display-grid {
+.b\:d-grid {
   display: grid !important;
 }
 
-.display-inline-block {
+.b\:d-inline-block {
   display: inline-block !important;
 }
 
-.display-inline-flex {
+.b\:d-inline-flex {
   display: inline-flex !important;
 }
 
-.display-inline {
+.b\:d-inline-grid {
+  display: inline-grid !important;
+}
+
+.b\:d-inline {
   display: inline !important;
 }
 
-.display-none {
+.b\:d-none {
   display: none !important;
 }
 
-.display-unset {
+.b\:d-unset {
   display: unset !important;
 }
 
+@media screen and (min-width: 576px) {
+  .b\:d-sm-block {
+    display: block !important;
+  }
+
+  .b\:d-sm-flex {
+    display: flex !important;
+  }
+
+  .b\:d-sm-grid {
+    display: grid !important;
+  }
+
+  .b\:d-sm-inline-block {
+    display: inline-block !important;
+  }
+
+  .b\:d-sm-inline-flex {
+    display: inline-flex !important;
+  }
+
+  .b\:d-sm-inline-grid {
+    display: inline-grid !important;
+  }
+
+  .b\:d-sm-inline {
+    display: inline !important;
+  }
+
+  .b\:d-sm-none {
+    display: none !important;
+  }
+
+  .b\:d-sm-unset {
+    display: unset !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .b\:d-md-block {
+    display: block !important;
+  }
+
+  .b\:d-md-flex {
+    display: flex !important;
+  }
+
+  .b\:d-md-grid {
+    display: grid !important;
+  }
+
+  .b\:d-md-inline-block {
+    display: inline-block !important;
+  }
+
+  .b\:d-md-inline-flex {
+    display: inline-flex !important;
+  }
+
+  .b\:d-md-inline-grid {
+    display: inline-grid !important;
+  }
+
+  .b\:d-md-inline {
+    display: inline !important;
+  }
+
+  .b\:d-md-none {
+    display: none !important;
+  }
+
+  .b\:d-md-unset {
+    display: unset !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .b\:d-lg-block {
+    display: block !important;
+  }
+
+  .b\:d-lg-flex {
+    display: flex !important;
+  }
+
+  .b\:d-lg-grid {
+    display: grid !important;
+  }
+
+  .b\:d-lg-inline-block {
+    display: inline-block !important;
+  }
+
+  .b\:d-lg-inline-flex {
+    display: inline-flex !important;
+  }
+
+  .b\:d-lg-inline-grid {
+    display: inline-grid !important;
+  }
+
+  .b\:d-lg-inline {
+    display: inline !important;
+  }
+
+  .b\:d-lg-none {
+    display: none !important;
+  }
+
+  .b\:d-lg-unset {
+    display: unset !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .b\:d-xl-block {
+    display: block !important;
+  }
+
+  .b\:d-xl-flex {
+    display: flex !important;
+  }
+
+  .b\:d-xl-grid {
+    display: grid !important;
+  }
+
+  .b\:d-xl-inline-block {
+    display: inline-block !important;
+  }
+
+  .b\:d-xl-inline-flex {
+    display: inline-flex !important;
+  }
+
+  .b\:d-xl-inline-grid {
+    display: inline-grid !important;
+  }
+
+  .b\:d-xl-inline {
+    display: inline !important;
+  }
+
+  .b\:d-xl-none {
+    display: none !important;
+  }
+
+  .b\:d-xl-unset {
+    display: unset !important;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .b\:d-xxl-block {
+    display: block !important;
+  }
+
+  .b\:d-xxl-flex {
+    display: flex !important;
+  }
+
+  .b\:d-xxl-grid {
+    display: grid !important;
+  }
+
+  .b\:d-xxl-inline-block {
+    display: inline-block !important;
+  }
+
+  .b\:d-xxl-inline-flex {
+    display: inline-flex !important;
+  }
+
+  .b\:d-xxl-inline-grid {
+    display: inline-grid !important;
+  }
+
+  .b\:d-xxl-inline {
+    display: inline !important;
+  }
+
+  .b\:d-xxl-none {
+    display: none !important;
+  }
+
+  .b\:d-xxl-unset {
+    display: unset !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .b\:d-xxxl-block {
+    display: block !important;
+  }
+
+  .b\:d-xxxl-flex {
+    display: flex !important;
+  }
+
+  .b\:d-xxxl-grid {
+    display: grid !important;
+  }
+
+  .b\:d-xxxl-inline-block {
+    display: inline-block !important;
+  }
+
+  .b\:d-xxxl-inline-flex {
+    display: inline-flex !important;
+  }
+
+  .b\:d-xxxl-inline-grid {
+    display: inline-grid !important;
+  }
+
+  .b\:d-xxxl-inline {
+    display: inline !important;
+  }
+
+  .b\:d-xxxl-none {
+    display: none !important;
+  }
+
+  .b\:d-xxxl-unset {
+    display: unset !important;
+  }
+}
 /**
  * Frost glass
 */
