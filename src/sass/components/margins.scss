@@ -10,10 +10,6 @@ $sides: (
 );
 
 
-/**
- * Margins
- * */
-
 // General margin
 @each $size-name, $size-value in $sizes {
   .b\:m-#{$size-name} {
