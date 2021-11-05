@@ -1,4 +1,15 @@
-$displays: block, flex, grid, inline-block, inline-flex, inline-grid, inline, none, unset;
+$displays: (
+  block,
+  flex,
+  grid,
+  inline-block,
+  inline-flex,
+  inline-grid,
+  inline,
+  none,
+  unset
+);
+
 
 @each $item in $displays {
   .b\:d-#{$item} {
