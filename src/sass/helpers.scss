@@ -173,24 +173,9 @@ html, body {
 
 
 /**
- * Overlap top (adds a negative margin-top)
+ * Overlaps
 */
-@import './components/elements/positioning/overlapping/overlap-top/overlap-top-smaller';
-@import './components/elements/positioning/overlapping/overlap-top/overlap-top-small';
-@import './components/elements/positioning/overlapping/overlap-top/overlap-top-medium';
-@import './components/elements/positioning/overlapping/overlap-top/overlap-top-large';
-@import './components/elements/positioning/overlapping/overlap-top/overlap-top-larger';
-
-
-/**
- * Overlap bottom (adds a negative margin-bottom)
- * IMPORTANT: the parent element needs to have a position-relative class
-*/
-@import './components/elements/positioning/overlapping/overlap-bottom/overlap-bottom-smaller';
-@import './components/elements/positioning/overlapping/overlap-bottom/overlap-bottom-small';
-@import './components/elements/positioning/overlapping/overlap-bottom/overlap-bottom-medium';
-@import './components/elements/positioning/overlapping/overlap-bottom/overlap-bottom-large';
-@import './components/elements/positioning/overlapping/overlap-bottom/overlap-bottom-larger';
+@import './components/overlap';
 
 
 /**

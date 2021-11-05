@@ -1,0 +1,29 @@
+@use 'sizes';
+
+$overlaps: (
+  t: top,
+  b: bottom,
+  s: left,
+  e: right,
+);
+
+
+@each $overlap-name, $overlap-value in $overlaps {
+  @each $size-name, $size-value in $sizes {
+    .b\:ol#{$overlap-name}-#{$size-name} {
+      #{$overlap-value}: size($size-value) !important;
+    }
+  }
+}
+
+@each $bp-name, $bp-value in $breakpoints {
+  @include media($bp-name) {
+    @each $overlap-name, $overlap-value in $overlaps {
+      @each $size-name, $size-value in $sizes {
+        .b\:ol#{$overlap-name}-#{$bp-name}-#{$size-name} {
+          #{$overlap-value}: size($size-value) !important;
+        }
+      }
+    }
+  }
+}
