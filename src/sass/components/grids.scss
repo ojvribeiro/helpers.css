@@ -19,15 +19,15 @@
   }
 }
 
-@each $query, $value in $queries {
-  @include media($value) {
+@each $bp-name, $bp-value in $breakpoints {
+  @include media($bp-name) {
     @for $i from 1 through 12 {
       .b\:row {
-        .b\:col-#{$query}-#{$i} {
+        .b\:col-#{$bp-name}-#{$i} {
           width: math.div(100%, 12) * $i;
         }
 
-        .b\:offset-#{$query}-#{$i} {
+        .b\:offset-#{$bp-name}-#{$i} {
           margin-left: math.div(100%, 12) * $i;
         }
       }

@@ -1,6 +1,6 @@
 @use "sass:math";
 
-$queries: (
+$breakpoints: (
   sm: 576,
   md: 768,
   lg: 992,
@@ -9,8 +9,18 @@ $queries: (
   xxxl: 1600,
 );
 
-@mixin media($query) {
-  @media screen and (min-width: #{$query}px) {
-    @content;
+
+/// Util to easily deal with media-queries
+/// @name media
+/// @param {} $bp - The breakpoint name (sm, md, lg...)
+/// @content Returns the user code inside the media-query
+
+@mixin media($bp) {
+  @each $bp-name, $bp-value in $breakpoints {
+    @if $bp == $bp-name {
+      @media screen and (min-width: #{$bp-value}px) {
+        @content;
+      }
+    }
   }
 }

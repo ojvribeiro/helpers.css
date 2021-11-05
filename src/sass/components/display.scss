@@ -8,10 +8,10 @@ $displays: block, flex, grid, inline-block, inline-flex, inline-grid, inline, no
 
 
 
-@each $query, $query-value in $queries {
-  @include media($query-value) {
+@each $bp-name, $bp-value in $breakpoints {
+  @include media($bp-name) {
     @each $item in $displays {
-      .b\:d-#{$query}-#{$item} {
+      .b\:d-#{$bp-name}-#{$item} {
         display: #{$item} !important;
       }
     }

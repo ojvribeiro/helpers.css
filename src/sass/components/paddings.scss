@@ -42,13 +42,11 @@ $sides: (
 
 
 // Paddings with breakpoints
-@each $query, $query-value in $queries {
-  @include media($query-value) {
-    $final-value: null;
-
+@each $bp-name, $bp-value in $breakpoints {
+  @include media($bp-name) {
     // General padding
     @each $size-name, $size-value in $sizes {
-      .b\:p-#{$bp}-#{$size-name} {
+      .b\:p-#{$bp-name}-#{$size-name} {
         padding: size($size-value) !important;
       }
     }
@@ -57,7 +55,7 @@ $sides: (
     // Sides paddings
     @each $side-name, $side-value in $sides {
       @each $size-name, $size-value in $sizes {
-        .b\:p#{$side-name}-#{$bp}-#{$size-name} {
+        .b\:p#{$side-name}-#{$bp-name}-#{$size-name} {
           @if $side-name == x {
             padding-left: size($size-value) !important;
             padding-right: size($size-value) !important;

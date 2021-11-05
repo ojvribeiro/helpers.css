@@ -45,11 +45,11 @@ $sides: (
 
 
 // Margins with breakpoints
-@each $query, $query-value in $queries {
-  @include media($query-value) {
+@each $bp-name, $bp-value in $breakpoints {
+  @include media($bp-name) {
     // General margin
     @each $size-name, $size-value in $sizes {
-      .b\:m-#{$bp}-#{$size-name} {
+      .b\:m-#{$bp-name}-#{$size-name} {
         margin: size($size-value) !important;
       }
     }
@@ -58,7 +58,7 @@ $sides: (
     // Sides margins
     @each $side-name, $side-value in $sides {
       @each $size-name, $size-value in $sizes {
-        .b\:m#{$side-name}-#{$bp}-#{$size-name} {
+        .b\:m#{$side-name}-#{$bp-name}-#{$size-name} {
           @if $side-name == x {
             margin-left: size($size-value) !important;
             margin-right: size($size-value) !important;
