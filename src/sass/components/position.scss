@@ -1,0 +1,22 @@
+@use 'variables';
+
+$positions: (
+  relative,
+  absolute,
+  fixed,
+  sticky,
+  static,
+  unset,
+);
+
+
+@each $bp-name, $bp-value in $breakpoints {
+  @include media($bp-name) {
+    @each $position in $positions {
+    .b\:p-#{$position} {
+        position: #{$position} !important;
+      }
+    }
+  }
+}
+

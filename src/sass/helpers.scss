@@ -140,10 +140,7 @@ html, body {
 /**
  * Behavior
 */
-@import './components/elements/positioning/behavior/position-absolute';
-@import './components/elements/positioning/behavior/position-fixed';
-@import './components/elements/positioning/behavior/position-relative';
-@import './components/elements/positioning/behavior/position-sticky';
+@import './components/position';
 
 
 
