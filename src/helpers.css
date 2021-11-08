@@ -3422,24 +3422,156 @@ html, body {
 /**
  * Behavior
 */
-.position-absolute {
-  position: absolute !important;
-}
+@media screen and (min-width: 576px) {
+  .b\:p-relative {
+    position: relative !important;
+  }
 
-.position-fixed {
-  position: fixed !important;
-}
+  .b\:p-absolute {
+    position: absolute !important;
+  }
 
-.position-relative {
-  position: relative !important;
-}
+  .b\:p-fixed {
+    position: fixed !important;
+  }
 
-.position-sticky {
-  position: sticky !important;
-  top: 0;
-  z-index: 1;
-}
+  .b\:p-sticky {
+    position: sticky !important;
+  }
 
+  .b\:p-static {
+    position: static !important;
+  }
+
+  .b\:p-unset {
+    position: unset !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .b\:p-relative {
+    position: relative !important;
+  }
+
+  .b\:p-absolute {
+    position: absolute !important;
+  }
+
+  .b\:p-fixed {
+    position: fixed !important;
+  }
+
+  .b\:p-sticky {
+    position: sticky !important;
+  }
+
+  .b\:p-static {
+    position: static !important;
+  }
+
+  .b\:p-unset {
+    position: unset !important;
+  }
+}
+@media screen and (min-width: 992px) {
+  .b\:p-relative {
+    position: relative !important;
+  }
+
+  .b\:p-absolute {
+    position: absolute !important;
+  }
+
+  .b\:p-fixed {
+    position: fixed !important;
+  }
+
+  .b\:p-sticky {
+    position: sticky !important;
+  }
+
+  .b\:p-static {
+    position: static !important;
+  }
+
+  .b\:p-unset {
+    position: unset !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .b\:p-relative {
+    position: relative !important;
+  }
+
+  .b\:p-absolute {
+    position: absolute !important;
+  }
+
+  .b\:p-fixed {
+    position: fixed !important;
+  }
+
+  .b\:p-sticky {
+    position: sticky !important;
+  }
+
+  .b\:p-static {
+    position: static !important;
+  }
+
+  .b\:p-unset {
+    position: unset !important;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .b\:p-relative {
+    position: relative !important;
+  }
+
+  .b\:p-absolute {
+    position: absolute !important;
+  }
+
+  .b\:p-fixed {
+    position: fixed !important;
+  }
+
+  .b\:p-sticky {
+    position: sticky !important;
+  }
+
+  .b\:p-static {
+    position: static !important;
+  }
+
+  .b\:p-unset {
+    position: unset !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .b\:p-relative {
+    position: relative !important;
+  }
+
+  .b\:p-absolute {
+    position: absolute !important;
+  }
+
+  .b\:p-fixed {
+    position: fixed !important;
+  }
+
+  .b\:p-sticky {
+    position: sticky !important;
+  }
+
+  .b\:p-static {
+    position: static !important;
+  }
+
+  .b\:p-unset {
+    position: unset !important;
+  }
+}
 /**
  * Position
 */
