@@ -1,4 +1,5 @@
 @use 'sizes';
+@use 'media-queries' as mq;
 
 $overlaps: (
   t: top,
@@ -16,8 +17,8 @@ $overlaps: (
   }
 }
 
-@each $bp-name, $bp-value in $breakpoints {
-  @include media($bp-name) {
+@each $bp-name, $bp-value in mq.$breakpoints {
+  @include mq.media($bp-name) {
     @each $overlap-name, $overlap-value in $overlaps {
       @each $size-name, $size-value in $sizes {
         .b\:ol#{$overlap-name}-#{$bp-name}-#{$size-name} {

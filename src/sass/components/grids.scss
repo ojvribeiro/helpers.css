@@ -1,5 +1,5 @@
 @use 'sass:math';
-
+@use 'media-queries' as mq;
 
 .b\:row {
   display: flex;
@@ -19,8 +19,8 @@
   }
 }
 
-@each $bp-name, $bp-value in $breakpoints {
-  @include media($bp-name) {
+@each $bp-name, $bp-value in mq.$breakpoints {
+  @include mq.media($bp-name) {
     @for $i from 1 through 12 {
       .b\:row {
         .b\:col-#{$bp-name}-#{$i} {

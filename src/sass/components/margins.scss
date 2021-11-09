@@ -1,4 +1,5 @@
 @use 'sass:math';
+@use 'media-queries' as mq;
 
 $sides: (
   x: x, // horizontal
@@ -41,8 +42,8 @@ $sides: (
 
 
 // Margins with breakpoints
-@each $bp-name, $bp-value in $breakpoints {
-  @include media($bp-name) {
+@each $bp-name, $bp-value in mq.$breakpoints {
+  @include mq.media($bp-name) {
     // General margin
     @each $size-name, $size-value in $sizes {
       .b\:m-#{$bp-name}-#{$size-name} {

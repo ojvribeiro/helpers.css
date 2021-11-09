@@ -1,5 +1,6 @@
 @use 'sass:math';
 @use 'sizes';
+@use 'media-queries' as mq;
 
 $sides: (
   x: x, // horizontal
@@ -41,8 +42,8 @@ $sides: (
 
 
 // Paddings with breakpoints
-@each $bp-name, $bp-value in $breakpoints {
-  @include media($bp-name) {
+@each $bp-name, $bp-value in mq.$breakpoints {
+  @include mq.media($bp-name) {
     // General padding
     @each $size-name, $size-value in $sizes {
       .b\:p-#{$bp-name}-#{$size-name} {

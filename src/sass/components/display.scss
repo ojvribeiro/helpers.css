@@ -1,3 +1,5 @@
+@use 'media-queries' as mq;
+
 $displays: (
   block,
   flex,
@@ -19,8 +21,8 @@ $displays: (
 
 
 
-@each $bp-name, $bp-value in $breakpoints {
-  @include media($bp-name) {
+@each $bp-name, $bp-value in mq.$breakpoints {
+  @include mq.media($bp-name) {
     @each $item in $displays {
       .b\:d-#{$bp-name}-#{$item} {
         display: #{$item} !important;
