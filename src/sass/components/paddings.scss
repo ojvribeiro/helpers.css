@@ -1,5 +1,5 @@
 @use 'sass:math';
-@use 'sizes';
+@use 'sizes' as size;
 @use 'media-queries' as mq;
 
 $sides: (
@@ -13,27 +13,27 @@ $sides: (
 
 
 // General padding
-@each $size-name, $size-value in $sizes {
+@each $size-name, $size-value in size.$sizes {
   .b\:p-#{$size-name} {
-    padding: size($size-value) !important;
+    padding: size.size($size-value) !important;
   }
 }
 
 
 // Sides paddings
 @each $side-name, $side-value in $sides {
-  @each $size-name, $size-value in $sizes {
+  @each $size-name, $size-value in size.$sizes {
     .b\:p#{$side-name}-#{$size-name} {
       @if $side-name == x {
-        padding-left: size($size-value) !important;
-        padding-right: size($size-value) !important;
+        padding-left: size.size($size-value) !important;
+        padding-right: size.size($size-value) !important;
       }
       @else if $side-name == y {
-        padding-top: size($size-value) !important;
-        padding-bottom: size($size-value) !important;
+        padding-top: size.size($size-value) !important;
+        padding-bottom: size.size($size-value) !important;
       }
       @else {
-        padding-#{$side-value}: size($size-value) !important;
+        padding-#{$side-value}: size.size($size-value) !important;
       }
     }
   }
@@ -45,27 +45,27 @@ $sides: (
 @each $bp-name, $bp-value in mq.$breakpoints {
   @include mq.media($bp-name) {
     // General padding
-    @each $size-name, $size-value in $sizes {
+    @each $size-name, $size-value in size.$sizes {
       .b\:p-#{$bp-name}-#{$size-name} {
-        padding: size($size-value) !important;
+        padding: size.size($size-value) !important;
       }
     }
 
 
     // Sides paddings
     @each $side-name, $side-value in $sides {
-      @each $size-name, $size-value in $sizes {
+      @each $size-name, $size-value in size.$sizes {
         .b\:p#{$side-name}-#{$bp-name}-#{$size-name} {
           @if $side-name == x {
-            padding-left: size($size-value) !important;
-            padding-right: size($size-value) !important;
+            padding-left: size.size($size-value) !important;
+            padding-right: size.size($size-value) !important;
           }
           @else if $side-name == y {
-            padding-top: size($size-value) !important;
-            padding-bottom: size($size-value) !important;
+            padding-top: size.size($size-value) !important;
+            padding-bottom: size.size($size-value) !important;
           }
           @else {
-            padding-#{$side-value}: size($size-value) !important;
+            padding-#{$side-value}: size.size($size-value) !important;
           }
         }
       }

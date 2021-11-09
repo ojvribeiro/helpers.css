@@ -1,4 +1,5 @@
 @use 'sass:math';
+@use 'sizes' as size;
 @use 'media-queries' as mq;
 
 $sides: (
@@ -12,27 +13,27 @@ $sides: (
 
 
 // General margin
-@each $size-name, $size-value in $sizes {
+@each $size-name, $size-value in size.$sizes {
   .b\:m-#{$size-name} {
-    margin: size($size-value) !important;
+    margin: size.size($size-value) !important;
   }
 }
 
 
 // Sides margins
 @each $side-name, $side-value in $sides {
-  @each $size-name, $size-value in $sizes {
+  @each $size-name, $size-value in size.$sizes {
     .b\:m#{$side-name}-#{$size-name} {
       @if $side-name == x {
-        margin-left: size($size-value) !important;
-        margin-right: size($size-value) !important;
+        margin-left: size.size($size-value) !important;
+        margin-right: size.size($size-value) !important;
       }
       @else if $side-name == y {
-        margin-top: size($size-value) !important;
-        margin-bottom: size($size-value) !important;
+        margin-top: size.size($size-value) !important;
+        margin-bottom: size.size($size-value) !important;
       }
       @else {
-        margin-#{$side-value}: size($size-value) !important;
+        margin-#{$side-value}: size.size($size-value) !important;
       }
     }
   }
@@ -45,27 +46,27 @@ $sides: (
 @each $bp-name, $bp-value in mq.$breakpoints {
   @include mq.media($bp-name) {
     // General margin
-    @each $size-name, $size-value in $sizes {
+    @each $size-name, $size-value in size.$sizes {
       .b\:m-#{$bp-name}-#{$size-name} {
-        margin: size($size-value) !important;
+        margin: size.size($size-value) !important;
       }
     }
 
 
     // Sides margins
     @each $side-name, $side-value in $sides {
-      @each $size-name, $size-value in $sizes {
+      @each $size-name, $size-value in size.$sizes {
         .b\:m#{$side-name}-#{$bp-name}-#{$size-name} {
           @if $side-name == x {
-            margin-left: size($size-value) !important;
-            margin-right: size($size-value) !important;
+            margin-left: size.size($size-value) !important;
+            margin-right: size.size($size-value) !important;
           }
           @else if $side-name == y {
-            margin-top: size($size-value) !important;
-            margin-bottom: size($size-value) !important;
+            margin-top: size.size($size-value) !important;
+            margin-bottom: size.size($size-value) !important;
           }
           @else {
-            margin-#{$side-value}: size($size-value) !important;
+            margin-#{$side-value}: size.size($size-value) !important;
           }
         }
       }

@@ -1,9 +1,0 @@
-@use "sass:math";
-
-
-// General size
-@each $size-name, $size-value in $sizes {
-  .b\:fs-#{$size-name} {
-    font-size: size($size-value) !important;
-  }
-}
