@@ -1,3 +1,4 @@
+@use 'variables' as var;
 @use 'media-queries' as mq;
 
 $displays: (
@@ -14,7 +15,7 @@ $displays: (
 
 
 @each $item in $displays {
-  .b\:d-#{$item} {
+  .#{var.$prefix}d-#{$item} {
     display: #{$item} !important;
   }
 }
@@ -24,7 +25,7 @@ $displays: (
 @each $bp-name, $bp-value in mq.$breakpoints {
   @include mq.media($bp-name) {
     @each $item in $displays {
-      .b\:d-#{$bp-name}-#{$item} {
+      .#{var.$prefix}d-#{$bp-name}-#{$item} {
         display: #{$item} !important;
       }
     }

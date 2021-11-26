@@ -1,4 +1,5 @@
-@use 'sizes' as size;
+@use 'variables' as var;
+@use 'sizes' as sz;
 @use 'media-queries' as mq;
 
 $overlaps: (
@@ -10,9 +11,9 @@ $overlaps: (
 
 
 @each $overlap-name, $overlap-value in $overlaps {
-  @each $size-name, $size-value in size.$sizes {
-    .b\:ol#{$overlap-name}-#{$size-name} {
-      #{$overlap-value}: size.size($size-value) !important;
+  @each $size-name, $size-value in var.$sizes {
+    .#{var.$prefix}ol#{$overlap-name}-#{$size-name} {
+      #{$overlap-value}: sz.size($size-value) !important;
     }
   }
 }
@@ -20,9 +21,9 @@ $overlaps: (
 @each $bp-name, $bp-value in mq.$breakpoints {
   @include mq.media($bp-name) {
     @each $overlap-name, $overlap-value in $overlaps {
-      @each $size-name, $size-value in size.$sizes {
-        .b\:ol#{$overlap-name}-#{$bp-name}-#{$size-name} {
-          #{$overlap-value}: size.size($size-value) !important;
+      @each $size-name, $size-value in var.$sizes {
+        .#{var.$prefix}ol#{$overlap-name}-#{$bp-name}-#{$size-name} {
+          #{$overlap-value}: sz.size($size-value) !important;
         }
       }
     }

@@ -1,32 +1,27 @@
 @use 'sass:math';
+
+@use 'variables';
 @use 'media-queries' as mq;
 
 $max-cols: 12;
 
 $utils: (
-  'col',
-  'offset',
+  col: width,
+  offset: margin-left,
 );
 
-.b\:row {
+.#{variables.$prefix}row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 
-  @each $util in $utils {
-    $prop: null;
-    
-    @if $util == 'col' {
-      $prop: width;
-    }
-    @else if $util == 'offset' {
-      $prop: margin-left;
-    }
+  @each $util-name, $util-value in $utils {
+    $prop: $util-value;
     
     @for $i from 1 through $max-cols {
       $value: math.div(100%, $max-cols) * $i;
 
-      .#{$util}-#{$i} {
+      .#{$util-name}-#{$i} {
         #{$prop}: #{$value};
       }
     }
@@ -36,7 +31,7 @@ $utils: (
         @for $i from 1 through $max-cols {
           $value: math.div(100%, $max-cols) * $i;
 
-          .#{$util}-#{$bp-name}-#{$i} {
+          .#{$util-name}-#{$bp-name}-#{$i} {
             #{$prop}: #{$value};
           }
         }

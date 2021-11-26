@@ -1,5 +1,5 @@
-@use 'sass:math';
-@use 'sizes' as size;
+@use 'variables' as var;
+@use 'sizes' as sz;
 @use 'media-queries' as mq;
 
 $sides: (
@@ -13,27 +13,27 @@ $sides: (
 
 
 // General padding
-@each $size-name, $size-value in size.$sizes {
-  .b\:p-#{$size-name} {
-    padding: size.size($size-value) !important;
+@each $size-name, $size-value in var.$sizes {
+  .#{var.$prefix}p-#{$size-name} {
+    padding: sz.size($size-value) !important;
   }
 }
 
 
 // Sides paddings
 @each $side-name, $side-value in $sides {
-  @each $size-name, $size-value in size.$sizes {
-    .b\:p#{$side-name}-#{$size-name} {
+  @each $size-name, $size-value in var.$sizes {
+    .#{var.$prefix}p#{$side-name}-#{$size-name} {
       @if $side-name == x {
-        padding-left: size.size($size-value) !important;
-        padding-right: size.size($size-value) !important;
+        padding-left: sz.size($size-value) !important;
+        padding-right: sz.size($size-value) !important;
       }
       @else if $side-name == y {
-        padding-top: size.size($size-value) !important;
-        padding-bottom: size.size($size-value) !important;
+        padding-top: sz.size($size-value) !important;
+        padding-bottom: sz.size($size-value) !important;
       }
       @else {
-        padding-#{$side-value}: size.size($size-value) !important;
+        padding-#{$side-value}: sz.size($size-value) !important;
       }
     }
   }
@@ -45,27 +45,27 @@ $sides: (
 @each $bp-name, $bp-value in mq.$breakpoints {
   @include mq.media($bp-name) {
     // General padding
-    @each $size-name, $size-value in size.$sizes {
-      .b\:p-#{$bp-name}-#{$size-name} {
-        padding: size.size($size-value) !important;
+    @each $size-name, $size-value in var.$sizes {
+      .#{var.$prefix}p-#{$bp-name}-#{$size-name} {
+        padding: sz.size($size-value) !important;
       }
     }
 
 
     // Sides paddings
     @each $side-name, $side-value in $sides {
-      @each $size-name, $size-value in size.$sizes {
-        .b\:p#{$side-name}-#{$bp-name}-#{$size-name} {
+      @each $size-name, $size-value in var.$sizes {
+        .#{var.$prefix}p#{$side-name}-#{$bp-name}-#{$size-name} {
           @if $side-name == x {
-            padding-left: size.size($size-value) !important;
-            padding-right: size.size($size-value) !important;
+            padding-left: sz.size($size-value) !important;
+            padding-right: sz.size($size-value) !important;
           }
           @else if $side-name == y {
-            padding-top: size.size($size-value) !important;
-            padding-bottom: size.size($size-value) !important;
+            padding-top: sz.size($size-value) !important;
+            padding-bottom: sz.size($size-value) !important;
           }
           @else {
-            padding-#{$side-value}: size.size($size-value) !important;
+            padding-#{$side-value}: sz.size($size-value) !important;
           }
         }
       }

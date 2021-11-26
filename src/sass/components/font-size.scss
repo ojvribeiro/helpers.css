@@ -1,10 +1,29 @@
 @use "sass:math";
-@use 'sizes' as size;
+
+@use 'variables' as var;
+@use 'sizes' as sz;
+@use 'media-queries' as mq;
 
 
 // General size
-@each $size-name, $size-value in size.$sizes {
-  .b\:fs-#{$size-name} {
-    font-size: size.size($size-value) !important;
+@each $size-name, $size-value in var.$sizes {
+  @if $size-name !=none {
+    .#{var.$prefix}fs-#{$size-name} {
+      font-size: sz.size($size-value) !important;
+    }
+  }
+}
+
+
+// Sizes with breakpoints
+@each $bp-name, $bp-value in mq.$breakpoints {
+  @include mq.media($bp-name) {
+    @each $size-name, $size-value in var.$sizes {
+      @if $size-name != none {
+        .#{var.$prefix}fs-#{$bp-name}-#{$size-name} {
+          font-size: sz.size($size-value) !important;
+        }
+      }
+    }
   }
 }

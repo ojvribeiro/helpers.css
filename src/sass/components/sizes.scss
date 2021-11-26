@@ -1,30 +1,15 @@
 @use 'sass:math';
 
-$unit: 'rem';
-
-
-$sizes: (
-  none: 0,
-  xxxs: 4, // xxx-small
-  xxs: 8, // xx-small
-  xs: 12, // x-small
-  sm: 16, // small
-  md: 24, // medium
-  lg: 32, // large
-  xl: 56, // x-large
-  xxl: 72, // xx-large
-  xxxl: 112, // xxx-large
-  xxxxl: 160, // xxxx-large
-);
+@use 'variables' as var;
 
 
 @function size($value) {
   $final-value: null;
 
-  @if $unit == 'rem' {
+  @if var.$unit == 'rem' {
     $final-value: #{math.div($value, 10)}rem;
   }
-  @else if $unit == 'px' {
+  @else if var.$unit == 'px' {
     $final-value: #{$value}px;
   }
 

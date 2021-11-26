@@ -1,4 +1,4 @@
-@use 'variables';
+@use 'variables' as var;
 @use 'media-queries' as mq;
 
 $positions: (
@@ -10,11 +10,16 @@ $positions: (
   unset,
 );
 
+@each $position in $positions {
+  .#{var.$prefix}p-#{$position} {
+    position: #{$position} !important;
+  }
+}
 
 @each $bp-name, $bp-value in mq.$breakpoints {
   @include mq.media($bp-name) {
     @each $position in $positions {
-    .b\:p-#{$position} {
+      .#{var.$prefix}p-#{$bp-name}-#{$position} {
         position: #{$position} !important;
       }
     }

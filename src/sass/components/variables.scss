@@ -1,4 +1,6 @@
-$prefix: 'b\:';
+$prefix: '';
+
+$unit: 'rem';
 
 $breakpoints: (
   sm: 576,
@@ -7,4 +9,18 @@ $breakpoints: (
   xl: 1200,
   xxl: 1400,
   xxxl: 1600,
+);
+
+$sizes: (
+  none: 0,
+  xxxs: 4, // xxx-small
+  xxs: 8, // xx-small
+  xs: 12, // x-small
+  sm: 16, // small
+  md: 24, // medium
+  lg: 32, // large
+  xl: 56, // x-large
+  xxl: 72, // xx-large
+  xxxl: 112, // xxx-large
+  xxxxl: 160, // xxxx-large
 );
