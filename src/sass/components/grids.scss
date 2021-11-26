@@ -1,34 +1,44 @@
 @use 'sass:math';
 @use 'media-queries' as mq;
 
+$max-cols: 12;
+
+$utils: (
+  'col',
+  'offset',
+);
+
 .b\:row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
 
-@for $i from 1 through 12 {
-  .b\:row {
-    .b\:col-#{$i} {
-      width: math.div(100%, 12) * $i;
+  @each $util in $utils {
+    $prop: null;
+    
+    @if $util == 'col' {
+      $prop: width;
+    }
+    @else if $util == 'offset' {
+      $prop: margin-left;
+    }
+    
+    @for $i from 1 through $max-cols {
+      $value: math.div(100%, $max-cols) * $i;
+
+      .#{$util}-#{$i} {
+        #{$prop}: #{$value};
+      }
     }
 
-    .b\:offset-#{$i} {
-      margin-left: math.div(100%, 12) * $i;
-    }
-  }
-}
+    @each $bp-name, $bp-value in mq.$breakpoints {
+      @include mq.media($bp-name) {
+        @for $i from 1 through $max-cols {
+          $value: math.div(100%, $max-cols) * $i;
 
-@each $bp-name, $bp-value in mq.$breakpoints {
-  @include mq.media($bp-name) {
-    @for $i from 1 through 12 {
-      .b\:row {
-        .b\:col-#{$bp-name}-#{$i} {
-          width: math.div(100%, 12) * $i;
-        }
-
-        .b\:offset-#{$bp-name}-#{$i} {
-          margin-left: math.div(100%, 12) * $i;
+          .#{$util}-#{$bp-name}-#{$i} {
+            #{$prop}: #{$value};
+          }
         }
       }
     }
