@@ -1,6 +1,6 @@
 @use 'sass:math';
 
-@use 'variables';
+@use 'variables' as var;
 @use 'media-queries' as mq;
 
 $max-cols: 12;
@@ -10,7 +10,7 @@ $utils: (
   offset: margin-left,
 );
 
-.#{variables.$prefix}row {
+.#{var.$prefix}row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
