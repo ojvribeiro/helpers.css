@@ -1,0 +1,61 @@
+$scrolls: (
+  'none',
+  'all',
+  'auto',
+  'x-auto',
+  'y-auto',
+  'x',
+  'y',
+);
+
+
+@each $scroll in $scrolls {
+  @if $scroll == 'none' {
+    %#{$scroll} {
+      overflow: hidden !important;
+    }
+  }
+  @else if $scroll == 'all' {
+    %#{$scroll} {
+      overflow: scroll !important;
+    }
+  }
+  @else if $scroll == 'auto' {
+    %#{$scroll} {
+      overflow: auto !important;
+    }
+  }
+  @else if $scroll == 'y-auto' {
+    %#{$scroll} {
+      overflow: hidden !important;
+      overflow-y: auto !important;
+    }
+  }
+
+  @else if $scroll == 'x-auto' {
+    %#{$scroll} {
+      overflow: hidden !important;
+      overflow-x: auto !important;
+    }
+  }
+  @else if $scroll == 'x' {
+    %#{$scroll} {
+      overflow: hidden !important;
+      overflow-x: scroll !important;
+    }
+  }
+  @else if $scroll == 'y' {
+    %#{$scroll} {
+      overflow: hidden !important;
+      overflow-y: scroll !important;
+    }
+  }
+}
+
+
+
+@each $scroll in $scrolls {
+  .scroll-#{$scroll} {
+    @extend %#{$scroll};
+  }
+}
