@@ -1,7 +1,7 @@
 @use 'sass:math';
 
 @use 'variables' as var;
-@use 'media-queries' as mq;
+@use 'breakpoints' as bp;
 
 $max-cols: 12;
 
@@ -26,8 +26,8 @@ $utils: (
       }
     }
 
-    @each $bp-name, $bp-value in mq.$breakpoints {
-      @include mq.media($bp-name) {
+    @each $bp-name, $bp-value in bp.$breakpoints {
+      @include bp.media($bp-name) {
         @for $i from 1 through $max-cols {
           $value: math.div(100%, $max-cols) * $i;
 

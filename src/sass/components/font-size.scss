@@ -2,7 +2,7 @@
 
 @use 'variables' as var;
 @use 'sizes' as sz;
-@use 'media-queries' as mq;
+@use 'breakpoints' as bp;
 
 
 // General size
@@ -16,8 +16,8 @@
 
 
 // Sizes with breakpoints
-@each $bp-name, $bp-value in mq.$breakpoints {
-  @include mq.media($bp-name) {
+@each $bp-name, $bp-value in bp.$breakpoints {
+  @include bp.media($bp-name) {
     @each $size-name, $size-value in var.$sizes {
       @if $size-name != none {
         .#{var.$prefix}fs-#{$bp-name}-#{$size-name} {

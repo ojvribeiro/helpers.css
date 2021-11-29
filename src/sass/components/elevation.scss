@@ -1,5 +1,5 @@
 @use 'variables' as var;
-@use 'media-queries' as mq;
+@use 'breakpoints'as bp;
 @use 'sizes' as sz;
 
 $elevations: (
@@ -19,8 +19,8 @@ $elevations: (
 }
 
 
-@each $bp-name, $bp-value in mq.$breakpoints {
-  @include mq.media($bp-name) {
+@each $bp-name, $bp-value in bp.$breakpoints {
+  @include bp.media($bp-name) {
     @each $elevation-key, $elevation-value in $elevations {
       .#{var.$prefix}shadow-#{$bp-name}-#{$elevation-key} {
         box-shadow: #{$elevation-value} !important;

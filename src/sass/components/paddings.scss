@@ -1,6 +1,6 @@
 @use 'variables' as var;
 @use 'sizes' as sz;
-@use 'media-queries' as mq;
+@use 'breakpoints' as bp;
 
 $sides: (
   x: x, // horizontal
@@ -42,8 +42,8 @@ $sides: (
 
 
 // Paddings with breakpoints
-@each $bp-name, $bp-value in mq.$breakpoints {
-  @include mq.media($bp-name) {
+@each $bp-name, $bp-value in bp.$breakpoints {
+  @include bp.media($bp-name) {
     // General padding
     @each $size-name, $size-value in var.$sizes {
       .#{var.$prefix}p-#{$bp-name}-#{$size-name} {
