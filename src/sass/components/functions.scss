@@ -1,0 +1,30 @@
+@use 'sass:math';
+
+@use 'variables' as var;
+
+
+
+
+
+@function size($value) {
+  $final-value: null;
+  $unit: null;
+
+  @if $value == 0 {
+    $unit: '';
+  }
+
+  @else {
+    $unit: var.$unit;
+  }
+
+  @if var.$unit == 'rem' {
+    $final-value: #{math.div($value, 10)}#{$unit};
+  }
+
+  @else if var.$unit == 'px' {
+    $final-value: #{$value}px;
+  }
+
+  @return $final-value;
+}

@@ -1,5 +1,5 @@
 @use 'variables' as var;
-@use 'sizes' as sz;
+@use 'functions' as fn;
 @use 'breakpoints' as bp;
 
 $sides: (
@@ -15,7 +15,7 @@ $sides: (
 // General padding
 @each $size-name, $size-value in var.$sizes {
   .#{var.$prefix}p-#{$size-name} {
-    padding: sz.size($size-value) !important;
+    padding: fn.size($size-value) !important;
   }
 }
 
@@ -25,15 +25,15 @@ $sides: (
   @each $size-name, $size-value in var.$sizes {
     .#{var.$prefix}p#{$side-name}-#{$size-name} {
       @if $side-name == x {
-        padding-left: sz.size($size-value) !important;
-        padding-right: sz.size($size-value) !important;
+        padding-left: fn.size($size-value) !important;
+        padding-right: fn.size($size-value) !important;
       }
       @else if $side-name == y {
-        padding-top: sz.size($size-value) !important;
-        padding-bottom: sz.size($size-value) !important;
+        padding-top: fn.size($size-value) !important;
+        padding-bottom: fn.size($size-value) !important;
       }
       @else {
-        padding-#{$side-value}: sz.size($size-value) !important;
+        padding-#{$side-value}: fn.size($size-value) !important;
       }
     }
   }
@@ -47,7 +47,7 @@ $sides: (
     // General padding
     @each $size-name, $size-value in var.$sizes {
       .#{var.$prefix}p-#{$bp-name}-#{$size-name} {
-        padding: sz.size($size-value) !important;
+        padding: fn.size($size-value) !important;
       }
     }
 
@@ -57,15 +57,15 @@ $sides: (
       @each $size-name, $size-value in var.$sizes {
         .#{var.$prefix}p#{$side-name}-#{$bp-name}-#{$size-name} {
           @if $side-name == x {
-            padding-left: sz.size($size-value) !important;
-            padding-right: sz.size($size-value) !important;
+            padding-left: fn.size($size-value) !important;
+            padding-right: fn.size($size-value) !important;
           }
           @else if $side-name == y {
-            padding-top: sz.size($size-value) !important;
-            padding-bottom: sz.size($size-value) !important;
+            padding-top: fn.size($size-value) !important;
+            padding-bottom: fn.size($size-value) !important;
           }
           @else {
-            padding-#{$side-value}: sz.size($size-value) !important;
+            padding-#{$side-value}: fn.size($size-value) !important;
           }
         }
       }

@@ -1,7 +1,7 @@
 @use "sass:math";
 
 @use 'variables' as var;
-@use 'sizes' as sz;
+@use 'functions' as fn;
 @use 'breakpoints' as bp;
 
 
@@ -9,7 +9,7 @@
 @each $size-name, $size-value in var.$sizes {
   @if $size-name !=none {
     .#{var.$prefix}fs-#{$size-name} {
-      font-size: sz.size($size-value) !important;
+      font-size: fn.size($size-value) !important;
     }
   }
 }
@@ -21,7 +21,7 @@
     @each $size-name, $size-value in var.$sizes {
       @if $size-name != none {
         .#{var.$prefix}fs-#{$bp-name}-#{$size-name} {
-          font-size: sz.size($size-value) !important;
+          font-size: fn.size($size-value) !important;
         }
       }
     }

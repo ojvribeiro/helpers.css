@@ -1,5 +1,5 @@
 @use 'variables' as var;
-@use 'sizes' as sz;
+@use 'functions' as fn;
 @use 'breakpoints'as bp;
 
 $overlaps: (
@@ -13,7 +13,7 @@ $overlaps: (
 @each $overlap-name, $overlap-value in $overlaps {
   @each $size-name, $size-value in var.$sizes {
     .#{var.$prefix}ol#{$overlap-name}-#{$size-name} {
-      #{$overlap-value}: sz.size($size-value) !important;
+      #{$overlap-value}: fn.size($size-value) !important;
     }
   }
 }
@@ -23,7 +23,7 @@ $overlaps: (
     @each $overlap-name, $overlap-value in $overlaps {
       @each $size-name, $size-value in var.$sizes {
         .#{var.$prefix}ol#{$overlap-name}-#{$bp-name}-#{$size-name} {
-          #{$overlap-value}: sz.size($size-value) !important;
+          #{$overlap-value}: fn.size($size-value) !important;
         }
       }
     }

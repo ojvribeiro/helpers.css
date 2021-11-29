@@ -1,5 +1,5 @@
 @use 'variables' as var;
-@use 'sizes' as sz;
+@use 'functions' as fn;
 @use 'breakpoints' as bp;
 
 $sides: (
@@ -15,7 +15,7 @@ $sides: (
 // General margin
 @each $size-name, $size-value in var.$sizes {
   .#{var.$prefix}m-#{$size-name} {
-    margin: sz.size($size-value) !important;
+    margin: fn.size($size-value) !important;
   }
 }
 
@@ -25,15 +25,15 @@ $sides: (
   @each $size-name, $size-value in var.$sizes {
     .#{var.$prefix}m#{$side-name}-#{$size-name} {
       @if $side-name == x {
-        margin-left: sz.size($size-value) !important;
-        margin-right: sz.size($size-value) !important;
+        margin-left: fn.size($size-value) !important;
+        margin-right: fn.size($size-value) !important;
       }
       @else if $side-name == y {
-        margin-top: sz.size($size-value) !important;
-        margin-bottom: sz.size($size-value) !important;
+        margin-top: fn.size($size-value) !important;
+        margin-bottom: fn.size($size-value) !important;
       }
       @else {
-        margin-#{$side-value}: sz.size($size-value) !important;
+        margin-#{$side-value}: fn.size($size-value) !important;
       }
     }
   }
@@ -48,7 +48,7 @@ $sides: (
     // General margin
     @each $size-name, $size-value in var.$sizes {
       .#{var.$prefix}m-#{$bp-name}-#{$size-name} {
-        margin: sz.size($size-value) !important;
+        margin: fn.size($size-value) !important;
       }
     }
 
@@ -58,15 +58,15 @@ $sides: (
       @each $size-name, $size-value in var.$sizes {
         .#{var.$prefix}m#{$side-name}-#{$bp-name}-#{$size-name} {
           @if $side-name == x {
-            margin-left: sz.size($size-value) !important;
-            margin-right: sz.size($size-value) !important;
+            margin-left: fn.size($size-value) !important;
+            margin-right: fn.size($size-value) !important;
           }
           @else if $side-name == y {
-            margin-top: sz.size($size-value) !important;
-            margin-bottom: sz.size($size-value) !important;
+            margin-top: fn.size($size-value) !important;
+            margin-bottom: fn.size($size-value) !important;
           }
           @else {
-            margin-#{$side-value}: sz.size($size-value) !important;
+            margin-#{$side-value}: fn.size($size-value) !important;
           }
         }
       }

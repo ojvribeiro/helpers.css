@@ -1,25 +1,30 @@
-@use 'sass:math';
-
 @use 'variables' as var;
+@use 'breakpoints' as bp;
 
 
-@function size($value) {
-  $final-value: null;
-  $unit: null;
+$sizes: (
+  0: 0,
+  25: 25%,
+  50: 50%,
+  75: 75%,
+  100: 100%
+);
 
-  @if $value == 0 {
-    $unit: '';
-  }
-  @else {
-    $unit: var.$unit;
-  }
-  
-  @if var.$unit == 'rem' {
-    $final-value: #{math.div($value, 10)}#{$unit};
-  }
-  @else if var.$unit == 'px' {
-    $final-value: #{$value}px;
-  }
 
-  @return $final-value;
+@each $size-name, $size-value in $sizes {
+  .#{var.$prefix}w-#{$size-name} {
+    width: #{$size-value} !important;
+  }
+}
+
+
+
+@each $bp-name, $bp-value in bp.$breakpoints {
+  @include bp.media($bp-name) {
+    @each $size-name, $size-value in $sizes {
+      .#{var.$prefix}w-#{$bp-name}-#{$size-name} {
+        width: #{$size-value} !important;
+      }
+    }
+  }
 }

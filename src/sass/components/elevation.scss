@@ -1,14 +1,14 @@
 @use 'variables' as var;
 @use 'breakpoints'as bp;
-@use 'sizes' as sz;
+@use 'functions' as fn;
 
 $elevations: (
   0: none,
-  1: (sz.size(0) sz.size(1) sz.size(3) rgba(#000, 12%), sz.size(0) sz.size(1) sz.size(2) rgba(#000, 24%)),
-  2: (sz.size(0) sz.size(3) sz.size(6) rgba(#000, 16%), sz.size(0) sz.size(3) sz.size(6) rgba(#000, 23%)),
-  3: (sz.size(0) sz.size(10) sz.size(20) rgba(#000, 19%), sz.size(0) sz.size(6) sz.size(6) rgba(#000, 23%)),
-  4: (sz.size(0) sz.size(14) sz.size(28) rgba(#000, 25%), sz.size(0) sz.size(10) sz.size(10) rgba(#000, 22%)),
-  5: (sz.size(0) sz.size(19) sz.size(38) rgba(#000, 30%), sz.size(0) sz.size(15) sz.size(12) rgba(#000, 22%))
+  1: (fn.size(0) fn.size(1) fn.size(3) rgba(#000, 12%), fn.size(0) fn.size(1) fn.size(2) rgba(#000, 24%)),
+  2: (fn.size(0) fn.size(3) fn.size(6) rgba(#000, 16%), fn.size(0) fn.size(3) fn.size(6) rgba(#000, 23%)),
+  3: (fn.size(0) fn.size(10) fn.size(20) rgba(#000, 19%), fn.size(0) fn.size(6) fn.size(6) rgba(#000, 23%)),
+  4: (fn.size(0) fn.size(14) fn.size(28) rgba(#000, 25%), fn.size(0) fn.size(10) fn.size(10) rgba(#000, 22%)),
+  5: (fn.size(0) fn.size(19) fn.size(38) rgba(#000, 30%), fn.size(0) fn.size(15) fn.size(12) rgba(#000, 22%))
 );
 
 
