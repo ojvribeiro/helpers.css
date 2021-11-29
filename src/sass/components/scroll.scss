@@ -1,3 +1,5 @@
+@use 'variables' as var;
+
 $scrolls: (
   'none',
   'all',
@@ -55,7 +57,7 @@ $scrolls: (
 
 
 @each $scroll in $scrolls {
-  .scroll-#{$scroll} {
+  .#{var.$prefix}scroll-#{$scroll} {
     @extend %#{$scroll};
   }
 }
