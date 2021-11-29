@@ -1,0 +1,38 @@
+@use 'variables' as var;
+@use 'breakpoints' as bp;
+@use 'sizes' as sz;
+
+
+$sizes: (
+  0: sz.size(0),
+  1: sz.size(4),
+  2: sz.size(8),
+  3: sz.size(12),
+  4: sz.size(16),
+  5: sz.size(24),
+  circle: 50%,
+);
+
+
+@each $size-name, $size-value in $sizes {
+  .#{var.$prefix}br-#{$size-name} {
+    border-radius: $size-value !important;
+    @if $size-name == 'circle' {
+      aspect-ratio: 1;
+    }
+  }
+}
+
+
+@each $bp-name, $bp-value in bp.$breakpoints {
+  @include bp.media($bp-name) {
+    @each $size-name, $size-value in $sizes {
+      .#{var.$prefix}br-#{$bp-name}-#{$size-name} {
+        border-radius: $size-value !important;
+        @if $size-name == 'circle' {
+          aspect-ratio: 1;
+        }
+      }
+    }
+  }
+}
