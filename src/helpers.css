@@ -7849,6 +7849,1398 @@ html, body {
 /**
  * Blur
 */
+.blur-0 {
+  filter: blur(0.4rem);
+}
+
+.blur-1 {
+  filter: blur(0.8rem);
+}
+
+.blur-2 {
+  filter: blur(1.6rem);
+}
+
+.blur-3 {
+  filter: blur(2.4rem);
+}
+
+.blur-4 {
+  filter: blur(3.2rem);
+}
+
+.blur-5 {
+  filter: blur(4rem);
+}
+
+.frosted-glass-0 {
+  backdrop-filter: blur(0.4rem);
+}
+
+.frosted-glass-1 {
+  backdrop-filter: blur(0.8rem);
+}
+
+.frosted-glass-2 {
+  backdrop-filter: blur(1.6rem);
+}
+
+.frosted-glass-3 {
+  backdrop-filter: blur(2.4rem);
+}
+
+.frosted-glass-4 {
+  backdrop-filter: blur(3.2rem);
+}
+
+.frosted-glass-5 {
+  backdrop-filter: blur(4rem);
+}
+
+@media screen and (min-width: 576px) {
+  .blur-sm-0 {
+    filter: blur(0.4rem);
+  }
+
+  .blur-sm-1 {
+    filter: blur(0.8rem);
+  }
+
+  .blur-sm-2 {
+    filter: blur(1.6rem);
+  }
+
+  .blur-sm-3 {
+    filter: blur(2.4rem);
+  }
+
+  .blur-sm-4 {
+    filter: blur(3.2rem);
+  }
+
+  .blur-sm-5 {
+    filter: blur(4rem);
+  }
+
+  .frosted-glass-sm-0 {
+    backdrop-filter: blur(0.4rem);
+  }
+
+  .frosted-glass-sm-1 {
+    backdrop-filter: blur(0.8rem);
+  }
+
+  .frosted-glass-sm-2 {
+    backdrop-filter: blur(1.6rem);
+  }
+
+  .frosted-glass-sm-3 {
+    backdrop-filter: blur(2.4rem);
+  }
+
+  .frosted-glass-sm-4 {
+    backdrop-filter: blur(3.2rem);
+  }
+
+  .frosted-glass-sm-5 {
+    backdrop-filter: blur(4rem);
+  }
+}
+@media screen and (min-width: 768px) {
+  .blur-md-0 {
+    filter: blur(0.4rem);
+  }
+
+  .blur-md-1 {
+    filter: blur(0.8rem);
+  }
+
+  .blur-md-2 {
+    filter: blur(1.6rem);
+  }
+
+  .blur-md-3 {
+    filter: blur(2.4rem);
+  }
+
+  .blur-md-4 {
+    filter: blur(3.2rem);
+  }
+
+  .blur-md-5 {
+    filter: blur(4rem);
+  }
+
+  .frosted-glass-md-0 {
+    backdrop-filter: blur(0.4rem);
+  }
+
+  .frosted-glass-md-1 {
+    backdrop-filter: blur(0.8rem);
+  }
+
+  .frosted-glass-md-2 {
+    backdrop-filter: blur(1.6rem);
+  }
+
+  .frosted-glass-md-3 {
+    backdrop-filter: blur(2.4rem);
+  }
+
+  .frosted-glass-md-4 {
+    backdrop-filter: blur(3.2rem);
+  }
+
+  .frosted-glass-md-5 {
+    backdrop-filter: blur(4rem);
+  }
+}
+@media screen and (min-width: 992px) {
+  .blur-lg-0 {
+    filter: blur(0.4rem);
+  }
+
+  .blur-lg-1 {
+    filter: blur(0.8rem);
+  }
+
+  .blur-lg-2 {
+    filter: blur(1.6rem);
+  }
+
+  .blur-lg-3 {
+    filter: blur(2.4rem);
+  }
+
+  .blur-lg-4 {
+    filter: blur(3.2rem);
+  }
+
+  .blur-lg-5 {
+    filter: blur(4rem);
+  }
+
+  .frosted-glass-lg-0 {
+    backdrop-filter: blur(0.4rem);
+  }
+
+  .frosted-glass-lg-1 {
+    backdrop-filter: blur(0.8rem);
+  }
+
+  .frosted-glass-lg-2 {
+    backdrop-filter: blur(1.6rem);
+  }
+
+  .frosted-glass-lg-3 {
+    backdrop-filter: blur(2.4rem);
+  }
+
+  .frosted-glass-lg-4 {
+    backdrop-filter: blur(3.2rem);
+  }
+
+  .frosted-glass-lg-5 {
+    backdrop-filter: blur(4rem);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .blur-xl-0 {
+    filter: blur(0.4rem);
+  }
+
+  .blur-xl-1 {
+    filter: blur(0.8rem);
+  }
+
+  .blur-xl-2 {
+    filter: blur(1.6rem);
+  }
+
+  .blur-xl-3 {
+    filter: blur(2.4rem);
+  }
+
+  .blur-xl-4 {
+    filter: blur(3.2rem);
+  }
+
+  .blur-xl-5 {
+    filter: blur(4rem);
+  }
+
+  .frosted-glass-xl-0 {
+    backdrop-filter: blur(0.4rem);
+  }
+
+  .frosted-glass-xl-1 {
+    backdrop-filter: blur(0.8rem);
+  }
+
+  .frosted-glass-xl-2 {
+    backdrop-filter: blur(1.6rem);
+  }
+
+  .frosted-glass-xl-3 {
+    backdrop-filter: blur(2.4rem);
+  }
+
+  .frosted-glass-xl-4 {
+    backdrop-filter: blur(3.2rem);
+  }
+
+  .frosted-glass-xl-5 {
+    backdrop-filter: blur(4rem);
+  }
+}
+@media screen and (min-width: 1400px) {
+  .blur-xxl-0 {
+    filter: blur(0.4rem);
+  }
+
+  .blur-xxl-1 {
+    filter: blur(0.8rem);
+  }
+
+  .blur-xxl-2 {
+    filter: blur(1.6rem);
+  }
+
+  .blur-xxl-3 {
+    filter: blur(2.4rem);
+  }
+
+  .blur-xxl-4 {
+    filter: blur(3.2rem);
+  }
+
+  .blur-xxl-5 {
+    filter: blur(4rem);
+  }
+
+  .frosted-glass-xxl-0 {
+    backdrop-filter: blur(0.4rem);
+  }
+
+  .frosted-glass-xxl-1 {
+    backdrop-filter: blur(0.8rem);
+  }
+
+  .frosted-glass-xxl-2 {
+    backdrop-filter: blur(1.6rem);
+  }
+
+  .frosted-glass-xxl-3 {
+    backdrop-filter: blur(2.4rem);
+  }
+
+  .frosted-glass-xxl-4 {
+    backdrop-filter: blur(3.2rem);
+  }
+
+  .frosted-glass-xxl-5 {
+    backdrop-filter: blur(4rem);
+  }
+}
+@media screen and (min-width: 1600px) {
+  .blur-xxxl-0 {
+    filter: blur(0.4rem);
+  }
+
+  .blur-xxxl-1 {
+    filter: blur(0.8rem);
+  }
+
+  .blur-xxxl-2 {
+    filter: blur(1.6rem);
+  }
+
+  .blur-xxxl-3 {
+    filter: blur(2.4rem);
+  }
+
+  .blur-xxxl-4 {
+    filter: blur(3.2rem);
+  }
+
+  .blur-xxxl-5 {
+    filter: blur(4rem);
+  }
+
+  .frosted-glass-xxxl-0 {
+    backdrop-filter: blur(0.4rem);
+  }
+
+  .frosted-glass-xxxl-1 {
+    backdrop-filter: blur(0.8rem);
+  }
+
+  .frosted-glass-xxxl-2 {
+    backdrop-filter: blur(1.6rem);
+  }
+
+  .frosted-glass-xxxl-3 {
+    backdrop-filter: blur(2.4rem);
+  }
+
+  .frosted-glass-xxxl-4 {
+    backdrop-filter: blur(3.2rem);
+  }
+
+  .frosted-glass-xxxl-5 {
+    backdrop-filter: blur(4rem);
+  }
+}
+@media screen and (min-width: 576px) {
+  .blur-sm-0 {
+    filter: blur(0.4rem);
+  }
+  .blur-sm-0.dark-0 {
+    background-color: black;
+  }
+  .blur-sm-0.dark-1 {
+    background-color: black;
+  }
+  .blur-sm-0.dark-2 {
+    background-color: black;
+  }
+  .blur-sm-0.dark-3 {
+    background-color: black;
+  }
+  .blur-sm-0.dark-4 {
+    background-color: black;
+  }
+  .blur-sm-0.dark-5 {
+    background-color: black;
+  }
+
+  .blur-sm-1 {
+    filter: blur(0.8rem);
+  }
+  .blur-sm-1.dark-0 {
+    background-color: black;
+  }
+  .blur-sm-1.dark-1 {
+    background-color: black;
+  }
+  .blur-sm-1.dark-2 {
+    background-color: black;
+  }
+  .blur-sm-1.dark-3 {
+    background-color: black;
+  }
+  .blur-sm-1.dark-4 {
+    background-color: black;
+  }
+  .blur-sm-1.dark-5 {
+    background-color: black;
+  }
+
+  .blur-sm-2 {
+    filter: blur(1.6rem);
+  }
+  .blur-sm-2.dark-0 {
+    background-color: black;
+  }
+  .blur-sm-2.dark-1 {
+    background-color: black;
+  }
+  .blur-sm-2.dark-2 {
+    background-color: black;
+  }
+  .blur-sm-2.dark-3 {
+    background-color: black;
+  }
+  .blur-sm-2.dark-4 {
+    background-color: black;
+  }
+  .blur-sm-2.dark-5 {
+    background-color: black;
+  }
+
+  .blur-sm-3 {
+    filter: blur(2.4rem);
+  }
+  .blur-sm-3.dark-0 {
+    background-color: black;
+  }
+  .blur-sm-3.dark-1 {
+    background-color: black;
+  }
+  .blur-sm-3.dark-2 {
+    background-color: black;
+  }
+  .blur-sm-3.dark-3 {
+    background-color: black;
+  }
+  .blur-sm-3.dark-4 {
+    background-color: black;
+  }
+  .blur-sm-3.dark-5 {
+    background-color: black;
+  }
+
+  .blur-sm-4 {
+    filter: blur(3.2rem);
+  }
+  .blur-sm-4.dark-0 {
+    background-color: black;
+  }
+  .blur-sm-4.dark-1 {
+    background-color: black;
+  }
+  .blur-sm-4.dark-2 {
+    background-color: black;
+  }
+  .blur-sm-4.dark-3 {
+    background-color: black;
+  }
+  .blur-sm-4.dark-4 {
+    background-color: black;
+  }
+  .blur-sm-4.dark-5 {
+    background-color: black;
+  }
+
+  .blur-sm-5 {
+    filter: blur(4rem);
+  }
+  .blur-sm-5.dark-0 {
+    background-color: black;
+  }
+  .blur-sm-5.dark-1 {
+    background-color: black;
+  }
+  .blur-sm-5.dark-2 {
+    background-color: black;
+  }
+  .blur-sm-5.dark-3 {
+    background-color: black;
+  }
+  .blur-sm-5.dark-4 {
+    background-color: black;
+  }
+  .blur-sm-5.dark-5 {
+    background-color: black;
+  }
+
+  .frosted-glass-sm-0 {
+    backdrop-filter: blur(0.4rem);
+  }
+  .frosted-glass-sm-0 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-sm-1 {
+    backdrop-filter: blur(0.8rem);
+  }
+  .frosted-glass-sm-1 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-sm-2 {
+    backdrop-filter: blur(1.6rem);
+  }
+  .frosted-glass-sm-2 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-sm-3 {
+    backdrop-filter: blur(2.4rem);
+  }
+  .frosted-glass-sm-3 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-sm-4 {
+    backdrop-filter: blur(3.2rem);
+  }
+  .frosted-glass-sm-4 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-sm-5 {
+    backdrop-filter: blur(4rem);
+  }
+  .frosted-glass-sm-5 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media screen and (min-width: 768px) {
+  .blur-md-0 {
+    filter: blur(0.4rem);
+  }
+  .blur-md-0.dark-0 {
+    background-color: black;
+  }
+  .blur-md-0.dark-1 {
+    background-color: black;
+  }
+  .blur-md-0.dark-2 {
+    background-color: black;
+  }
+  .blur-md-0.dark-3 {
+    background-color: black;
+  }
+  .blur-md-0.dark-4 {
+    background-color: black;
+  }
+  .blur-md-0.dark-5 {
+    background-color: black;
+  }
+
+  .blur-md-1 {
+    filter: blur(0.8rem);
+  }
+  .blur-md-1.dark-0 {
+    background-color: black;
+  }
+  .blur-md-1.dark-1 {
+    background-color: black;
+  }
+  .blur-md-1.dark-2 {
+    background-color: black;
+  }
+  .blur-md-1.dark-3 {
+    background-color: black;
+  }
+  .blur-md-1.dark-4 {
+    background-color: black;
+  }
+  .blur-md-1.dark-5 {
+    background-color: black;
+  }
+
+  .blur-md-2 {
+    filter: blur(1.6rem);
+  }
+  .blur-md-2.dark-0 {
+    background-color: black;
+  }
+  .blur-md-2.dark-1 {
+    background-color: black;
+  }
+  .blur-md-2.dark-2 {
+    background-color: black;
+  }
+  .blur-md-2.dark-3 {
+    background-color: black;
+  }
+  .blur-md-2.dark-4 {
+    background-color: black;
+  }
+  .blur-md-2.dark-5 {
+    background-color: black;
+  }
+
+  .blur-md-3 {
+    filter: blur(2.4rem);
+  }
+  .blur-md-3.dark-0 {
+    background-color: black;
+  }
+  .blur-md-3.dark-1 {
+    background-color: black;
+  }
+  .blur-md-3.dark-2 {
+    background-color: black;
+  }
+  .blur-md-3.dark-3 {
+    background-color: black;
+  }
+  .blur-md-3.dark-4 {
+    background-color: black;
+  }
+  .blur-md-3.dark-5 {
+    background-color: black;
+  }
+
+  .blur-md-4 {
+    filter: blur(3.2rem);
+  }
+  .blur-md-4.dark-0 {
+    background-color: black;
+  }
+  .blur-md-4.dark-1 {
+    background-color: black;
+  }
+  .blur-md-4.dark-2 {
+    background-color: black;
+  }
+  .blur-md-4.dark-3 {
+    background-color: black;
+  }
+  .blur-md-4.dark-4 {
+    background-color: black;
+  }
+  .blur-md-4.dark-5 {
+    background-color: black;
+  }
+
+  .blur-md-5 {
+    filter: blur(4rem);
+  }
+  .blur-md-5.dark-0 {
+    background-color: black;
+  }
+  .blur-md-5.dark-1 {
+    background-color: black;
+  }
+  .blur-md-5.dark-2 {
+    background-color: black;
+  }
+  .blur-md-5.dark-3 {
+    background-color: black;
+  }
+  .blur-md-5.dark-4 {
+    background-color: black;
+  }
+  .blur-md-5.dark-5 {
+    background-color: black;
+  }
+
+  .frosted-glass-md-0 {
+    backdrop-filter: blur(0.4rem);
+  }
+  .frosted-glass-md-0 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-md-1 {
+    backdrop-filter: blur(0.8rem);
+  }
+  .frosted-glass-md-1 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-md-2 {
+    backdrop-filter: blur(1.6rem);
+  }
+  .frosted-glass-md-2 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-md-3 {
+    backdrop-filter: blur(2.4rem);
+  }
+  .frosted-glass-md-3 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-md-4 {
+    backdrop-filter: blur(3.2rem);
+  }
+  .frosted-glass-md-4 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-md-5 {
+    backdrop-filter: blur(4rem);
+  }
+  .frosted-glass-md-5 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media screen and (min-width: 992px) {
+  .blur-lg-0 {
+    filter: blur(0.4rem);
+  }
+  .blur-lg-0.dark-0 {
+    background-color: black;
+  }
+  .blur-lg-0.dark-1 {
+    background-color: black;
+  }
+  .blur-lg-0.dark-2 {
+    background-color: black;
+  }
+  .blur-lg-0.dark-3 {
+    background-color: black;
+  }
+  .blur-lg-0.dark-4 {
+    background-color: black;
+  }
+  .blur-lg-0.dark-5 {
+    background-color: black;
+  }
+
+  .blur-lg-1 {
+    filter: blur(0.8rem);
+  }
+  .blur-lg-1.dark-0 {
+    background-color: black;
+  }
+  .blur-lg-1.dark-1 {
+    background-color: black;
+  }
+  .blur-lg-1.dark-2 {
+    background-color: black;
+  }
+  .blur-lg-1.dark-3 {
+    background-color: black;
+  }
+  .blur-lg-1.dark-4 {
+    background-color: black;
+  }
+  .blur-lg-1.dark-5 {
+    background-color: black;
+  }
+
+  .blur-lg-2 {
+    filter: blur(1.6rem);
+  }
+  .blur-lg-2.dark-0 {
+    background-color: black;
+  }
+  .blur-lg-2.dark-1 {
+    background-color: black;
+  }
+  .blur-lg-2.dark-2 {
+    background-color: black;
+  }
+  .blur-lg-2.dark-3 {
+    background-color: black;
+  }
+  .blur-lg-2.dark-4 {
+    background-color: black;
+  }
+  .blur-lg-2.dark-5 {
+    background-color: black;
+  }
+
+  .blur-lg-3 {
+    filter: blur(2.4rem);
+  }
+  .blur-lg-3.dark-0 {
+    background-color: black;
+  }
+  .blur-lg-3.dark-1 {
+    background-color: black;
+  }
+  .blur-lg-3.dark-2 {
+    background-color: black;
+  }
+  .blur-lg-3.dark-3 {
+    background-color: black;
+  }
+  .blur-lg-3.dark-4 {
+    background-color: black;
+  }
+  .blur-lg-3.dark-5 {
+    background-color: black;
+  }
+
+  .blur-lg-4 {
+    filter: blur(3.2rem);
+  }
+  .blur-lg-4.dark-0 {
+    background-color: black;
+  }
+  .blur-lg-4.dark-1 {
+    background-color: black;
+  }
+  .blur-lg-4.dark-2 {
+    background-color: black;
+  }
+  .blur-lg-4.dark-3 {
+    background-color: black;
+  }
+  .blur-lg-4.dark-4 {
+    background-color: black;
+  }
+  .blur-lg-4.dark-5 {
+    background-color: black;
+  }
+
+  .blur-lg-5 {
+    filter: blur(4rem);
+  }
+  .blur-lg-5.dark-0 {
+    background-color: black;
+  }
+  .blur-lg-5.dark-1 {
+    background-color: black;
+  }
+  .blur-lg-5.dark-2 {
+    background-color: black;
+  }
+  .blur-lg-5.dark-3 {
+    background-color: black;
+  }
+  .blur-lg-5.dark-4 {
+    background-color: black;
+  }
+  .blur-lg-5.dark-5 {
+    background-color: black;
+  }
+
+  .frosted-glass-lg-0 {
+    backdrop-filter: blur(0.4rem);
+  }
+  .frosted-glass-lg-0 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-lg-1 {
+    backdrop-filter: blur(0.8rem);
+  }
+  .frosted-glass-lg-1 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-lg-2 {
+    backdrop-filter: blur(1.6rem);
+  }
+  .frosted-glass-lg-2 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-lg-3 {
+    backdrop-filter: blur(2.4rem);
+  }
+  .frosted-glass-lg-3 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-lg-4 {
+    backdrop-filter: blur(3.2rem);
+  }
+  .frosted-glass-lg-4 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-lg-5 {
+    backdrop-filter: blur(4rem);
+  }
+  .frosted-glass-lg-5 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .blur-xl-0 {
+    filter: blur(0.4rem);
+  }
+  .blur-xl-0.dark-0 {
+    background-color: black;
+  }
+  .blur-xl-0.dark-1 {
+    background-color: black;
+  }
+  .blur-xl-0.dark-2 {
+    background-color: black;
+  }
+  .blur-xl-0.dark-3 {
+    background-color: black;
+  }
+  .blur-xl-0.dark-4 {
+    background-color: black;
+  }
+  .blur-xl-0.dark-5 {
+    background-color: black;
+  }
+
+  .blur-xl-1 {
+    filter: blur(0.8rem);
+  }
+  .blur-xl-1.dark-0 {
+    background-color: black;
+  }
+  .blur-xl-1.dark-1 {
+    background-color: black;
+  }
+  .blur-xl-1.dark-2 {
+    background-color: black;
+  }
+  .blur-xl-1.dark-3 {
+    background-color: black;
+  }
+  .blur-xl-1.dark-4 {
+    background-color: black;
+  }
+  .blur-xl-1.dark-5 {
+    background-color: black;
+  }
+
+  .blur-xl-2 {
+    filter: blur(1.6rem);
+  }
+  .blur-xl-2.dark-0 {
+    background-color: black;
+  }
+  .blur-xl-2.dark-1 {
+    background-color: black;
+  }
+  .blur-xl-2.dark-2 {
+    background-color: black;
+  }
+  .blur-xl-2.dark-3 {
+    background-color: black;
+  }
+  .blur-xl-2.dark-4 {
+    background-color: black;
+  }
+  .blur-xl-2.dark-5 {
+    background-color: black;
+  }
+
+  .blur-xl-3 {
+    filter: blur(2.4rem);
+  }
+  .blur-xl-3.dark-0 {
+    background-color: black;
+  }
+  .blur-xl-3.dark-1 {
+    background-color: black;
+  }
+  .blur-xl-3.dark-2 {
+    background-color: black;
+  }
+  .blur-xl-3.dark-3 {
+    background-color: black;
+  }
+  .blur-xl-3.dark-4 {
+    background-color: black;
+  }
+  .blur-xl-3.dark-5 {
+    background-color: black;
+  }
+
+  .blur-xl-4 {
+    filter: blur(3.2rem);
+  }
+  .blur-xl-4.dark-0 {
+    background-color: black;
+  }
+  .blur-xl-4.dark-1 {
+    background-color: black;
+  }
+  .blur-xl-4.dark-2 {
+    background-color: black;
+  }
+  .blur-xl-4.dark-3 {
+    background-color: black;
+  }
+  .blur-xl-4.dark-4 {
+    background-color: black;
+  }
+  .blur-xl-4.dark-5 {
+    background-color: black;
+  }
+
+  .blur-xl-5 {
+    filter: blur(4rem);
+  }
+  .blur-xl-5.dark-0 {
+    background-color: black;
+  }
+  .blur-xl-5.dark-1 {
+    background-color: black;
+  }
+  .blur-xl-5.dark-2 {
+    background-color: black;
+  }
+  .blur-xl-5.dark-3 {
+    background-color: black;
+  }
+  .blur-xl-5.dark-4 {
+    background-color: black;
+  }
+  .blur-xl-5.dark-5 {
+    background-color: black;
+  }
+
+  .frosted-glass-xl-0 {
+    backdrop-filter: blur(0.4rem);
+  }
+  .frosted-glass-xl-0 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-xl-1 {
+    backdrop-filter: blur(0.8rem);
+  }
+  .frosted-glass-xl-1 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-xl-2 {
+    backdrop-filter: blur(1.6rem);
+  }
+  .frosted-glass-xl-2 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-xl-3 {
+    backdrop-filter: blur(2.4rem);
+  }
+  .frosted-glass-xl-3 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-xl-4 {
+    backdrop-filter: blur(3.2rem);
+  }
+  .frosted-glass-xl-4 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-xl-5 {
+    backdrop-filter: blur(4rem);
+  }
+  .frosted-glass-xl-5 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media screen and (min-width: 1400px) {
+  .blur-xxl-0 {
+    filter: blur(0.4rem);
+  }
+  .blur-xxl-0.dark-0 {
+    background-color: black;
+  }
+  .blur-xxl-0.dark-1 {
+    background-color: black;
+  }
+  .blur-xxl-0.dark-2 {
+    background-color: black;
+  }
+  .blur-xxl-0.dark-3 {
+    background-color: black;
+  }
+  .blur-xxl-0.dark-4 {
+    background-color: black;
+  }
+  .blur-xxl-0.dark-5 {
+    background-color: black;
+  }
+
+  .blur-xxl-1 {
+    filter: blur(0.8rem);
+  }
+  .blur-xxl-1.dark-0 {
+    background-color: black;
+  }
+  .blur-xxl-1.dark-1 {
+    background-color: black;
+  }
+  .blur-xxl-1.dark-2 {
+    background-color: black;
+  }
+  .blur-xxl-1.dark-3 {
+    background-color: black;
+  }
+  .blur-xxl-1.dark-4 {
+    background-color: black;
+  }
+  .blur-xxl-1.dark-5 {
+    background-color: black;
+  }
+
+  .blur-xxl-2 {
+    filter: blur(1.6rem);
+  }
+  .blur-xxl-2.dark-0 {
+    background-color: black;
+  }
+  .blur-xxl-2.dark-1 {
+    background-color: black;
+  }
+  .blur-xxl-2.dark-2 {
+    background-color: black;
+  }
+  .blur-xxl-2.dark-3 {
+    background-color: black;
+  }
+  .blur-xxl-2.dark-4 {
+    background-color: black;
+  }
+  .blur-xxl-2.dark-5 {
+    background-color: black;
+  }
+
+  .blur-xxl-3 {
+    filter: blur(2.4rem);
+  }
+  .blur-xxl-3.dark-0 {
+    background-color: black;
+  }
+  .blur-xxl-3.dark-1 {
+    background-color: black;
+  }
+  .blur-xxl-3.dark-2 {
+    background-color: black;
+  }
+  .blur-xxl-3.dark-3 {
+    background-color: black;
+  }
+  .blur-xxl-3.dark-4 {
+    background-color: black;
+  }
+  .blur-xxl-3.dark-5 {
+    background-color: black;
+  }
+
+  .blur-xxl-4 {
+    filter: blur(3.2rem);
+  }
+  .blur-xxl-4.dark-0 {
+    background-color: black;
+  }
+  .blur-xxl-4.dark-1 {
+    background-color: black;
+  }
+  .blur-xxl-4.dark-2 {
+    background-color: black;
+  }
+  .blur-xxl-4.dark-3 {
+    background-color: black;
+  }
+  .blur-xxl-4.dark-4 {
+    background-color: black;
+  }
+  .blur-xxl-4.dark-5 {
+    background-color: black;
+  }
+
+  .blur-xxl-5 {
+    filter: blur(4rem);
+  }
+  .blur-xxl-5.dark-0 {
+    background-color: black;
+  }
+  .blur-xxl-5.dark-1 {
+    background-color: black;
+  }
+  .blur-xxl-5.dark-2 {
+    background-color: black;
+  }
+  .blur-xxl-5.dark-3 {
+    background-color: black;
+  }
+  .blur-xxl-5.dark-4 {
+    background-color: black;
+  }
+  .blur-xxl-5.dark-5 {
+    background-color: black;
+  }
+
+  .frosted-glass-xxl-0 {
+    backdrop-filter: blur(0.4rem);
+  }
+  .frosted-glass-xxl-0 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-xxl-1 {
+    backdrop-filter: blur(0.8rem);
+  }
+  .frosted-glass-xxl-1 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-xxl-2 {
+    backdrop-filter: blur(1.6rem);
+  }
+  .frosted-glass-xxl-2 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-xxl-3 {
+    backdrop-filter: blur(2.4rem);
+  }
+  .frosted-glass-xxl-3 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-xxl-4 {
+    backdrop-filter: blur(3.2rem);
+  }
+  .frosted-glass-xxl-4 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-xxl-5 {
+    backdrop-filter: blur(4rem);
+  }
+  .frosted-glass-xxl-5 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+@media screen and (min-width: 1600px) {
+  .blur-xxxl-0 {
+    filter: blur(0.4rem);
+  }
+  .blur-xxxl-0.dark-0 {
+    background-color: black;
+  }
+  .blur-xxxl-0.dark-1 {
+    background-color: black;
+  }
+  .blur-xxxl-0.dark-2 {
+    background-color: black;
+  }
+  .blur-xxxl-0.dark-3 {
+    background-color: black;
+  }
+  .blur-xxxl-0.dark-4 {
+    background-color: black;
+  }
+  .blur-xxxl-0.dark-5 {
+    background-color: black;
+  }
+
+  .blur-xxxl-1 {
+    filter: blur(0.8rem);
+  }
+  .blur-xxxl-1.dark-0 {
+    background-color: black;
+  }
+  .blur-xxxl-1.dark-1 {
+    background-color: black;
+  }
+  .blur-xxxl-1.dark-2 {
+    background-color: black;
+  }
+  .blur-xxxl-1.dark-3 {
+    background-color: black;
+  }
+  .blur-xxxl-1.dark-4 {
+    background-color: black;
+  }
+  .blur-xxxl-1.dark-5 {
+    background-color: black;
+  }
+
+  .blur-xxxl-2 {
+    filter: blur(1.6rem);
+  }
+  .blur-xxxl-2.dark-0 {
+    background-color: black;
+  }
+  .blur-xxxl-2.dark-1 {
+    background-color: black;
+  }
+  .blur-xxxl-2.dark-2 {
+    background-color: black;
+  }
+  .blur-xxxl-2.dark-3 {
+    background-color: black;
+  }
+  .blur-xxxl-2.dark-4 {
+    background-color: black;
+  }
+  .blur-xxxl-2.dark-5 {
+    background-color: black;
+  }
+
+  .blur-xxxl-3 {
+    filter: blur(2.4rem);
+  }
+  .blur-xxxl-3.dark-0 {
+    background-color: black;
+  }
+  .blur-xxxl-3.dark-1 {
+    background-color: black;
+  }
+  .blur-xxxl-3.dark-2 {
+    background-color: black;
+  }
+  .blur-xxxl-3.dark-3 {
+    background-color: black;
+  }
+  .blur-xxxl-3.dark-4 {
+    background-color: black;
+  }
+  .blur-xxxl-3.dark-5 {
+    background-color: black;
+  }
+
+  .blur-xxxl-4 {
+    filter: blur(3.2rem);
+  }
+  .blur-xxxl-4.dark-0 {
+    background-color: black;
+  }
+  .blur-xxxl-4.dark-1 {
+    background-color: black;
+  }
+  .blur-xxxl-4.dark-2 {
+    background-color: black;
+  }
+  .blur-xxxl-4.dark-3 {
+    background-color: black;
+  }
+  .blur-xxxl-4.dark-4 {
+    background-color: black;
+  }
+  .blur-xxxl-4.dark-5 {
+    background-color: black;
+  }
+
+  .blur-xxxl-5 {
+    filter: blur(4rem);
+  }
+  .blur-xxxl-5.dark-0 {
+    background-color: black;
+  }
+  .blur-xxxl-5.dark-1 {
+    background-color: black;
+  }
+  .blur-xxxl-5.dark-2 {
+    background-color: black;
+  }
+  .blur-xxxl-5.dark-3 {
+    background-color: black;
+  }
+  .blur-xxxl-5.dark-4 {
+    background-color: black;
+  }
+  .blur-xxxl-5.dark-5 {
+    background-color: black;
+  }
+
+  .frosted-glass-xxxl-0 {
+    backdrop-filter: blur(0.4rem);
+  }
+  .frosted-glass-xxxl-0 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-xxxl-1 {
+    backdrop-filter: blur(0.8rem);
+  }
+  .frosted-glass-xxxl-1 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-xxxl-2 {
+    backdrop-filter: blur(1.6rem);
+  }
+  .frosted-glass-xxxl-2 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-xxxl-3 {
+    backdrop-filter: blur(2.4rem);
+  }
+  .frosted-glass-xxxl-3 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-xxxl-4 {
+    backdrop-filter: blur(3.2rem);
+  }
+  .frosted-glass-xxxl-4 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .frosted-glass-xxxl-5 {
+    backdrop-filter: blur(4rem);
+  }
+  .frosted-glass-xxxl-5 .dark {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
 .blur-1 {
   filter: blur(4px) !important;
 }

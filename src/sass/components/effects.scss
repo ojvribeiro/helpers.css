@@ -1,0 +1,109 @@
+@use 'sass:list';
+@use 'sass:math';
+
+@use 'breakpoints' as bp;
+@use 'variables' as var;
+@use 'functions' as fn;
+
+
+$effects: (
+  'blur',
+  'frosted-glass'
+);
+
+
+$blur: (
+  0: blur(fn.size(4)),
+  1: blur(fn.size(8)),
+  2: blur(fn.size(16)),
+  3: blur(fn.size(24)),
+  4: blur(fn.size(32)),
+  5: blur(fn.size(40)),
+);
+
+$frosted-glass: (
+  0: blur(fn.size(4)),
+  1: blur(fn.size(8)),
+  2: blur(fn.size(16)),
+  3: blur(fn.size(24)),
+  4: blur(fn.size(32)),
+  5: blur(fn.size(40)),
+);
+
+
+@each $effect in $effects {
+  @if $effect == 'blur' {
+    @each $blur-key, $blur-value in $blur {
+      .#{var.$prefix}#{$effect}-#{$blur-key} {
+        filter: #{$blur-value};
+      }
+    }
+  }
+
+  @else if $effect == 'frosted-glass' {
+    @each $frosted-glass-key, $frosted-glass-value in $frosted-glass {
+      .#{var.$prefix}#{$effect}-#{$frosted-glass-key} {
+        backdrop-filter: #{$frosted-glass-value};
+      }
+    }
+  }
+}
+
+
+@each $bp-name, $bp-value in bp.$breakpoints {
+  @include bp.media($bp-name) {
+    @each $effect in $effects {
+      @if $effect == 'blur' {
+        @each $blur-key, $blur-value in $blur {
+          .#{var.$prefix}#{$effect}-#{$bp-name}-#{$blur-key} {
+            filter: #{$blur-value};
+          }
+        }
+      }
+
+      @else if $effect == 'frosted-glass' {
+        @each $frosted-glass-key, $frosted-glass-value in $frosted-glass {
+          .#{var.$prefix}#{$effect}-#{$bp-name}-#{$frosted-glass-key} {
+            backdrop-filter: #{$frosted-glass-value};
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+@each $bp-name, $bp-value in bp.$breakpoints {
+  @include bp.media($bp-name) {
+    @each $effect in $effects {
+      @if $effect == 'blur' {
+
+        @each $blur-key, $blur-value in $blur {
+          .#{var.$prefix}#{$effect}-#{$bp-name}-#{$blur-key} {
+            filter: #{$blur-value};
+
+            @for $index from 0 to list.length($blur) {
+              &.dark-#{$index} {
+                background-color: rgba(#000, math.percentage($index + 10));
+              }
+            }
+          }
+        }
+      }
+
+      @else if $effect == 'frosted-glass' {
+        @each $frosted-glass-key, $frosted-glass-value in $frosted-glass {
+          .#{var.$prefix}#{$effect}-#{$bp-name}-#{$frosted-glass-key} {
+            backdrop-filter: #{$frosted-glass-value};
+
+            .dark {
+              background-color: rgba(#000, 50%);
+            }
+          }
+        }
+      }
+    }
+  }
+}
