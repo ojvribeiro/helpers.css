@@ -1,3 +1,7 @@
+> *Warning*
+>
+> This lib is not maintained anymore. Please use well stablished ones like [TailwindCSS](https://tailwindcss.com/) or [WindiCSS](https://windicss.org/).
+
 # Helpers.css
 
 A small library to format and style page elements with CSS classes.
