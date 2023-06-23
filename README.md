@@ -1,5 +1,9 @@
 # Helpers.css
 
+> **Warning**
+> 
+> Deprecated: Helpers.css was created to be a good alternative to Bootstrap. Since now we have better options like UnoCSS and TailwindCSS, I recommend you to use them instead. Helpers.css will be kept as a public archive.
+
 A small library to format and style page elements with CSS classes.
 
 ## About
